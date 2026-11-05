@@ -1,55 +1,44 @@
-# Handoff: redo the Allen Carr map from the alcohol book
+# Handoff: rewrite the Allen Carr map from the alcohol books (for the Fable cloud session)
 
-**For:** the next session (Fable), on Dr Reddy's laptop.
-**Why:** `05-allen-carr-component-map.md` was mapped from *Easy Way to Quit Cannabis* as a proxy, because no alcohol book was on the laptop. Dr Reddy is buying the alcohol book. The cloud pack departs from Carr on detox and medication, so it needs the alcohol book's own wording on those points.
+**Status, 5 Nov 2026:** The laptop session has already read both alcohol books and pushed paraphrased chapter maps. You do not need the books; they stay on Dr Reddy's laptop for copyright reasons. Your job is the writing.
 
-## Before you start
+## Inputs (all in this branch)
 
-1. Pull the branch: `git fetch origin claude/peaceful-newton-6f6tfv && git checkout claude/peaceful-newton-6f6tfv && git pull`.
-2. Read `thesis/local/00-REPORT.md` and `thesis/local/05-allen-carr-component-map.md`. Then read the mapping table in `thesis/03-lane2-belief-reversal-intervention.md` §2 and the departures in §3.
-3. Find the book in `C:\Users\reddy\thesis-papers\carr\`. Expected: *Allen Carr's Quit Drinking Without Willpower* (Arcturus), and possibly *The Easy Way to Control Alcohol*. EPUB is preferred.
-   - If the folder is empty, or the file is DRM-locked (for example a Kindle file), stop and tell Dr Reddy. **Do not try to remove DRM.**
-   - Do not download the book from shadow libraries.
+- `thesis/local/carr-maps/easy-way-to-control-alcohol.md`: map of *The Easy Way to Control Alcohol* (27 chapters)
+- `thesis/local/carr-maps/quit-drinking-without-willpower.md`: map of *Quit Drinking Without Willpower* (20 chapters, newer edition)
 
-## Hard rules
+Each map has:
+- a chapter table (core claim, reader instruction, mapping row, paraphrase)
+- the illusions in book order
+- the procedural instructions with the book's stated reasons
+- what the book says about medication, detox, withdrawal, medical supervision, AA, controlled drinking and substitutes
+- candidate new mapping rows
 
-- **Never commit the book or any extracted book text.** It lives outside the repo, in `~/thesis-papers/carr/`.
-- **Paraphrase only.** At most one quote per chapter, each under 20 words, and only where exact wording matters (detox, medication, withdrawal). No quotes in the illusions or instructions lists.
-- The book text may go to OpenRouter for analysis. Commit only the paraphrased map.
-- Use they/them for Dr Reddy and any third person.
+Mapping-row numbers are the rows of `thesis/03-lane2-belief-reversal-intervention.md` §2, numbered top to bottom (1 = little monster ... 10 = delivered by a former user).
 
-## Steps
+**How the maps were made.** `scripts/carr_map.py` ran on the book text with `claude-haiku-5.5`. They were then checked by script:
+- no quote is over 20 words
+- one 12-word instruction line is the only verbatim run of 12 or more words
 
-1. Run the mapper on each book:
+**No human has checked them chapter by chapter.** Treat claims about specific chapters as needing a look if a protocol decision rests on them.
 
-   ```bash
-   python thesis/local/scripts/carr_map.py "C:/Users/reddy/thesis-papers/carr/<book>.epub" "C:/Users/reddy/thesis-papers/carr/map_<short>.md"
-   ```
+Also read first: `thesis/local/00-REPORT.md`, the current `thesis/local/05-allen-carr-component-map.md` (built from the cannabis book as a proxy), and `thesis/03-lane2-belief-reversal-intervention.md` §2–3.
 
-   It uses `anthropic/claude-haiku-5.5` on OpenRouter, with the key in `~/.config/jev/openrouter.key`. One book costs about US$0.01–0.02. The OpenRouter balance was about $4.70 on 5 Nov 2026. The free subdel workers failed on this laptop (missing search keys), so don't route this job through them.
+## Tasks
 
-2. **Check the output yourself:**
-   - The chapter list matches the book's table of contents.
-   - No quote is longer than 20 words, and there is no more than one per chapter. Scan for quotation marks.
-   - Spot-check three chapter paraphrases against the book.
-   - Read the medication/detox section closely. That is the one the protocol depends on.
-
-3. **Rewrite `thesis/local/05-allen-carr-component-map.md`:**
-   - Make the alcohol-book map the main content: chapter table, illusions in book order, procedural instructions with the book's stated reasons, and what it says about medication, detox, withdrawal, medical supervision, AA, controlled drinking and substitutes.
+1. **Rewrite `thesis/local/05-allen-carr-component-map.md`:**
+   - Use *Quit Drinking Without Willpower* as the main map, since it is the current edition. Use *The Easy Way to Control Alcohol* where it adds wording, especially on detox and medication.
    - Keep the seminar-format section as it is.
-   - Move the cannabis-book proxy to a short appendix, or drop it. Keep a 3–5 line note on where the two books differ.
-   - Add a section: **"Carr vs the Lane 2 protocol"**. List each point where the alcohol book's advice conflicts with safe practice in a dependent, post-detox population. Examples: benzodiazepines, withdrawal seizures, medical supervision of detox, anticraving medication. For each, give the protocol's departure in one line.
+   - Shrink the cannabis-book proxy to a 3–5 line note on how the books differ, or drop it.
+   - Add a section **"Carr vs the Lane 2 protocol"**: each point where the alcohol books' advice conflicts with safe care in a dependent, post-detox population (benzodiazepines, withdrawal seizures, medically supervised detox, anticraving medication, controlled drinking). For each, give the protocol's departure in one line, with the book's chapter number.
+2. **Update `thesis/local/00-REPORT.md`:**
+   - Change the section 5 row from "proxy only" to done.
+   - Add bullets under "Changes the cloud session should make" for `03-lane2` §2 (new or changed mapping rows) and §3 (departures now citing the alcohol books' chapters).
+3. **In `thesis/local/06-open-questions.md`,** mark question C as answered: both alcohol books obtained 5 Nov 2026.
+4. Then make those changes to the cloud pack itself (`03-lane2-belief-reversal-intervention.md` §2–3), as with the other bullets in the report.
 
-4. **Update `thesis/local/00-REPORT.md`.** Edit the section 5 row in the status table, and add bullets under "Changes the cloud session should make" for `03-lane2-belief-reversal-intervention.md` §2 (new or changed mapping rows) and §3 (departures, now citing the alcohol book's chapter numbers). In `06-open-questions.md`, mark question C as answered.
+## Rules
 
-5. **Commit and push to `claude/peaceful-newton-6f6tfv` only:**
-
-   ```bash
-   git add thesis/local && git commit -m "Allen Carr alcohol-book component map" && git push origin claude/peaceful-newton-6f6tfv
-   ```
-
-   Before committing, run `git status` and confirm that no `.epub`, `.pdf` or book-text file is staged.
-
-## Done when
-
-`05` is built on the alcohol book, `00-REPORT.md` and `06` are updated, nothing from the book beyond short quotes is in the repo, and the branch is pushed.
+- Paraphrase. Do not add quotes from the books beyond those already in the maps, and keep any quote under 20 words.
+- Use they/them for Dr Reddy and anyone whose pronouns are not stated.
+- Commit to `claude/peaceful-newton-6f6tfv` only.
