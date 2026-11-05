@@ -10,7 +10,7 @@ Run on Dr Reddy's laptop, 5 Nov 2026, by a local Claude Code session working fro
 | 2 Verification | 20 of 21 sources done | Full text for 13 (PMC/Europe PMC), abstract for 6, web for 2. Rows extracted by `claude-haiku-5.5` via OpenRouter, then every quoted number string-matched to the source: **448/450 matched**. → `02` |
 | 3 Registries | Partly done | ClinicalTrials.gov: done via the API. CTRI and PROSPERO: web search only (SECONDARY). Faculty: OpenAlex. ANRF: web search plus local files. **PubMed hit counts not obtained.** → `03`, `search-exports/` |
 | 4 AIIMS rules | Done (IEC partly) | Both prospectus PDFs extracted verbatim and string-checked. IEC: local templates (structure only) plus web search. → `04` |
-| 5 Allen Carr | Proxy only | The alcohol and smoking books are not on the laptop. The cannabis book was mapped as a proxy; seminar format taken from official pages and the trials. → `05` |
+| 5 Allen Carr | Done | Both alcohol books obtained 5 Nov 2026 and mapped (`carr-maps/`); `05` rewritten from them by the cloud session; seminar format from official pages and the trials. → `05` |
 | 6 Questions | Done | 3 answered at the machine, 6 still open, 7 new. → `06` |
 | 7 Priority 3 | Not done | `references.bib` failed (Crossref BibTeX endpoint returned nothing). No work on scale availability, theses repository or model papers. |
 
@@ -77,3 +77,11 @@ Also from the AIIMS rules:
   - see `local/04` §4 for the full mismatch list
 - `04-decision-and-integration.md` Gantt: add DC formation (≤ 6 months), protocol to DC (≤ 9 months from registration), six-monthly DC meetings, and pick target journals against the IF > 1.5 / > 3 gate.
 - `06-sources.md`: add verified DOIs and PMC IDs from `local/02`. Remove "verify" flags for Belgers, Treiber, the cTBS pilot, Hoven and Keogan. Mark Ekhtiari as read. Keep "verify" on Harel and Shanghai (abstract only).
+
+### Added after the alcohol-book maps (applied to the cloud pack on 5 Nov 2026)
+
+- `03-lane2-belief-reversal-intervention.md` §2: six new mapping rows (11–16) from the alcohol books: reattribution of past failure; pleasure list and harms card; pre-planned pang responses; immediate re-entry into social situations; quit-now timing; disclosure and non-envy. Expectancy row now cites Scott-Sheldon 2012 and Wang X 2026 with their time courses.
+- `03-lane2-belief-reversal-intervention.md` §3: departures table rebuilt with chapter citations from QDWW and EWCA (keep-drinking instruction, withdrawal-is-mild, no medication, ignore-advice, no-substitutes conflict between the books, hypnotherapy, unreferenced claims, vulnerability denial, family, screening).
+- `03-lane2-belief-reversal-intervention.md` §1: Keogan and Frings rows now carry the ITT-only caveat, the OR with CI, the attenders' 4-week result, retention, funding, and the absence of belief measures; the 2023 review row notes no pooling.
+
+**All bullets in "Changes the cloud session should make" above were applied on 5 Nov 2026.** Remaining open items are in `06-open-questions.md`.

@@ -1,33 +1,67 @@
-# 05 — Synopsis / IEC protocol skeleton (AIIMS format)
+# 05 — Synopsis / IEC protocol skeleton (AIIMS Guwahati)
 
-Headings follow the AIIMS Institute Ethics Committee thesis-protocol format (New Delhi version; confirm Guwahati's current form). Under each heading: what to write, then a Lane 1 and Lane 2 seed. Replace seeds with your text.
+Revised 05 Nov 2026. Rebuilt on what the local pass found: the Guwahati **"Section III — Proforma to be submitted to the Institute Ethics Committee (Human Studies)"** checklist, and the **ICMR Common Forms for Ethics Committee Review (2020)** headings that two psychiatry IEC applications from Assam use. The New Delhi 2014 format is no longer the basis. Confirm the current Guwahati form with the IEC Member Secretary (question G in `01`).
 
-1. **Title** — Short, design-bearing.
+## A. Route and gates (do these in order)
+
+1. **Research Cell**: get the exact title approved and note the approval date (the IEC checklist asks for both).
+2. **Doctoral Committee** (formed ≤ 6 months from registration): protocol to DC ≤ 3 months after DC formation and ≤ 9 months from registration; incorporate DC suggestions.
+3. **Biostatistician**: written advice on design and sample size ("should invariably be obtained"); a signature line on the protocol.
+4. **Dean (Research)** approval through the guide.
+5. **IEC** submission, approval "preferably within 3 months".
+6. **CTRI** registration before the first participant.
+7. Six-monthly DC reports thereafter.
+
+## B. Document set for the IEC (Guwahati checklist)
+
+- Covering letter; exact title as approved by the Research Cell with date; source of funding.
+- Protocol in the Common Forms structure (section C).
+- Participant Information Sheet and Informed Consent Document in **English, Hindi and Assamese**, dialogue style, no discrepancy between versions; **separate consent forms for intervention and control arms**; a ~300-word lay summary.
+- **Validated questionnaires in English, Hindi and Assamese** (translation and validation is a pre-submission task, not an annexure).
+- Patient proforma and CRFs.
+- Conflict-of-interest declaration, including that the researcher is a treatment provider to participants.
+- DCGI permission "if applicable" (write a one-paragraph statement that the study is an academic clinical trial under NDCT Rules 2019 and needs IEC approval only; for Lane 2, that it is a non-regulatory behavioural study).
+- Ethical-exemption form if applicable (not for either lane).
+- Guide's and co-guide's certificates; plagiarism certificate if required.
+- Insurance and compensation statement: requirement for an interventional device study **not found online for Guwahati**; ask the Member Secretary.
+
+## C. Protocol headings (ICMR Common Forms 2020, Section A onward), with Lane 1 and Lane 2 seeds
+
+1. **Basic information**: title; PI (candidate) and guide/co-guides; department; type of study; duration; sites.
    - L1: Accelerated intermittent theta-burst stimulation of the left dorsolateral prefrontal cortex during inpatient alcohol detoxification: a randomised, double-blind, sham-controlled trial.
    - L2: Development and pilot randomised evaluation of a belief-reversal intervention for alcohol dependence delivered during and after inpatient detoxification.
-2. **Candidate, Guide, Co-guides, Department, Date of registration.**
-3. **Introduction / background** (1–2 pages) — Burden of AUD in Assam and India (NMHS 2015–16; Magnitude of Substance Use in India 2019), relapse rates after detox (40–60% at 3 months, 70–80% at 12 months), craving as a target, the specific gap.
-4. **Review of literature** (3–5 pages) — Use the tables in `02` or `03`. End with a one-paragraph "lacunae" statement.
-5. **Rationale** — Why here, why now, why this design. For L1: inpatient window + accelerated dosing + Indian laterality contradiction. For L2: six firsts (section 1 of `03`).
-6. **Research question(s)** — One primary, ≤ 3 secondary.
-7. **Aim and objectives** — Primary objective maps to primary outcome; secondary objectives map one-to-one to secondary outcomes.
-8. **Hypotheses** — Directional, with null stated.
-9. **Materials and methods**
-   1. Study design and setting (Department of Psychiatry inpatient unit, AIIMS Guwahati, Changsari).
-   2. Study duration and period.
-   3. Study population, inclusion and exclusion criteria (copy from lane file; justify each exclusion).
-   4. Sample size with formula, assumptions, source of effect size, attrition inflation (numbers in lane files).
-   5. Sampling, randomisation (sequence generation, allocation concealment), blinding (who, how, assessment of blinding).
-   6. Intervention description per TIDieR (12 items: name, why, what materials, what procedures, who provided, how, where, when and how much, tailoring, modifications, fidelity planned, fidelity actual).
-   7. Comparator and treatment as usual, described in equal detail.
-   8. Outcome measures and instruments, with timing table; copyright/permission undertaking for each scale; translation plan.
-   9. Study procedure flowchart (CONSORT diagram) and participant timeline (SPIRIT schedule of enrolment, interventions, assessments).
-   10. Data collection tools (CRFs attached), data management (REDCap/encrypted institute storage), data monitoring (for L1 propose an independent safety monitor and stopping rules: any seizure → pause and review).
-   11. Statistical analysis plan (ITT, model, missing data, sensitivity, subgroup, mediation; software).
-10. **Ethical considerations** — Consent process timed after withdrawal clears; capacity assessment; PIS and ICF in English, Hindi, Assamese (and Bengali if needed); vulnerability; risks and mitigation (L1: seizure, headache, hearing, blinding sham; L2: distress, group confidentiality, false expectations of "easy"); benefits; confidentiality; compensation and insurance (L1 as an interventional device trial: confirm IEC's insurance requirement); SAE reporting SOP and timelines; CTRI registration; regulatory status (L1: academic clinical trial of a marketed device under NDCT 2019, off-label indication, no CDSCO permission required, IEC approval sufficient; L2: non-regulatory behavioural trial); relationship to the ICMR cannabidiol trial and co-enrolment policy; conflict of interest; lived-experience involvement and payment (L2); data protection (DPDP 2023) for any digital component.
-11. **Timeline** — Gantt (from `04`).
-12. **Budget** — Heads listed in lane files; source (intramural / self / extramural).
-13. **References** — Vancouver.
-14. **Annexures** — PIS/ICF (3 languages), assent n/a, CRFs, all scales with permissions, TASS (L1), facilitator manual outline and session checklist (L2), SAE form, CTRI draft, undertaking on copyright, guide's certificate, plagiarism certificate.
+2. **Administrative details**: investigators' roles, CVs, GCP training certificates, declarations, previous IEC decisions.
+3. **Funding and budget**: source (intramural / self / extramural), heads (lane files), payments to participants and to lived-experience co-designers (L2).
+4. **Methodology**
+   - Background and literature review (use the tables in `02` or `03`; cite verified figures only).
+   - Rationale and lacunae (L1: timing gap, no Indian TBS RCT, incumbent tDCS result; L2: six firsts).
+   - Research question, aims, objectives, hypotheses.
+   - Design, setting, duration.
+   - Sample size with formula, assumptions, source of effect size, attrition (lane files); biostatistician sign-off.
+   - Randomisation, allocation concealment, blinding, blinding assessment.
+   - Intervention per TIDieR (12 items) and comparator in equal detail.
+   - Outcomes and instruments with timing table; translation and validation status of every scale; copyright permissions.
+   - Procedure flow (CONSORT) and SPIRIT schedule.
+   - Data management (institute REDCap or equivalent), monitoring, stopping rules (L1: any seizure → pause and review).
+   - Statistical analysis plan.
+5. **Recruitment and participants**: population, inclusion/exclusion, vulnerability (alcohol-dependent inpatients), capacity assessment after withdrawal clears, re-consent, relationship to the ICMR cannabidiol trial and co-enrolment policy (fixed by the seat if Category A PSY02).
+6. **Benefits and risks**: L1 seizure, headache, hearing, blinding sham; L2 distress, group confidentiality, false expectations of "easy"; mitigation; incidental findings.
+7. **Informed consent**: process, languages, witness, LAR not applicable, audio-visual consent if required.
+8. **Payment and compensation**: travel reimbursement; compensation for research-related injury; insurance (confirm).
+9. **Storage and confidentiality**: DPDP 2023 statement for any messaging component; retention period.
+10. **Publication, benefit sharing, IPR**: manual and videos as institute/candidate IP (L2); data-sharing statement; CTRI number.
+11. **Annexures**: PIS/ICF ×3 languages ×2 arms; CRFs; scales with permissions; TASS (L1); facilitator manual outline and session checklist (L2); SAE form and reporting SOP; CTRI draft; undertakings.
 
-Pre-submission checklist: pages numbered; all investigators signed; submitted through Chief Guide and HoD; received by the IEC cut-off date; scales undertaking attached; no recruitment before clearance.
+## D. Synopsis for the Doctoral Committee (shorter, academic)
+
+Title; introduction; review; lacunae; question; aims and objectives; hypotheses; methods (as above, condensed); timeline with the six-monthly DC meetings marked; budget; references (Vancouver); expected publications mapped to the IF > 1.5 / > 3 gate.
+
+## E. Pre-submission checklist
+
+- [ ] Research Cell title approval obtained and dated.
+- [ ] DC held and suggestions incorporated; Dean's approval through the guide.
+- [ ] Biostatistician signature.
+- [ ] All three language versions of PIS/ICF and all questionnaires attached and consistent.
+- [ ] Pages numbered; all investigators signed.
+- [ ] Insurance and SAE reporting confirmed with the IEC.
+- [ ] No recruitment before clearance; CTRI before first participant.

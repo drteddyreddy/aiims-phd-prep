@@ -1,50 +1,59 @@
 # 04 — Decision aid and integration
 
+Revised 05 Nov 2026.
+
 ## 1. Side by side
 
 | Criterion | Lane 1: accelerated iTBS during detox | Lane 2: belief-reversal intervention |
 |---|---|---|
-| Novelty | High in India; moderate globally (TBS in AUD is at pilot stage; accelerated-in-detox timing is new) | Very high: no trial of this logic in alcohol anywhere; mechanism never measured |
-| Committee acceptability | Clear RCT design, easy to defend methodologically; but a device trial, and AIIMS guidance discourages clinical trials as PhD topics (confirm locally) | Development + pilot designs are standard for complex interventions; some committees undervalue "development" work; frame with MRC 2021 |
-| Dependence on others | High: machine owner, sham coil, slots, technician, CBD-trial PI | Moderate: co-facilitator, translator, ward access |
-| Cost | Sham coil + consumables; machine time | Low: videos, printing, honoraria |
-| Recruitment pressure | N = 110–156, each needs 5 inpatient days of 3 sessions | N = 64–80 pilot; group delivery; fits ward routine |
+| Novelty | High in India; moderate globally. TBS in AUD is at pilot stage, one 147-person trial (Kinney 2026) just completed and unread. Within-day accelerated dosing timed to detox is new. | Very high: no trial of this logic in alcohol anywhere; neither smoking RCT measured beliefs; nothing in a dependent or Indian population. |
+| Incumbent to beat | Joshi 2025 tDCS (AIIMS): relapse 44% vs 63.5%, NNT 6, twice daily × 5 days, no sham coil needed | None |
+| Committee acceptability | Clear RCT; Guwahati's own advertisement lists RCTs as PhD projects, so no institutional bias against trials | Development + pilot designs are standard under MRC 2021; frame explicitly |
+| Dependence on others | High: machine owner, sham coil, slots, technician, CBD-trial PI | Moderate: co-facilitator, translator, ward access, the ANRF JRF |
+| Cost | Sham coil + consumables; machine time | Low: videos, printing, honoraria, translation |
+| Recruitment pressure | N = 110, each needs 5 inpatient days of 3 sessions | N = 64–80 pilot; group delivery |
 | Time to first paper | Review in year 1; RCT in year 3–4 | Review and qualitative paper in year 1; development paper year 2; pilot year 3 |
 | Papers | 3–4 | 4–5 |
 | Skills you build | TMS operation, RMT, blinding, trial conduct | Intervention development, qualitative methods, co-design, mechanism analysis, digital delivery |
-| Risk of null result | Real (Hoven 2023); a null accelerated-TBS RCT is still publishable but weaker for a thesis | Feasibility and mechanism outcomes almost always produce reportable findings |
-| Fit with your stated preference | Second | First |
-| Fit with the department | Builds a TMS research line; Neurology collaboration | Aligns with the ANRF technology-for-continuity-of-care project |
-| Fit with your Europe / psychedelic ambitions | TMS is a transferable neuroscience skill | "Belief revision as mechanism" is exactly the REBUS / relaxed-priors framing used in psychedelic research; strong narrative |
-| Personal cost | Low | You will revisit your own history professionally; needs supervision |
+| Risk of null result | Real (Hoven 2023 null; Raikwar null; Belgers 12-month null) | Feasibility and mechanism outcomes almost always produce reportable findings |
+| Fit with your preference | Second | First |
+| Fit with the department | Builds a TMS line; Neurology collaboration; Dr. Dey's cTBS experience if present | Sits inside your guide's ANRF technology-for-continuity-of-care project; Dr. Ransing's digital psychiatry |
+| Fit with Europe / psychedelic ambitions | TMS is a transferable neuroscience skill | "Belief revision as a transdiagnostic mechanism" matches the relaxed-priors framing in psychedelic research |
+| Personal cost | Low | You will revisit your own history professionally; supervision needed |
 
 ## 2. Three ways to combine
 
 **Option A (recommended): Lane 2 primary, Lane 1 secondary pilot.**
-Thesis = BRI-AD development, proof-of-concept, pilot RCT. In years 2–3, run a small sham-controlled accelerated-iTBS feasibility study (N = 30–40) on the same ward as a separate IEC protocol, co-authored with whoever owns the machine. You graduate with a complex-intervention thesis and a TMS pilot paper. Total papers 5–6.
+Thesis = BRI-AD development, proof of concept, pilot RCT. In years 2–3, run a small sham-controlled accelerated-iTBS feasibility study (N = 30–40) on the same ward under a separate IEC protocol, co-authored with whoever owns the machine and with Dr. Tikka as external advisor. Total papers 5–6.
 
 **Option B: Lane 1 primary, Lane 2 as a development study.**
-Thesis = accelerated iTBS RCT. Lane 2 runs as Phase 1a–2a only (review, qualitative, manual, single-arm proof of concept), published, and becomes your post-PhD grant or startup product. Choose this if the machine, sham coil, and PI agreement are confirmed by month 4 and your guide prefers a drug/device-style RCT.
+Thesis = accelerated iTBS RCT (or, if the machine route closes, the double-blind tDCS replication-extension of Joshi). Lane 2 runs Phases 1a–2a only and becomes the post-PhD grant or product. Choose this only if the four conditions in section 3 hold by month 4.
 
 **Option C: Combined neuro-behavioural trial.**
-BRI-AD session content delivered during or immediately after iTBS (state-dependent stimulation; the belief session as the "cue" during plasticity induction). Scientifically the most exciting idea here and a genuine first. It is not a PhD: a 2×2 factorial needs ~4× the sample and two unvalidated components. Write it as the final chapter's "future directions" and as your post-doc pitch. It also bridges to ketamine/psychedelic-assisted therapy, where a drug-induced plasticity window is paired with belief work.
+Belief sessions delivered during or immediately after iTBS (state-dependent stimulation). A genuine first and the most interesting idea here. Not a PhD: a 2 × 2 needs ~4× the sample and two unvalidated components. Write it as the thesis's "future directions" and as the post-doc pitch, bridging to ketamine- and psychedelic-assisted therapy where a plasticity window is paired with belief work.
 
 ## 3. Decision rules
 
-Choose Lane 1 as primary only if **all** are true by month 4: (1) sham coil available or funded, (2) machine delivers theta-burst and ≥ 2 hours/day is bookable, (3) PI agrees on a nested or parallel recruitment pathway with ≥ 6 eligible patients/month, (4) your guide and Doctoral Committee are comfortable with a device RCT as a PhD. Otherwise Lane 2 primary.
+Choose Lane 1 as primary only if **all** are true by month 4: (1) sham coil available or funded, (2) the machine delivers theta-burst at the required duty cycle and ≥ 2 hours/day is bookable, (3) the PI agrees a nested or parallel recruitment pathway with ≥ 6 eligible patients/month, (4) Kinney 2026 does not remove the premise. Otherwise Lane 2 primary, with Question 4 of `02` (tDCS replication-extension) as the Lane 1 fallback pilot.
 
-## 4. Four-year Gantt, Option A
+## 4. Four-year Gantt, Option A, pegged to the AIIMS rules
 
-| Quarter | Lane 2 (thesis) | Lane 1 (secondary) | Admin |
+Registration assumed Jul–Sep 2026 (confirm). Hard dates: Doctoral Committee formed by **month 6**; protocol to DC by **month 9**; DC meets **every 6 months** with a graded report; two papers with IF > 1.5 (or one > 3) **before submission**.
+
+| Quarter | Lane 2 (thesis) | Lane 1 (secondary) | Admin and rules |
 |---|---|---|---|
-| Y1 Q1–Q2 | PROSPERO review; qualitative study protocol; manual v1 drafting | Machine audit; operator training plan | Coursework; Doctoral Committee; synopsis draft |
-| Y1 Q3–Q4 | Qualitative interviews; review submitted; co-design workshops | Sham coil procurement; TMS pilot protocol drafted | Synopsis presentation; IEC submission (Lane 2) |
-| Y2 Q1–Q2 | Videos, translation, facilitator training; proof-of-concept n=30 starts | IEC submission (Lane 1 pilot); RMT/sham run-in | CTRI both |
-| Y2 Q3–Q4 | Proof-of-concept complete; development paper; manual v2; pilot RCT starts | TMS pilot recruitment (n=30–40) | Mid-term review |
-| Y3 Q1–Q4 | Pilot RCT recruitment and 12/24-week follow-ups | TMS pilot follow-ups; short report | Annual review |
-| Y4 Q1–Q2 | Analysis; pilot RCT paper; mediation | — | Pre-submission seminar |
-| Y4 Q3 | Thesis submission | — | — |
+| Y1 Q1–Q2 (to Mar 2027) | PROSPERO review registered; qualitative study protocol to IEC; manual v1 drafting; questionnaire translation started | Machine audit; read Kinney 2026; operator training plan | Research-methodology course and exit exam (≤ 6 months); **DC panel submitted (≤ 6 months)**; synopsis draft with biostatistician |
+| Y1 Q3–Q4 (to Sep 2027) | Qualitative interviews; review submitted; co-design workshops; trilingual validated questionnaires ready | Sham coil procurement; TMS pilot protocol drafted | **Protocol to DC (≤ 9 months)** → Dean → IEC; Research Cell title approval; CTRI; DC meeting 1 |
+| Y2 Q1–Q2 | Videos, translation, facilitator training; proof of concept n = 30 starts | IEC submission (Lane 1 pilot); RMT/sham run-in | DC meeting 2 |
+| Y2 Q3–Q4 | Proof of concept complete; development paper submitted; manual v2; pilot RCT starts | TMS pilot recruitment (n = 30–40) | DC meeting 3; first paper (review) accepted |
+| Y3 Q1–Q4 | Pilot RCT recruitment and 12/24-week follow-ups | TMS pilot follow-ups; short report | DC meetings 4–5; second paper accepted (gate met) |
+| Y4 Q1–Q2 | Analysis; pilot RCT paper; mediation | — | Final DC (≥ 6 months before end of registration) |
+| Y4 Q3 | Thesis submission (within 6 months of DC permission) | — | Examiner panel proposed |
 
 ## 5. One framing sentence for your guide
 
-"My thesis asks whether changing what a person believes alcohol does for them, delivered in the post-detox window where beliefs are most open to revision, reduces craving and relapse, and I will measure the belief change itself. In parallel I will pilot whether accelerated prefrontal theta-burst stimulation in the same window is feasible and safe on our ward, so the department leaves the PhD with both a validated psychological module and a working neuromodulation research line."
+"My thesis asks whether changing what a person believes alcohol does for them, delivered in the post-detox window where beliefs are most open to revision, reduces craving and relapse, and I will measure the belief change itself. In parallel I will pilot whether accelerated prefrontal theta-burst stimulation in the same window is feasible and safe on our ward, so the department leaves the PhD with both a validated psychological module that can ride on the ANRF continuity-of-care platform and a working neuromodulation research line."
+
+## 6. Target journals against the publication gate (check current impact factors before relying on these)
+
+Likely above 1.5: *Addiction*, *Drug and Alcohol Dependence*, *Alcohol: Clinical and Experimental Research*, *Addictive Behaviors*, *Psychology of Addictive Behaviors*, *Brain Stimulation*, *Asian Journal of Psychiatry*, *Psychiatry Research*, *JMIR Formative Research*, *BMJ Open*, *Trials*, *Pilot and Feasibility Studies*. Uncertain and to be checked: *Indian Journal of Psychiatry*, *Indian Journal of Psychological Medicine*, *Journal of Addictive Diseases*. Ask your guide which the department prefers (question F).

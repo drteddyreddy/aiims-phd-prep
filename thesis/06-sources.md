@@ -1,122 +1,101 @@
 # 06 — Sources and reading list
 
-Retrieval note: this session's network policy blocked direct reads of pubmed.ncbi.nlm.nih.gov, pmc.ncbi.nlm.nih.gov, frontiersin.org, clinicaltrials.gov, medrxiv.org, en.wikipedia.org, aiims.edu, aiimsguwahati.ac.in, tobaccopreventioncessation.com and recoveryanswers.org. Everything below was confirmed only through search-result abstracts and summaries. Items marked **verify** carry numbers you should check against the full paper before citing.
+Revised 05 Nov 2026. Tags: **FT** full text read and quote-checked by the local pass; **AB** abstract only; **SEC** registry, web or secondary source; **unread** not yet retrieved. Full extraction rows are in `thesis/local/02-verification-table.md`. PDFs live on Dr. Reddy's laptop in `~/thesis-papers/` (not committed).
 
-## Already in your Google Drive
-- Chen R, Blumberger DM, Fitzgerald PB. *A Practical Guide to Transcranial Magnetic Stimulation: Neurophysiology and Treatment Studies.* Oxford, 2022.
-- Grall-Bronnec M, Sauvaget A. The use of rTMS for modulating craving and addictive behaviours: a critical literature review. *Neurophysiol Clin* 2014.
+## On your laptop and Drive
+- Chen R, Blumberger DM, Fitzgerald PB. *A Practical Guide to Transcranial Magnetic Stimulation.* Oxford, 2022. (`Desktop/Library/TMS/`)
+- Grall-Bronnec M, Sauvaget A. rTMS for modulating craving and addictive behaviours: critical review. *Neurophysiol Clin* 2014. (also in "paper shared by dr sharad")
 - Abo M, Kakuda W. *Rehabilitation with rTMS.* Springer, 2015.
-- Stahl's Essential Psychopharmacology 5e; Maudsley Prescribing Guidelines 15e.
-- ICMR ketamine study checklist and forms (inclusion/exclusion template, SADQ ≥ 31, CIWA-Ar < 10 pre-randomisation, four psychosocial sessions) — reusable templates.
+- Four papers shared by Dr. Philip: EEG meta-analysis, reward-processing electrophysiology review, resting-state signatures, the Grall-Bronnec review (`Desktop/PHD research thesis work/paper shared by dr sharad/`).
+- PACS English (US) licensed PDF (`Desktop/cannabidiol project/`); MNWS scales; Kaplan brain-stimulation module; ketamine-trial checklist and forms.
+- Allen Carr: *Quit Drinking Without Willpower*; *The Easy Way to Control Alcohol*; *Easy Way to Quit Cannabis* (all on the laptop; paraphrased maps in `thesis/local/carr-maps/`).
+- AIIMS Guwahati PhD prospectus R2 and Jul 2026 advertisement (`~/thesis-papers/aiims/`); coursework schedule (`Downloads/`).
 
 ## Lane 1: neuromodulation
 
-### Meta-analyses and reviews
-- Efficacy of intermittent theta-burst stimulation for SUD: systematic review and meta-analysis of sham-controlled RCTs. *Front Neurol* 2026;17:1866761. 9 RCTs, n=556, craving SMD −0.65 (−1.08 to −0.21), I² 81%. https://www.frontiersin.org/journals/neurology/articles/10.3389/fneur.2026.1866761/full **verify**
-- Theta burst stimulation in methamphetamine use disorder: meta-analysis. PubMed 40757793. Cue-induced craving SMD 1.04. https://pubmed.ncbi.nlm.nih.gov/40757793/
-- rTMS for alcohol craving in AUD: meta-analysis. PubMed 39665462. SMD −0.79 (−1.53 to −0.04), I² 93%. https://pubmed.ncbi.nlm.nih.gov/39665462/ **verify**
-- Living systematic review of NIBS protocols in SUD, 208 trials, 36 protocols (preprint). https://www.medrxiv.org/content/10.1101/2025.09.21.25335559v1.full.pdf
-- Effects of rTMS on craving and consumption: systematic review and meta-analysis (2019). https://www.researchgate.net/publication/334610783
-- rTMS in methamphetamine use disorder: meta-analysis of double-blind RCTs. https://pmc.ncbi.nlm.nih.gov/articles/PMC9197111/
-- Single-session rTMS to test novel targets for SUD. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12259980/
-- Bormann et al. 2024, *Am J Addict*: combining TMS/tDCS with cognitive interventions, systematic review. https://neopsych.com/wp-content/uploads/2024/04/American-J-Addict-2024-Bormann-Systematic-review-and-meta‐analysis-Combining-transcranial-magnetic-stimulation-or.pdf
-- Mehta et al., neuromodulation therapies for SUD, 94 studies. https://www.vumc.org/heatherwardlab/publication/systematic-review-and-meta-analysis-neuromodulation-therapies-substance-use-disorders
-- Ekhtiari H et al. 2019. Transcranial electrical and magnetic stimulation in addiction medicine: consensus paper. *Neurosci Biobehav Rev.* (Not retrieved; essential reading.)
+### Meta-analyses, reviews, guidelines
+- Jiang G, Kang J, Jiang R, Dong Q. Efficacy of iTBS for SUD: SR/MA of sham-controlled RCTs. *Front Neurol* 2026;17:1866761. doi:10.3389/fneur.2026.1866761. PMC13486172. PROSPERO CRD420261363708. **FT**
+- Treiber M, Tsapakis EM, Fountoulakis K. rTMS for alcohol craving in AUD: meta-analysis. *J Addict Med* 2025;19(2):195–201. doi:10.1097/ADM.0000000000001416. PMID 39665462. **AB** (paywalled; included-studies list needed)
+- Rakesh G, Adams TG, Ballard DH, McLouth CJ, Rush CR. TBS in methamphetamine use disorder: MA and SR. 2025. PMID 40757793. **AB**
+- Living SR/MA of NIBS protocols in SUD (208 trials). medRxiv 10.1101/2025.09.21.25335559 (v2 Apr 2026, not peer-reviewed). **AB**
+- NIBS for craving in AUD: SR/MA. *BMC Psychiatry* 2025. doi:10.1186/s12888-025-06883-4. PROSPERO CRD42024567484. **SEC**
+- NIBS paradigms in AUD: SR and network MA protocol. *PLoS One* 2025. doi:10.1371/journal.pone.0332857. PROSPERO CRD42024504362. **SEC**
+- Rossi S, Antal A, Bestmann S, et al. Safety and recommendations for TMS use: expert guidelines. *Clin Neurophysiol* 2021;132:269–306. doi:10.1016/j.clinph.2020.10.003. PMC9094636. **FT**
+- Ekhtiari H, Tavakoli H, Addolorato G, et al. tES and TMS for addiction medicine: consensus paper. *Neurosci Biobehav Rev* 2019;104:118–140. doi:10.1016/j.neubiorev.2019.06.007. PMC7293143. **FT**
+- Tikka SK, et al. Clinical practice guidelines for therapeutic rTMS in neuropsychiatric disorders. *Indian J Psychiatry* 2023. doi:10.4103/indianjpsychiatry.indianjpsychiatry_492_22. **unread**
+- Bormann et al. 2024, *Am J Addict*, combining TMS/tDCS with cognitive interventions. **SEC**
+- Stultz DJ et al. 2020. TMS safety with respect to seizures. PMID 33324060. **SEC**
 
 ### Alcohol trials
-- Belgers M et al. 2022. rTMS reduces craving and alcohol use in AUD: randomised sham-controlled trial. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8878126/ **verify**
-- Hoven M, Schluter RS, Schellekens AF, van Holst RJ, Goudriaan AE. 2023. Effects of 10 add-on HF-rTMS sessions on alcohol use and craving. *Addiction* 118(1). n=80, null. https://pure.amsterdamumc.nl/en/publications/effects-of-10-add-on-hf-rtms-treatment-sessions-on-alcohol-use-an/
-- Schluter RS et al. 2018. Protocol, rTMS in alcohol dependence: efficacy and working mechanisms. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5987423/
-- Harel M et al. 2022. Deep TMS (H7) in AUD. *Biol Psychiatry*, doi 10.1016/j.biopsych.2021.11.020. n=51; %HDD 2.9 vs 10.6. https://www.brainsway.com/news_events/brainsway-announces-publication-of-deep-tms-trial-results-for-reduction-of-heavy-drinking-in-alcohol-dependent-subjects/ (company release; read the paper)
-- Perini I et al. 2020. rTMS targeting insula in alcohol dependence: RCT (null). *Neuropsychopharmacology.* https://www.nature.com/articles/s41386-019-0565-7
-- Right DLPFC cTBS pilot, relapse HR 0.21 over 12 months, fMRI predictor (Jan 2026). https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12791151/ **verify**
-- Herremans SC et al. 2015. Accelerated right prefrontal HF-rTMS and cue reactivity in recently detoxified patients (fMRI). https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4546410/
-- Left DLPFC iTBS during withdrawal, Shanghai 2025. https://xuebao.shsmu.edu.cn/CN/Y2025/V45/I3/349
-- iTBS in AUD protocol (NCT03932149). https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7078661/
-- Theta Burst Stimulation for AUD (US, NCT06060496). https://clinicaltrials.gov/study/NCT06060496
-- ALCOSTIM protocol. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8756711/
-- Mishra BR et al. 2010. rTMS in alcohol dependence: sham-controlled study (CIP Ranchi, right DLPFC, n=45). PubMed 20078462.
-- Mishra BR et al. 2015. Right vs left prefrontal HF-rTMS (NCT01093716, n=22). https://clinicaltrials.gov/study/NCT01093716
-- Raikwar et al. Left DLPFC HF-rTMS in alcohol dependence (India), null. https://pmc.ncbi.nlm.nih.gov/articles/PMC8188934
-- CTRI/2023/12/060572: accelerated TBS at mPFC in AUD with depression, fMRI, sham-controlled (India). https://trial.medpath.com/clinical-trial/aa20f324c384c153/ctri/2023/12/060572-effect-theta-burst-stimulation-depression-alcohol-dependence **find registrant**
-- Accelerated dTMS in AUD, Stanford pilot (commentary). https://thefrontierpsychiatrists.substack.com/p/accelerated-dtms-in-alcohol-use-disorder
+- Mishra BR, Nizamie SH, Das B, Praharaj SK. rTMS in alcohol dependence: sham-controlled study. *Addiction* 2010;105(1):49–55. PMID 20078462. **AB**
+- Mishra BR, Praharaj SK, Katshu MZ, Sarkar S, Nizamie SH. Right vs left rTMS in alcohol dependence. *J Neuropsychiatry Clin Neurosci* 2015;27(1):e54–9. doi:10.1176/appi.neuropsych.13010013. PMID 25255169. NCT01093716. **SEC**
+- Raikwar et al. Left DLPFC HF-rTMS for craving in alcohol dependence: sham-controlled RCT (India). PMC8188934. **FT**
+- Belgers M, et al. rTMS reduces craving and alcohol use in AUD: randomized sham-controlled trial. 2022. PMC8878126. **FT**
+- Hoven M, Schluter RS, Schellekens AF, van Holst RJ, Goudriaan AE. 10 add-on HF-rTMS sessions in detoxified AUD inpatients. *Addiction* 2023;118(1). doi:10.1111/add.16025. PMC10087396. NTR 5291. **FT**
+- Schluter RS et al. 2018 protocol. PMC5987423. **SEC**
+- Harel M, et al. rTMS targeting mPFC/ACC in alcohol dependence (H7). *Biol Psychiatry* 2022. doi:10.1016/j.biopsych.2021.11.020. PMID 35067356. **AB** (get full text)
+- Perini I et al. 2020. Insula-targeted rTMS (null). *Neuropsychopharmacology.* **SEC**
+- Herremans SC, et al. Accelerated right prefrontal HF-rTMS and cue reactivity in recently detoxified AUD. *PLoS One* 2015. PMC4546410. **FT**
+- Zhao J-N, et al. Neural response to TBS predicts long-term relapse in AUD (right-DLPFC cTBS pilot). 2026. PMC12791151. ChiCTR2200065453. **FT**
+- Wang H, Yuan C, Gan H, Jiang H, Zhao Y, Du J, Zhang Y. iTBS on craving, mood and cognition in alcohol-dependent patients during withdrawal. *J Shanghai Jiao Tong Univ (Med Sci)* 2025;45(3):349–356. doi:10.3969/j.issn.1674-8115.2025.03.012. **SEC** (get full text)
+- Yuan C, Su H, Chen T, Voon V, Du J. iTBS in AUD: protocol. 2020. PMID 32218749. NCT03932149. **SEC**
+- **Kinney KR, Kirse HA, Stewart NE, Ip EH, Saldana S, et al. Theta burst stimulation to decrease drinking in treatment-seeking alcohol users (Wake Forest, NCT04154111, n = 147). 2026. PMID 41214823. unread — priority.**
+- Durazzo et al. (alcohol iTBS, n = 44, included in Jiang 2026; left DLPFC BeamF3, 20 sessions ≤ 14 days, 1,200 pulses). Citation to pull from Jiang's reference 25. **unread**
+- Joshi T, Dhiman V, Verma R, et al. Bilateral tDCS on craving, abstinence and relapse in severe AUD: randomized sham-controlled trial. *Indian J Psychiatry* 2025;67(2):219–228. doi:10.4103/indianjpsychiatry.indianjpsychiatry_744_24. PMC11964162. CTRI/2022/03/040823. **FT**
+- Gairola A, Nischal A, Kar SK, Arya A, Singh A. Bifrontal tDCS on craving in AUD. *Indian J Psychol Med* 2024. doi:10.1177/02537176231223314. PMC11572694. CTRI/2022/01/039412. **SEC**
+- PreCoTTA protocol (Manipal), PubMed 34365959, CTRI/2020/09/027582. **SEC**
+- Prefronto-cerebellar tDCS protocol (Raipur), medRxiv 2022.08.05.22278474, CTRI/2021/09/036989. **SEC**
+- HD-tDCS over insula with fMRI, CTRI/2024/11/076108. **SEC**
+- Belgian tDCS + inhibitory control training (n = 125), medRxiv 2021.06.24.21259446; NCT04990375 (completed, no results); NCT06959342 Mannheim (recruiting). **SEC**
+- Bollen Z et al. 2022. tDCS in severe AUD: SR. **SEC**
+- Dey P, et al. cTBS over orbitofrontal cortex as adjunct to naltrexone in opioid use disorder, with BDNF. *J Addict Dis* 2021. doi:10.1080/10550887.2021.2007716. **unread**
 
-### Other substances and modalities
-- Accelerated iTBS for methamphetamine, NCT06320366. https://www.centerwatch.com/clinical-trials/listings/NCT06320366/testing-an-accelerated-tms-protocol-for-methamphetamine-use-disorder
-- Accelerated iTBS in OUD smokers (preprint). https://www.medrxiv.org/content/10.1101/2025.09.10.25335485v1.full.pdf
-- Indian tDCS RCT in severe AUD, n=149. *Indian J Psychiatry* Feb 2025. https://pmc.ncbi.nlm.nih.gov/articles/PMC11964162/
-- tDCS + alcohol-cue inhibitory control training, n=125. https://www.medrxiv.org/content/10.1101/2021.06.24.21259446.full.pdf
-- Bollen Z et al. 2022. tDCS in severe AUD: systematic review. https://research.dial.uclouvain.be/handle/2078.5/30031
-- Mahoney JJ et al. 2023. Low-intensity focused ultrasound to nucleus accumbens for SUD. *Front Psychiatry.* https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10540197/
-- Yale pilot: rTMS + regulation-of-craving training. https://medicine.yale.edu/news-article/steele-kober-pearlson-awarded-ctna-grant
-- rTMS + cue exposure methamphetamine (NCT03470480). https://plaintrial.com/trial/NCT03470480
-- Accelerated iTBS in smoking with cue video (NCT05271175). https://cdn.clinicaltrials.gov/large-docs/75/NCT05271175/Prot_SAP_001.pdf
+### Registry entries (ClinicalTrials.gov, queried 5 Nov 2026)
+NCT06060496 (Rakesh, n = 8, completed, results posted); NCT04998916 (MUSC mPFC TBS, n = 86, recruiting); NCT06320366 (Colorado accelerated iTBS meth, recruiting to 2028); NCT03470480 (OHSU rTMS + cues meth, recruiting); NCT05271175 (Cyprus accelerated iTBS smoking, completed, Mikellides et al. 2022 PMID 35686190); NCT06648642 (UT San Antonio robot-navigated TMS AUD, n = 150); NCT06415721 (VA connectivity-guided TMS AUD); NCT06963476 (Yale rTMS add-on SUD, completed Nov 2025); NCT07808190 (Shanghai HD-tACS AUD); NCT06696365 (iTBS for AUD, terminated, n = 2); NCT04223154 (Wake Forest TBS cue reactivity, n = 11). CTRI/2023/12/060572 (India, accelerated TBS mPFC AUD + depression): registrant unknown.
 
-### Targeting and safety
-- BeamF3 vs MRI-guided DLPFC concordance. https://dash.harvard.edu/handle/1/42696402 ; https://pmc.ncbi.nlm.nih.gov/articles/PMC4833442
-- Rossi S et al. 2021. Safety and recommendations for TMS use in healthy subjects and patients (IFCN). *Clin Neurophysiol* 132:269–306. https://discovery.ucl.ac.uk/10117122/1/1-s2.0-S1388245720305149-main.pdf
-- Stultz DJ et al. 2020. TMS safety with respect to seizures: literature review. https://pubmed.ncbi.nlm.nih.gov/33324060/
-- Evolution of TMS services in psychiatry in India (Manipal). https://impressions.manipal.edu/open-access-archive/12451
-- AIIMS Guwahati Neurology page listing rTMS. https://aiimsguwahati.ac.in/page/department_detail/36
+### Other modalities and targeting
+- Mahoney JJ et al. 2023. LIFU to nucleus accumbens for SUD. *Front Psychiatry.* PMC10540197. **SEC**
+- BeamF3 vs MRI-guided DLPFC. https://dash.harvard.edu/handle/1/42696402 ; PMC4833442. **SEC**
 
 ## Lane 2: belief-reversal intervention
 
 ### Allen Carr evidence
-- Keogan S, Li S, Clancy L. 2019. Allen Carr's Easyway to Stop Smoking vs Quit.ie: RCT. *Tobacco Control.* n=300. https://tobaccocontrol.bmj.com/content/early/2018/10/25/tobaccocontrol-2018-054243 ; registry https://www.isrctn.com/ISRCTN12951013
-- Frings D et al. 2020. Allen Carr's Easyway vs specialist behavioural and pharmacological service: RCT. *Addiction*, doi 10.1111/add.14897. n=620; 19.4% vs 14.8% at 26 weeks. https://openresearch.lsbu.ac.uk/item/88793 ; registry https://www.isrctn.com/ISRCTN23584477 ; protocol Wood et al. 2017 *BMJ Open* doi 10.1136/bmjopen-2017-016867
-- Systematic review of Allen Carr's method, *Tobacco Prevention & Cessation* 2023, doi 10.18332/tpc/172314. https://doi.org/10.18332/tpc/172314 **verify**
-- NICE NG92 exceptional surveillance 2020 (mentions both RCTs). https://nice.org.uk/guidance/ng209/resources/2020-exceptional-surveillance-of-stop-smoking-interventions-and-services-nice-guideline-ng92-pdf-11523889000645
-- Allen Carr's Easyway official pages (format: 6–7 h seminar, former-user facilitators, boosters; alcohol claims are refund-based). https://www.allencarr.com/en-us/easyway-stop-drinking/ ; https://www.allencarr.com/help-and-faqs/success-rate/
-- Books: Carr A. *The Easy Way to Stop Smoking*; *The Easy Way to Control Alcohol*; *Quit Drinking Without Willpower.* (Buy and annotate; map each chapter to the component table in `03`.)
+- Keogan S, Li S, Clancy L. Allen Carr's Easyway to Stop Smoking: randomised clinical trial. *Tob Control* 2019;28(4):414–419. doi:10.1136/tobaccocontrol-2018-054243. PMC6589447. ISRCTN12951013. **FT**
+- Frings D, Albery IP, Moss AC, et al. Allen Carr's Easyway vs specialist behavioural and pharmacological service: RCT. *Addiction* 2020;115(5):977–985. doi:10.1111/add.14897. PMC7186816. NCT02855255, ISRCTN23584477, OSF t6vgs. **FT**
+- Wood CE, et al. Protocol. *BMJ Open* 2017;7:e016867. doi:10.1136/bmjopen-2017-016867. PMC5735399. **FT**
+- Systematic review of Allen Carr's Easyway for smoking cessation. *Tob Prev Cessat* 2023. doi:10.18332/tpc/172314. PMC10540232. **FT** (includes Dijkstra 2014; Hutter 2006; Moshammer & Neuberger 2007; Foshee 2017)
+- NICE NG92 exceptional surveillance 2020. **SEC**
+- Allen Carr's Easyway official pages: seminar format, facilitator background, guarantees, video programme. **SEC** (details in `thesis/local/05-allen-carr-component-map.md`)
+- Carr A. *Quit Drinking Without Willpower*; *The Easy Way to Control Alcohol*; *Easy Way to Quit Cannabis* (with Dicey, 2022). Maps in `thesis/local/carr-maps/`.
+
+### Expectancy challenge
+- Scott-Sheldon LAJ, Terry DL, Carey KB, Garey L, Carey MP. Expectancy challenge interventions to reduce college student drinking: meta-analytic review. *Psychol Addict Behav* 2012;26(3):393–405. doi:10.1037/a0027565. PMC3381876. **FT**
+- Wang X, Yang S, Xie X, Sethabouppha H. Expectancy-challenge interventions on binge drinking among college students: SR/MA. *J Am Coll Health* 2026;74(7):2013–2023. doi:10.1080/07448481.2026.2643638. PMID 41855530. **AB**
+- Darkes J, Goldman MS 1993; Wiers RW et al. 2005; treatment-appropriate expectancy challenge 2001 (PMID 11456072). **SEC**
 
 ### Theory
-- Robinson TE, Berridge KC. Incentive-sensitization theory (1993; updates 2008, 2016). Wanting vs liking.
-- Koob GF, Le Moal M. Allostasis and negative reinforcement.
-- Goldman MS; Darkes J, Goldman MS 1993. Expectancy challenge. https://digitalcommons.usf.edu/psy_facpub/1377 ; Wiers RW et al. 2005. https://cris.maastrichtuniversity.nl/en/publications/challenging-implicit-and-explicit-alcohol-related-cognitions-in-y ; treatment-appropriate expectancy challenge 2001. https://pubmed.ncbi.nlm.nih.gov/11456072/
-- Hon T, Das RK, Kamboj SK 2015. Reappraisal after memory destabilisation in at-risk drinkers. https://link.springer.com/10.1007/s00213-015-4164-y
-- West R. PRIME theory of motivation and addiction. https://membership.addiction-ssa.org/?p=12148
-- Counter-attitudinal advocacy mediators (2025). https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12828102/ ; dissonance and brief MI. https://pubmed.ncbi.nlm.nih.gov/15783281 ; https://digitalcommons.memphis.edu/facpubs/8014
-- Caselli G, Spada MM. Desire thinking and metacognitions about craving (not retrieved).
-- Marlatt GA, Gordon JR. Relapse prevention; abstinence violation effect (not retrieved).
-- Carhart-Harris RL, Friston KJ 2019. REBUS and the anarchic brain (for the belief-revision bridge to psychedelic research; not retrieved).
+- Robinson TE, Berridge KC. Incentive-sensitisation (1993; 2008; 2016). Koob GF, Le Moal M. Allostasis. Solomon RL, Corbit JD. Opponent process. West R. PRIME theory. Marlatt GA, Gordon JR. Relapse prevention. Caselli G, Spada MM. Desire thinking. Wegner DM. Thought suppression. Gollwitzer PM. Implementation intentions. Festinger L. Dissonance. Hon T, Das RK, Kamboj SK 2015 (doi 10.1007/s00213-015-4164-y). Counter-attitudinal advocacy mediators 2025 (PMC12828102). Carhart-Harris RL, Friston KJ 2019 REBUS. **unread / background**
 
-### Intervention development frameworks
-- Skivington K et al. 2021. New framework for developing and evaluating complex interventions (MRC/NIHR). *BMJ* 374:n2061. https://eprints.soton.ac.uk/451946/2/bmj.n2061.full.pdf
-- Czajkowski SM et al. 2015. ORBIT model. *Health Psychol* 34(10). https://pmc.ncbi.nlm.nih.gov/articles/PMC4522392
-- Michie S et al. Behaviour Change Wheel; BCT Taxonomy v1 (not retrieved).
-- Yardley L et al. Person-based approach (not retrieved).
-- Hoffmann TC et al. 2014. TIDieR checklist (not retrieved).
-- Eldridge SM et al. 2016. CONSORT extension for pilot and feasibility trials (not retrieved).
+### Frameworks and reporting
+- Skivington K et al. 2021. *BMJ* 374:n2061. Czajkowski SM et al. 2015. ORBIT, *Health Psychol* 34(10) (PMC4522392). Michie S et al. Behaviour Change Wheel. Yardley L et al. Person-based approach. Hoffmann TC et al. 2014 TIDieR. Eldridge SM et al. 2016 CONSORT pilot extension. ICMR Common Forms for Ethics Committee Review 2020.
 
 ### Recovery narratives and digital delivery
-- NEON causal chain model of recovery narratives. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6925452/
-- NEON trial protocol, JMIR Mental Health 2019. https://mental.jmir.org/2019/10/e14233/citations
-- Rennick-Egglestone S et al. 2023. KLIFAD: video recovery narratives in community alcohol services. *JMIR Formative Research* 7:e47109. https://formative.jmir.org/2023/1/e47109
-- Ghosh A et al. 2025. Digital screening and brief intervention in Punjab colleges: cluster RCT. *Alcohol Clin Exp Res.* https://pubmed.ncbi.nlm.nih.gov/39532692/
-- Technology-based intervention in rural Indian men with alcohol dependence: feasibility trial. https://www.sciencedirect.com/science/article/abs/pii/S0741832923002707
-- Khatore et al. 2025. Digital interventions for alcohol in LMICs: systematic review. https://researchonline.lshtm.ac.uk/id/eprint/4677287/1/Khatore-etal-2025-Digital-interventions-for-alcohol.pdf
-- So R et al. 2025. Digital therapeutic ALM-003 for alcohol dependence, Japan RCT. https://pmc.ncbi.nlm.nih.gov/articles/PMC12498122/
-- Approach-bias modification app RCT (null). https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12710684/
-- Nesvåg S, McKay JR 2018. Digital interventions in recovery from SUD: systematic review. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6127498/
-- ASER 2024 Assam smartphone ownership (> 90% rural households). https://assamtribune.com/assam/school-enrolment-soars-but-assam-struggles-with-mathematics-proficiency-report-1566293
-- mHealth awareness among smartphone users in Assam (GAIMS J Med Sci 2024). https://gjms.gaims.ac.in/index.php/gjms/article/view/261
+- NEON causal chain model (PMC6925452); NEON trial protocol *JMIR Ment Health* 2019. Rennick-Egglestone S et al. 2023 KLIFAD, *JMIR Form Res* 7:e47109. Ghosh A et al. 2025 Punjab DSBI cluster RCT, *Alcohol Clin Exp Res* (PMID 39532692). Technology-based intervention in rural Indian men with alcohol dependence (S0741832923002707). Khatore et al. 2025 LMIC digital alcohol review. So R et al. 2025 ALM-003 Japan RCT (PMC12498122). Nesvåg & McKay 2018 (PMC6127498). ASER 2024 Assam (Assam Tribune). Borah, Mech, Das 2024 mHealth awareness Assam (GAIMS J Med Sci). **SEC**
 
-### Lived experience and co-design
-- Potential value of insights of addiction researchers with addiction (2022). https://pubmed.ncbi.nlm.nih.gov/33973924/
-- Lived experience partnership principles; experts by experience in alcohol research. https://escholarship.org/content/qt0fs4k950/qt0fs4k950.pdf ; https://napier-repository.worktribe.com/OutputFile/2921639
-- Commentary on public disclosure guidance and gatekeeping. https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2025.1611836/full
+### Lived experience
+- Researchers with addiction commentary 2022 (PMID 33973924); lived-experience partnership principles (escholarship qt0fs4k950); experts by experience (Napier repository 2921639); disclosure guidance commentary (*Front Public Health* 2025, 1611836). **SEC**
 
 ### Measures
-- PACS in Indian samples (no Hindi validation found). https://rcastoragev2.blob.core.windows.net/9fb8fba366fdeb0e9ec3365986b14971/PMC6065139.pdf ; https://pmc.ncbi.nlm.nih.gov/articles/PMC4782457
-- PACS harmonisation. https://harmonydata.ac.uk/harmonisation-validation/penn-alcohol-craving-scale-pacs
-- OCDS validation example (Turkish). https://dusunenadamdergisi.org/article/664
+- PACS in Indian samples (PMC6065139; PMC4782457); OCDS Hindi version used by Joshi 2025 (ask authors); PACS harmonisation (harmonydata.ac.uk). No published Hindi or Assamese PACS validation found.
 
-## Regulatory and institutional
-- New Drugs and Clinical Trials Rules 2019 (GSR 227(E)). https://cdsco.gov.in/opencms/resources/UploadCDSCOWeb/2022/new_DC_rules/NEW%20DRUGS%20ANDctrS%20RULE,%202019.pdf
-- Academic clinical trial awareness and CTRI (Perspect Clin Res 2023). https://doaj.org/article/8c0011ac9cd44d1e97a59596ac6fbd6c
-- CTRI registration guidance. https://cdsatoolkit.thsti.in/?p=852
-- AIIMS IEC thesis protocol format (2014). https://aiims.edu/aiims/academic/ethics-committee/forms%20in%20pdf/IESC/Thesis%20Format%20IEC_20_8_14.pdf
-- AIIMS IEC format and SOP. https://www.aiims.edu/aiims/academic/ethics-committee/forms%20in%20pdf/IEC/Format_of_Institution_Ethics_Committee_09032013vh.pdf ; https://aiims.edu/aiims/academic/ethics-committee/forms%20in%20pdf/IEC/Standard_Operating_Procedure_IEC_15032012.pdf
-- AIIMS Guwahati PhD prospectus. https://www.aiimsguwahati.ac.in/uploads/pdfs/PhDprospectus_AIIMSG-R2.pdf
-- Indian inpatient detox relapse context (South India cohort). https://hrcak.srce.hr/file/497293
-- CAP trial, Goa (lay-counsellor brief treatment). https://researchonline.lshtm.ac.uk/3234054
+## Institutional and regulatory
+- AIIMS Guwahati PhD prospectus R2; PhD advertisement Jul 2026 (Category A PSY02 = CBD trial); verbatim rules in `thesis/local/04-aiims-rules.md`.
+- AIIMS Guwahati annexures (PI declaration, trilingual consent). https://aiimsguwahati.ac.in/uploads/pdfs/2-Annexures.pdf
+- ANRF project notice under Dr. Philip (Research Fellow post). https://aiimsguwahati.in/viewfile.aspx?fname=1a00960d.pdf&ftype=pdf&rdoctype=cms
+- New Drugs and Clinical Trials Rules 2019 (GSR 227(E)); academic clinical trial awareness study (*Perspect Clin Res* 2023); CTRI guidance (cdsatoolkit.thsti.in).
+- AIIMS New Delhi IEC SOP 2014 (SAE 24 h / 10 working days) as a reference point only.
+- Faculty bibliometrics (OpenAlex, 5 Nov 2026): Philip, Ransing, Dey, Tikka, in `thesis/local/03-registries-and-landscape.md`.
+
+## Remaining gaps
+- Full texts: Kinney 2026; Harel 2022; Treiber 2025; Wang H 2025; the medRxiv living review supplement; Durazzo (alcohol iTBS).
+- Registries: CTRI direct search (site timed out); PROSPERO direct confirmation of the five topics; PubMed hit counts for the two review strings (NCBI backend returned HTTP 500; scripts in `thesis/local/scripts/`).
