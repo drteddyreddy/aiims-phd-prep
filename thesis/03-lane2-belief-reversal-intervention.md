@@ -143,7 +143,7 @@ Why an attention-matched control: versus nothing, a belief-reversal intervention
 ### Outcome battery
 | Construct | Instrument | Notes |
 |---|---|---|
-| Craving | PACS (primary), OCDS, cue VAS | **OCDS exists in a Hindi version used by Joshi 2025 at AIIMS; ask that group for it.** No published Hindi or Assamese PACS; translate, back-translate, report internal consistency. This is itself a short paper. |
+| Craving | PACS (primary), OCDS, cue VAS | **OCDS exists in a Hindi version used by Joshi 2025 at AIIMS; ask that group for it** (draft email and the full plan in `drafts/scale-translation-plan.md`). No published Hindi or Assamese PACS; translate, back-translate, report internal consistency. This is itself a short paper. |
 | Drinking | TLFB 30 days; collateral; breath alcohol; GGT/CDT | Define relapse a priori (Hoven's > 60 g/day men, > 40 g/day women) |
 | Positive expectancies | AEQ or CEOA positive subscales | Mechanism primary |
 | Desire thinking | Desire Thinking Questionnaire | Mechanism |

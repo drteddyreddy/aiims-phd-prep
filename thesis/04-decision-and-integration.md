@@ -6,12 +6,12 @@ Revised 05 Nov 2026.
 
 | Criterion | Lane 1: accelerated iTBS during detox | Lane 2: belief-reversal intervention |
 |---|---|---|
-| Novelty | High in India; moderate globally. TBS in AUD is at pilot stage, one 147-person trial (Kinney 2026) just completed and unread. Within-day accelerated dosing timed to detox is new. | Very high: no trial of this logic in alcohol anywhere; neither smoking RCT measured beliefs; nothing in a dependent or Indian population. |
+| Novelty | High in India; **moderate-to-low globally**. Three small sham-controlled iTBS RCTs in AUD exist (Durazzo 22/22, Hou about 20 per arm, Zhao 16/12), and **Hou 2026 already tested accelerated iTBS in detoxified inpatients** (craving primary not significant). The Wake Forest trial (Kinney, n = 147) has published only its protocol. Still new: a start point inside the detox admission, adequate power, a hard relapse outcome, India. | Very high: no trial of this logic in alcohol anywhere; neither smoking RCT measured beliefs; nothing in a dependent or Indian population. |
 | Incumbent to beat | Joshi 2025 tDCS (AIIMS): relapse 44% vs 63.5%, NNT 6, twice daily × 5 days, no sham coil needed | None |
 | Committee acceptability | Clear RCT; Guwahati's own advertisement lists RCTs as PhD projects, so no institutional bias against trials | Development + pilot designs are standard under MRC 2021; frame explicitly |
 | Dependence on others | High: machine owner, sham coil, slots, technician, CBD-trial PI | Moderate: co-facilitator, translator, ward access, the ANRF JRF |
 | Cost | Sham coil + consumables; machine time | Low: videos, printing, honoraria, translation |
-| Recruitment pressure | N = 110, each needs 5 inpatient days of 3 sessions | N = 64–80 pilot; group delivery |
+| Recruitment pressure | **N ≈ 148** (d = 0.45 with baseline adjustment; d = 0.6 is no longer defensible, see `02-lane1` §4), each needs 5 inpatient days of 3 sessions; about 25 months at 6 per month | N = 64–80 pilot; group delivery |
 | Time to first paper | Review in year 1; RCT in year 3–4 | Review and qualitative paper in year 1; development paper year 2; pilot year 3 |
 | Papers | 3–4 | 4–5 |
 | Skills you build | TMS operation, RMT, blinding, trial conduct | Intervention development, qualitative methods, co-design, mechanism analysis, digital delivery |
@@ -34,7 +34,7 @@ Belief sessions delivered during or immediately after iTBS (state-dependent stim
 
 ## 3. Decision rules
 
-Choose Lane 1 as primary only if **all** are true by month 4: (1) sham coil available or funded, (2) the machine delivers theta-burst at the required duty cycle and ≥ 2 hours/day is bookable, (3) the PI agrees a nested or parallel recruitment pathway with ≥ 6 eligible patients/month, (4) Kinney 2026 does not remove the premise. Otherwise Lane 2 primary, with Question 4 of `02` (tDCS replication-extension) as the Lane 1 fallback pilot.
+Choose Lane 1 as primary only if **all** are true by month 4: (1) sham coil available or funded, (2) the machine delivers theta-burst at the required duty cycle and ≥ 2 hours/day is bookable, (3) the PI agrees a nested or parallel recruitment pathway with ≥ 6 eligible patients/month, (4) the trial can be framed as the definitive step after Hou 2026 (earliest timing, at least twice Hou's per-arm n, proper sham coil, hard relapse outcome) and ward numbers support N ≈ 148. Otherwise Lane 2 primary, with Question 4 of `02` (tDCS replication-extension) as the Lane 1 fallback pilot.
 
 ## 4. Four-year Gantt, Option A, pegged to the AIIMS rules
 
@@ -42,7 +42,7 @@ Registration assumed Jul–Sep 2026 (confirm). Hard dates: Doctoral Committee fo
 
 | Quarter | Lane 2 (thesis) | Lane 1 (secondary) | Admin and rules |
 |---|---|---|---|
-| Y1 Q1–Q2 (to Mar 2027) | PROSPERO review registered; qualitative study protocol to IEC; manual v1 drafting; questionnaire translation started | Machine audit; read Kinney 2026; operator training plan | Research-methodology course and exit exam (≤ 6 months); **DC panel submitted (≤ 6 months)**; synopsis draft with biostatistician |
+| Y1 Q1–Q2 (to Mar 2027) | PROSPERO review registered; qualitative study protocol to IEC; manual v1 drafting; questionnaire translation started | Machine audit; read Hou 2026 and Durazzo 2025 (both free); re-check NCT04154111 for results; operator training plan | Research-methodology course and exit exam (≤ 6 months); **DC panel submitted (≤ 6 months)**; synopsis draft with biostatistician |
 | Y1 Q3–Q4 (to Sep 2027) | Qualitative interviews; review submitted; co-design workshops; trilingual validated questionnaires ready | Sham coil procurement; TMS pilot protocol drafted | **Protocol to DC (≤ 9 months)** → Dean → IEC; Research Cell title approval; CTRI; DC meeting 1 |
 | Y2 Q1–Q2 | Videos, translation, facilitator training; proof of concept n = 30 starts | IEC submission (Lane 1 pilot); RMT/sham run-in | DC meeting 2 |
 | Y2 Q3–Q4 | Proof of concept complete; development paper submitted; manual v2; pilot RCT starts | TMS pilot recruitment (n = 30–40) | DC meeting 3; first paper (review) accepted |

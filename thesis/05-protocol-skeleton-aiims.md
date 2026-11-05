@@ -17,7 +17,7 @@ Revised 05 Nov 2026. Rebuilt on what the local pass found: the Guwahati **"Secti
 - Covering letter; exact title as approved by the Research Cell with date; source of funding.
 - Protocol in the Common Forms structure (section C).
 - Participant Information Sheet and Informed Consent Document in **English, Hindi and Assamese**, dialogue style, no discrepancy between versions; **separate consent forms for intervention and control arms**; a ~300-word lay summary.
-- **Validated questionnaires in English, Hindi and Assamese** (translation and validation is a pre-submission task, not an annexure).
+- **Validated questionnaires in English, Hindi and Assamese** (translation and validation is a pre-submission task, not an annexure). Plan: `drafts/scale-translation-plan.md`.
 - Patient proforma and CRFs.
 - Conflict-of-interest declaration, including that the researcher is a treatment provider to participants.
 - DCGI permission "if applicable" (write a one-paragraph statement that the study is an academic clinical trial under NDCT Rules 2019 and needs IEC approval only; for Lane 2, that it is a non-regulatory behavioural study).
@@ -37,7 +37,7 @@ Revised 05 Nov 2026. Rebuilt on what the local pass found: the Guwahati **"Secti
    - Rationale and lacunae (L1: timing gap, no Indian TBS RCT, incumbent tDCS result; L2: six firsts).
    - Research question, aims, objectives, hypotheses.
    - Design, setting, duration.
-   - Sample size with formula, assumptions, source of effect size, attrition (lane files); biostatistician sign-off.
+   - Sample size with formula, assumptions, source of effect size, attrition (lane files); biostatistician sign-off. L1 now plans on d = 0.45, N ≈ 148 (`02-lane1` §4, revised 5 Nov 2026).
    - Randomisation, allocation concealment, blinding, blinding assessment.
    - Intervention per TIDieR (12 items) and comparator in equal detail.
    - Outcomes and instruments with timing table; translation and validation status of every scale; copyright permissions.

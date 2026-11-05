@@ -80,3 +80,7 @@ Drafted in `thesis/drafts/`, all v0.1 and not yet reviewed by the guide:
 - Task 7 (DC synopsis) not done: it waits for the lane choice.
 
 Changes the cloud session should make: `README.md` checklist, tick "PROSPERO draft", "qualitative protocol" and "translation plan" as drafted; `03` §8, link the translation plan from the OCDS/PACS row; `05` §B, link the translation plan from the "validated questionnaires" bullet.
+
+## 8. Status of the §6 and §7 change lists
+
+Applied locally on 5 Nov 2026 at Dr. Reddy's request (README bottom line #3 and #4 and checklist, `01` questions D and E, `03` §8 OCDS row, `04` novelty and recruitment rows, decision rule 4 and Gantt, `05` §B and §C sample-size seed). The cloud session only needs to check that they read well in context.
