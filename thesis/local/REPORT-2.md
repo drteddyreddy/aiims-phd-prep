@@ -70,3 +70,13 @@ The Wake Forest trial does not threaten Lane 1: its PMID is a protocol, its resu
 - `05-protocol-skeleton-aiims.md`: if section D seeds Lane 1's sample size, change d = 0.6 / N = 110 to d = 0.45 / N ≈ 148.
 - `06-sources.md`: already updated locally (Kinney, Hou, Durazzo ×4, Bickart, tags for Harel, Treiber, Wang H).
 - `02-lane1`: already updated locally (§§1.1, 1.2, 1.3, 1.4, 2, 3, 4 sample size and risk register, 5 PROSPERO, 6 reading list). Check the edits read well in context.
+
+## 7. Priority 2 drafts (same day, HANDOVER §6 tasks 5, 6, 8)
+
+Drafted in `thesis/drafts/`, all v0.1 and not yet reviewed by the guide:
+- `review-lane2-prospero.md`: PROSPERO registration draft for the Lane 2 review (belief-targeting interventions across substances): question, sources, a PubMed strategy with proximity terms and a known-item test set (**not yet run**: NCBI esearch down), eligibility, RoB 2 / ROBINS-I, GRADE, synthesis plan, subgroups, declared conflict of interest. Open decision: all substances vs clinical populations only.
+- `qual-expectancy-protocol.md`: Phase 1a qualitative study in ICMR Common Forms order: 20–25 inpatients, 10 family members, 8 staff; information power; framework analysis; topic guides; interviewer not on the participant's treating team; CBD-trial participants excluded until the PI rules on co-enrolment; English patient PIS draft; 9 PIS/ICF documents needed.
+- `scale-translation-plan.md`: 20 instruments tiered by need; permissions and existing versions **marked unverified** except the Hindi OCDS (Joshi 2025); Beaton/ISPOR method; local standard-drink card; psychometrics (n ≥ 100 per language for PACS, CEOA, DTQ, AASE); unsent draft email to the Joshi group.
+- Task 7 (DC synopsis) not done: it waits for the lane choice.
+
+Changes the cloud session should make: `README.md` checklist, tick "PROSPERO draft", "qualitative protocol" and "translation plan" as drafted; `03` §8, link the translation plan from the OCDS/PACS row; `05` §B, link the translation plan from the "validated questionnaires" bullet.
