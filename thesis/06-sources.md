@@ -15,7 +15,7 @@ Revised 05 Nov 2026. Tags: **FT** full text read and quote-checked by the local 
 
 ### Meta-analyses, reviews, guidelines
 - Jiang G, Kang J, Jiang R, Dong Q. Efficacy of iTBS for SUD: SR/MA of sham-controlled RCTs. *Front Neurol* 2026;17:1866761. doi:10.3389/fneur.2026.1866761. PMC13486172. PROSPERO CRD420261363708. **FT**
-- Treiber M, Tsapakis EM, Fountoulakis K. rTMS for alcohol craving in AUD: meta-analysis. *J Addict Med* 2025;19(2):195–201. doi:10.1097/ADM.0000000000001416. PMID 39665462. **AB** (paywalled; included-studies list needed)
+- Treiber M, Tsapakis EM, Fountoulakis K. rTMS for alcohol craving in AUD: meta-analysis. *J Addict Med* 2025;19(2):195–201. doi:10.1097/ADM.0000000000001416. PMID 39665462. PROSPERO CRD42023489712. **FT** (read via the journal site in the browser; 12 included RCTs listed in `local/REPORT-2.md` §2)
 - Rakesh G, Adams TG, Ballard DH, McLouth CJ, Rush CR. TBS in methamphetamine use disorder: MA and SR. 2025. PMID 40757793. **AB**
 - Living SR/MA of NIBS protocols in SUD (208 trials). medRxiv 10.1101/2025.09.21.25335559 (v2 Apr 2026, not peer-reviewed). **AB**
 - NIBS for craving in AUD: SR/MA. *BMC Psychiatry* 2025. doi:10.1186/s12888-025-06883-4. PROSPERO CRD42024567484. **SEC**
@@ -33,14 +33,19 @@ Revised 05 Nov 2026. Tags: **FT** full text read and quote-checked by the local 
 - Belgers M, et al. rTMS reduces craving and alcohol use in AUD: randomized sham-controlled trial. 2022. PMC8878126. **FT**
 - Hoven M, Schluter RS, Schellekens AF, van Holst RJ, Goudriaan AE. 10 add-on HF-rTMS sessions in detoxified AUD inpatients. *Addiction* 2023;118(1). doi:10.1111/add.16025. PMC10087396. NTR 5291. **FT**
 - Schluter RS et al. 2018 protocol. PMC5987423. **SEC**
-- Harel M, et al. rTMS targeting mPFC/ACC in alcohol dependence (H7). *Biol Psychiatry* 2022. doi:10.1016/j.biopsych.2021.11.020. PMID 35067356. **AB** (get full text)
+- Harel M, et al. rTMS targeting mPFC/ACC in alcohol dependence (H7). *Biol Psychiatry* 2022. doi:10.1016/j.biopsych.2021.11.020. PMID 35067356. NCT02691390. **FT** (open access)
 - Perini I et al. 2020. Insula-targeted rTMS (null). *Neuropsychopharmacology.* **SEC**
 - Herremans SC, et al. Accelerated right prefrontal HF-rTMS and cue reactivity in recently detoxified AUD. *PLoS One* 2015. PMC4546410. **FT**
 - Zhao J-N, et al. Neural response to TBS predicts long-term relapse in AUD (right-DLPFC cTBS pilot). 2026. PMC12791151. ChiCTR2200065453. **FT**
-- Wang H, Yuan C, Gan H, Jiang H, Zhao Y, Du J, Zhang Y. iTBS on craving, mood and cognition in alcohol-dependent patients during withdrawal. *J Shanghai Jiao Tong Univ (Med Sci)* 2025;45(3):349–356. doi:10.3969/j.issn.1674-8115.2025.03.012. **SEC** (get full text)
+- Wang H, Yuan C, Gan H, Jiang H, Zhao Y, Du J, Zhang Y. iTBS on craving, mood and cognition in alcohol-dependent patients during withdrawal. *J Shanghai Jiao Tong Univ (Med Sci)* 2025;45(3):349–356. doi:10.3969/j.issn.1674-8115.2025.03.012. **AB** (abstract read on the journal page; full text not retrievable, PDF links are scripts)
 - Yuan C, Su H, Chen T, Voon V, Du J. iTBS in AUD: protocol. 2020. PMID 32218749. NCT03932149. **SEC**
-- **Kinney KR, Kirse HA, Stewart NE, Ip EH, Saldana S, et al. Theta burst stimulation to decrease drinking in treatment-seeking alcohol users (Wake Forest, NCT04154111, n = 147). 2026. PMID 41214823. unread — priority.**
-- Durazzo et al. (alcohol iTBS, n = 44, included in Jiang 2026; left DLPFC BeamF3, 20 sessions ≤ 14 days, 1,200 pulses). Citation to pull from Jiang's reference 25. **unread**
+- Kinney KR, Kirse HA, Stewart NE, et al. Theta burst stimulation as a tool to decrease drinking in treatment-seeking alcohol users: study protocol for a randomized, double-blind, sham-controlled clinical trial. *Trials* 2025. doi:10.1186/s13063-025-09093-1. PMID 41214823. PMC12604150. NCT04154111 (completed Feb 2026, 147 enrolled, **no results posted or published as of 5 Nov 2026**). **FT** (protocol)
+- Hou Y, Zhang J, Wang S, et al. Accelerated intermittent theta-burst stimulation for the treatment of alcohol use disorder: a randomized sham-controlled study with six-month follow-up. *CNS Neurosci Ther* 2026;32(9):e71166. doi:10.1002/cns.71166. PMID 42747202. PMC13580346. ChiCTR2100043824. **FT**
+- Durazzo TC, Kraybill EP, Stephens LH, McCalley DM, Humphreys K, May AC, Padula CB. Intermittent theta burst to the left DLPFC promoted decreased alcohol consumption and improved outcomes in those with AUD: a randomized, double-blind, placebo-controlled clinical trial. *Drug Alcohol Depend* 2025;270:112641. doi:10.1016/j.drugalcdep.2025.112641. PMID 40048832. PMC13064820. **FT** (Jiang 2026 reference 25)
+- Durazzo TC, Humphreys K, Padula CB. Effects of intermittent theta burst on multiple measures of craving in those with AUD. *J Stud Alcohol Drugs* 2026;87(4):682–693. doi:10.15288/jsad.25-00180. PMID 41273247. **AB**
+- Padula CB, McCalley DM, Tenekedjieva LT, et al. A pilot, randomized clinical trial: left DLPFC iTBS improves treatment outcomes in veterans with AUD. *Alcohol Clin Exp Res* 2024;48(1):164–177. doi:10.1111/acer.15224. PMID 38197808. **AB**
+- Durazzo group. iTBS to the left DLPFC: brain volumes and neurometabolites in AUD (preliminary). *Front Hum Neurosci* 2025. doi:10.3389/fnhum.2025.1613993. PMID 40765765. PMC12321880. **FT** (mechanism only)
+- Bickart KC, Hsu A, McCalley DM, Hanlon CA. cTBS to the frontal pole decreases medial frontoamygdala connectivity. *Int Rev Psychiatry* 2026;38(6):636–645. PMID 42379239. **AB**. Europe PMC links it to NCT04154111, but its protocol (cTBS, left frontal pole, n = 17) is the MUSC trial, not Wake Forest
 - Joshi T, Dhiman V, Verma R, et al. Bilateral tDCS on craving, abstinence and relapse in severe AUD: randomized sham-controlled trial. *Indian J Psychiatry* 2025;67(2):219–228. doi:10.4103/indianjpsychiatry.indianjpsychiatry_744_24. PMC11964162. CTRI/2022/03/040823. **FT**
 - Gairola A, Nischal A, Kar SK, Arya A, Singh A. Bifrontal tDCS on craving in AUD. *Indian J Psychol Med* 2024. doi:10.1177/02537176231223314. PMC11572694. CTRI/2022/01/039412. **SEC**
 - PreCoTTA protocol (Manipal), PubMed 34365959, CTRI/2020/09/027582. **SEC**
@@ -97,5 +102,6 @@ NCT06060496 (Rakesh, n = 8, completed, results posted); NCT04998916 (MUSC mPFC T
 - Faculty bibliometrics (OpenAlex, 5 Nov 2026): Philip, Ransing, Dey, Tikka, in `thesis/local/03-registries-and-landscape.md`.
 
 ## Remaining gaps
-- Full texts: Kinney 2026; Harel 2022; Treiber 2025; Wang H 2025; the medRxiv living review supplement; Durazzo (alcohol iTBS).
-- Registries: CTRI direct search (site timed out); PROSPERO direct confirmation of the five topics; PubMed hit counts for the two review strings (NCBI backend returned HTTP 500; scripts in `thesis/local/scripts/`).
+- Full texts: Wang H 2025 (journal PDF behind script links; try the AIIMS library or CNKI); the medRxiv living review supplement (not attempted in pass 2). Done in pass 2: Kinney (protocol), Harel, Treiber, Durazzo 2025, Hou 2026.
+- Results: NCT04154111 (Wake Forest) has none posted; re-check Europe PMC quarterly.
+- Registries: CTRI direct search (needs a human-entered CAPTCHA; WHO ICTRP mirror timed out); PubMed hit counts for the two review strings (NCBI esearch still HTTP 500 on 5 Nov 2026; rerun `thesis/local/scripts/pubmed_review_searches.py`). PROSPERO was searched directly on 5 Nov 2026: see `local/REPORT-2.md` §3.

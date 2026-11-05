@@ -933,3 +933,401 @@ Note: 'k' per outcome is not given in the abstract. The only trial count is 8 tr
 - #2 Treiber 2025: the full text is paywalled, so its included studies are not listed. #1's included-RCT sub-table is in its detail block.
 - #5 Harel 2022 and #16 Shanghai 2025: the full text is still needed for %RMT and the complete results.
 - #8 medRxiv living meta-analysis: the full text and supplement, which hold any alcohol-specific ranking, sit behind Cloudflare. Open it in a browser.
+
+
+---
+
+## Pass 2 additions (5 Nov 2026, second local pass)
+
+Same method as above: full texts from PMC BioC, Europe PMC XML or the built-in browser (Harel, Treiber, Durazzo 2025), abstracts from PubMed efetch; `anthropic/claude-haiku-5.5` via OpenRouter extracted each row with verbatim quotes (`scripts/extract_rows.py`, rendered by `scripts/render_rows.py`); every quote string-matched against the source: **300 of 303 matched** (misses: one Harel blinding fraction carrying a footnote letter, one Durazzo FHN quote, one Wang H citation line). Headline numbers in rows 18 and 19 were also hand-checked against the source text. Rows 24 and 25 supersede rows 5 and 2.
+
+| # | Paper | Design | N | Population and timing after detox | Parameters | Sham/control | Primary result | Tag |
+|---|---|---|---|---|---|---|---|---|
+| 18 | Kinney KR, Kirse HA, Stewart NE, et al. Theta Burst Stimulation as a tool to decrease drin … | Three-arm, parallel-group, double-blind, sham-controlled randomized trial (real iTBS to MPFC, real iTBS to left DLPFC, sham iTBS); 2:1 real-to-sham allocation;  … | Planned N = 180 (60 per arm). Recruitment ongoing: as of December 2024, 153 screened, 119 enrolled/randomized and initiated TMS; target enrolment to April 2026. | Community-based, non-abstinent adults with DSM-5 AUD, AUDIT ≥ 8, desire to reduce or quit drinking; single site in Winston-Salem, NC; ages 21–75. No detoxificat … | Target: left DLPFC (F3) or MPFC (AFz). Localisation: EEG 10–20 standardized positions, calculated with EZ EEG app; individual nylon cap. Coil: Cool B-65 A/P on  … | Integrated active sham (MagPro): two surface electrodes deliver electrical stimulation mimicking TMS sensations without real magnetic stimulation; sham particip … | NR (protocol; no results reported). Planned detectable effect size 0.51–0.53 at 80% power (power calculation, not an observed result); no CI reported. | FULLTEXT |
+| 19 | Hou Y, Zhang J, Wang S, et al. Accelerated intermittent theta-burst stimulation for the tr … | Exploratory randomised, sham-controlled, three-arm parallel trial (a-iTBS, conventional iTBS, sham iTBS); described by authors as a pilot RCT; primary analysis  … | 68 screened; 61 randomised (a-iTBS 21, iTBS 20, s-iTBS 20); 3 withdrew before baseline; 58 in modified ITT analysis (19/20/19); 57 completed treatment. | Male inpatients with DSM-5 alcohol use disorder recruited from the SUD ward of the Second Affiliated Hospital of Xinxiang Medical University, March 2022 to Nove … | Target: left dorsolateral prefrontal cortex (F3, 10–20 EEG system). Localisation: F3 site by international 10–20 EEG system (no neuronavigation reported). Devic … | Sham iTBS: coil rotated 90° perpendicular to the scalp to minimise effective field; sham participants randomly assigned to either the standard or accelerated sc … | No significant main effect of group on craving % reduction: F(2, 71.65) = 2.69, p = 0.074, ηp² = 0.07 (group means 78.27 ± 38.59 a-iTBS; 27.10 ± 131.70 iTBS; 22 … | FULLTEXT |
+| 20 | Durazzo TC, Kraybill EP, Stephens LH, McCalley DM, Humphreys K, May AC, Padula CB. Intermi … | Randomized, double-blind, sham-controlled (placebo-controlled) trial, 1:1 allocation to Active or Sham iTBS, 6-month post-treatment follow-up. | 49 randomized (Active 25, Sham 24); 5 withdrawn before analysis (4 self-withdrew, 1 withdrawn by PI for lesion on MRI); 44 analysed (Active 22, Sham 22). | Veterans with AUD recruited from a residential substance use treatment programme at the VA Palo Alto Health Care System; participants had approximately three we … | Target: left DLPFC at F3 (10–20 EEG landmark, Beam-F3 method, marked on cap). Coil/device: MagVenture MagPro X100 with MagOption, figure-of-eight Cool B-65 A/P  … | Sham iTBS: same Cool B-65 A/P coil and procedure with two electrodes on the left forehead delivering low-amperage cutaneous stimulation time-synchronised to iTB … | pHDD: significant group × time interaction (b = −0.006, SE = 0.002, t42 = −2.04, p = .048), indicating greater decrease in pHDD in Active than Sham. Both groups … | FULLTEXT |
+| 21 | Durazzo TC, Humphreys K, Padula CB. Effects of Intermittent Theta Burst on Multiple Measur … | Secondary analysis of craving measures from a double-blind randomised clinical trial (RCT) of iTBS vs sham, with Active vs Sham groups compared by Group × Time  … | 44 randomised (22 Active, 22 Sham); total derived as 22 + 22 = 44 (derived). Analysed N not separately reported. | Veterans in AUD residential treatment (Veterans Affairs setting). Interval between detoxification/last drink/benzodiazepines and first session: NR. | Target: left dorsolateral prefrontal cortex. Localisation method: NR. Coil/device: NR. Pattern: intermittent theta burst stimulation (iTBS). Intensity (%RMT/%aM … | Sham iTBS (sham stimulation; method of sham delivery NR). | All craving measures reduced over time (time main effect, collapsed across groups). Group × Time interactions were not significant, so active iTBS was not shown … | ABSTRACT |
+| 22 | Padula CB, et al. A pilot, randomized clinical trial: Left dorsolateral prefrontal cortex  … | Pilot randomized, double-blind, sham-controlled trial | 17 randomized/enrolled (active iTBS n = 8; sham n = 9) | US veterans with alcohol use disorder. Setting, detoxification procedures, and interval from last drink or benzodiazepines to first session: NR | Target: left dorsolateral prefrontal cortex (DLPFC). Modality: intermittent theta burst stimulation (iTBS). Localisation method: NR. Coil/device: NR. Intensity  … | Sham TMS (sham procedure details NR) | Active iTBS participants were less likely to relapse within 3 months than sham: OR = 12.0; 95% CI NR. Tolerability/feasibility results: NR in abstract. | ABSTRACT |
+| 23 | Durazzo group, Front Hum Neurosci 2025 (iTBS brain volumes/MRS) | Secondary analysis pooling two RCTs of iTBS vs sham as adjunct AUD treatment; pre/post (about 2-week) structural MRI and MRS of left DLPFC; cross-sectional and  … | 44 randomised Veterans with AUD (21 active iTBS, 23 sham iTBS); analysed n varies by measure (volumes n=44; NAA, Cho, Cr n=41; GABA and Glu n=36). | Veterans in residential AUD treatment at VA Palo Alto Health Care System; treatment typically 28–35 days; participants averaged 25 days abstinent before enrolme … | Target: left DLPFC (rostral and caudal middle frontal and superior frontal gyri; MRS voxel in left DLPFC). Localisation: MNI DLPFC target transformed to subject … | Sham iTBS (n=23) in the parent RCTs; sham coil/procedure details NR. Participants' guessed allocation was similar across groups (86% vs 83% predicted active; co … | No group × time interactions for any measure. Collapsed across groups, significant time effects: left caudal MFG F(1,37)=7.80, p=0.008; left rostral MFG F(1,37) … | FULLTEXT |
+| 24 | Harel M, Perini I, Kämpe R, et al. Randomized, double-blind, sham-controlled proof-of-conc … | Double-blind, randomized, sham-controlled proof-of-concept trial with 1:1 allocation (minimization method); registered NCT02691390. | 62 enrolled; 51 randomized and initiated treatment (active 23, sham 23); 46 in modified intention-to-treat (mITT) primary analysis set (active 23, sham 23 in Ta … | Treatment-seeking adults with moderate to severe alcohol dependence (DSM-5), recruited via social media and newspaper ads at Ben-Gurion University/Soroka Medica … | Target: medial prefrontal cortex and anterior cingulate (midline frontocortical; H7 deep coil). Localisation: optimal leg motor hotspot located each session, RM … | Sham dTMS: a different coil located within the same helmet producing similar acoustic and scalp sensations without effective field penetration; coil allocation  … | pHDD lower in active than sham: 2.9 ± 0.8% vs 10.6 ± 1.9% (mean ± SEM), p = .037; F1,208 = 4.40, mean difference 7.7%, Cohen's d = 0.50. 95% CI: NR. | FULLTEXT |
+| 25 | Treiber M, Tsapakis EM, Fountoulakis K. Repetitive Transcranial Magnetic Stimulation for A … | Systematic review and random-effects meta-analysis of randomized, sham-controlled RCTs of multiple-session rTMS (minimum 10 sessions); PROSPERO CRD42023489712;  … | 12 RCTs; 475 participants across active and sham arms (abstract); pooled n = 470 in immediate-effect analysis (252 randomized to active rTMS, 223 to sham). | Adults with alcohol use disorder diagnosed by DSM (IV/V) or ICD-10 criteria; setting NR. Interval between detoxification/last drink/benzodiazepines and first rT … | Targets: rDLPFC (3 studies), lDLPFC (4), bilateral DLPFC (1), mPFC (3), insular cortex (1). Localisation method: NR. Devices: HF-rTMS, deep TMS (dTMS), continuo … | Sham stimulation (randomized sham-controlled trials); comparison of active rTMS versus sham. Sham procedure details NR. | Immediate post-treatment: active rTMS reduced craving vs sham, SMD = −0.79 (95% CI −1.53 to −0.04), P = 0.04, I2 = 93% (substantial heterogeneity). Sensitivity  … | FULLTEXT |
+| 26 | Wang H, Yuan C, Gan H, Jiang H, Zhao Y, Du J, Zhang Y. A randomized controlled study on th … | Randomised controlled study with sham stimulation control (parallel groups, per abstract); further design details NR | 41 randomised inpatients (experimental 20; control 21) | Inpatients with alcohol dependence in the withdrawal period, recruited from the Addiction Department of Mental Health Center, Shanghai Jiao Tong University Scho … | Target: left dorsolateral prefrontal cortex (DLPFC); Modality: intermittent theta burst stimulation (iTBS), real vs sham; Localisation method: NR; Coil/device:  … | Sham stimulation with the same parameters as active iTBS, plus routine inpatient treatment; sham procedure details (coil, blinding) NR | VAS: significant time effect and group × time interaction (interaction F=7.080, P=0.011, ηp2=0.154). Simple effect after intervention: real-stimulation group VA … | ABSTRACT |
+| 27 | Bickart KC, Hsu A, McCalley DM, Hanlon CA. Continuous theta burst stimulation to the front … | Secondary analysis of a double-blind, Sham-controlled clinical trial; resting-state fMRI pre-treatment, post-treatment and 1 month after treatment | 17 participants (10 Real cTBS, 7 Sham) | Adults with alcohol use disorder (24% female; age 46 ± 13 years). Setting beyond the trial NR. Detoxification, last drink or benzodiazepine timing and interval  … | Target: left frontal pole (FP1). Protocol: continuous theta burst stimulation (cTBS), 10 sessions. Localisation method: NR. Coil/device: NR (author affiliation  … | Sham stimulation (n=7) versus Real cTBS (n=10); sham procedure details NR | Real cTBS selectively decreased frontal pole to medial amygdala connectivity relative to Sham. Effect size and CI: NR | ABSTRACT |
+
+### 18. Kinney KR, Kirse HA, Stewart NE, et al. Theta Burst Stimulation as a tool to decrease drinking in treatment-seeking alcohol users: study protocol for a randomized, double-blind, sham-controlled clinical trial. Trials (2025); ClinicalTrials.gov NCT04154111. Protocol paper; no outcome results.
+
+Source: `k01_kinney2025_protocol.txt` | Tag: **FULLTEXT** | Quotes verified: 45/45
+
+**What this changes in the pack:** PMID 41214823 is the **protocol** (*Trials* 2025, PMC12604150), not a results paper. NCT04154111 completed Feb 2026 (147 enrolled) with **no results posted and no outcome paper found** (Europe PMC, 5 Nov 2026). Design differs from Lane 1 on every axis that matters: community, **non-abstinent** outpatients; iTBS to MPFC vs left DLPFC vs sham; 30 sessions (2 per visit) over 3–6 weeks at 110% rMT; primary outcome drinks per drinking day. It cannot remove Lane 1's premise; it is a competitor to watch for the target question (MPFC vs DLPFC), not for timing.
+
+| Field | Extracted |
+|---|---|
+| Design | Three-arm, parallel-group, double-blind, sham-controlled randomized trial (real iTBS to MPFC, real iTBS to left DLPFC, sham iTBS); 2:1 real-to-sham allocation; single site; protocol paper. |
+| N | Planned N = 180 (60 per arm). Recruitment ongoing: as of December 2024, 153 screened, 119 enrolled/randomized and initiated TMS; target enrolment to April 2026. |
+| Population and timing after detox | Community-based, non-abstinent adults with DSM-5 AUD, AUDIT ≥ 8, desire to reduce or quit drinking; single site in Winston-Salem, NC; ages 21–75. No detoxification protocol or interval from last drink to first session reported (NR). CIWA ≥ 5 at each visit excludes TMS that day to avoid withdrawal. |
+| Stimulation or intervention parameters | Target: left DLPFC (F3) or MPFC (AFz). Localisation: EEG 10–20 standardized positions, calculated with EZ EEG app; individual nylon cap. Coil: Cool B-65 A/P on MagPro R30 (MagVenture); rMT via figure-of-eight coil. Pattern: iTBS (20 trains × 30 pulses; 50 Hz triplets; 2 s on, 8 s off); 600 pulses per session; 110% rMT with 3–5% ramping 20→110% over 30 s. Two sessions per visit ~20 min apart; 15 visits = 30 sessions; 3–5 sessions/week over 3–6 weeks. |
+| Sham/control method | Integrated active sham (MagPro): two surface electrodes deliver electrical stimulation mimicking TMS sensations without real magnetic stimulation; sham participants split 50% DLPFC-sham and 50% MPFC-sham. Blinding via 6-digit codes and coil-orientation prompts. |
+| Primary outcome and instrument | Primary: number of drinks per drinking day, measured by 30-day Timeline Follow-Back (TLFB) at each visit (self-report), supplemented by EtG (urine) and CDT (blood) biomarkers. |
+| Primary result with effect size and CI | NR (protocol; no results reported). Planned detectable effect size 0.51–0.53 at 80% power (power calculation, not an observed result); no CI reported. |
+| Secondary results | NR (no results). Pre-specified secondary outcomes: percent days abstinent; craving (OCDS, AUQ); fMRI BOLD activation to alcohol vs neutral cues; BOLD task-based connectivity between target site and striatum. Exploratory: POMS, BDI, STAI, PSQI, percent heavy drinking days. |
+| Follow-up | Treatment phase through TMS 15 (~3–6 weeks); post-treatment MRI within 2 weeks post-treatment; monthly follow-up visits for three consecutive months (Follow-up 1–3). |
+| Adverse events | AEs assessed at every visit (seizures, headaches, scalp discomfort, mood changes, pain, hearing loss, fainting); SAEs reviewed by investigators and study physician. No AE results reported (NR). |
+| Risk-of-bias notes | Randomization: sequence from manufacturer-provided predefined codes, assigned at first TMS visit after motor thresholding; allocation concealment details beyond codes NR. Blinding: investigators, staff and participants blinded; blind-integrity questionnaire (guess, confidence 1–10, rationale) planned. Attrition: 20% additive monthly dropout assumed in follow-up. ITT analysis planned; per-protocol secondary; statisticians blinded; no interim analyses. Multiplicity: Benjamini–Hochberg planned, but sample size did not account for multiple comparisons (limitation acknowledged). Funding: NIH/NIAAA R01 (sponsor not involved in design/analysis); lead author Hanlon has financial interest in BrainsWay Ltd. Protocol stated completed before data collection, though recruitment began May 2020. |
+
+Full parameters
+
+| Item | Detail |
+|---|---|
+| Target | left DLPFC (F3) and MPFC (AFz) |
+| Localisation | standardized EEG 10–20 positions via EZ EEG app with individual cap |
+| Coil | Cool B-65 A/P on MagPro R30 (MagVenture) |
+| Motor threshold | figure-of-eight coil, PEST procedure, 50% of time at abductor pollicis brevis over C3 |
+| Pattern | iTBS, 20 trains of 30 pulses, 15 pulses/s in 3-pulse bursts at 50 Hz, 2 s train, 8 s inter-train |
+| Pulses | 600 per session |
+| Intensity | 110% rMT with ramp from 20% over 30 s in 3–5% steps |
+| Sessions per visit | 2 (~20 min apart) |
+| Total visits/sessions | 15 visits, 30 sessions |
+| Schedule | 3–5 times per week over 3–6 weeks (up to six consecutive weeks) |
+| Sham | integrated active sham with surface electrodes |
+| Behavioural component | brief standardized alcohol education at 11 of 15 visits |
+| Priming | standardized sentence before each session. |
+
+### 19. Hou Y, Zhang J, Wang S, et al. Accelerated intermittent theta-burst stimulation for the treatment of alcohol use disorder: a randomized sham-controlled study with six-month follow-up. CNS Neuroscience & Therapeutics. 2026.
+
+Source: `k03_aitbs_cns2026.txt` | Tag: **FULLTEXT** | Quotes verified: 51/51
+
+**What this changes in the pack:** **The most important new paper.** A sham-controlled trial of **accelerated left-DLPFC iTBS in detoxified male AUD inpatients** (≥ 7 days abstinent, low-dose benzodiazepine withdrawal care), 5 sessions/day × 10 weekdays, 70% RMT, 6-month follow-up. Primary (craving % reduction to D10) **not significant** (p = 0.074); responder rate and time to response favoured a-iTBS (exploratory); 6-month abstinence duration a-iTBS > sham (p = 0.012) but relapse rates not different (p = 0.14). n = 19–20 per arm. `02-lane1` §1.3 claim that Herremans is 'the only accelerated protocol in detoxified AUD' and §2 gap 2 ('nobody has…') are now wrong.
+
+| Field | Extracted |
+|---|---|
+| Design | Exploratory randomised, sham-controlled, three-arm parallel trial (a-iTBS, conventional iTBS, sham iTBS); described by authors as a pilot RCT; primary analysis modified intention-to-treat. |
+| N | 68 screened; 61 randomised (a-iTBS 21, iTBS 20, s-iTBS 20); 3 withdrew before baseline; 58 in modified ITT analysis (19/20/19); 57 completed treatment. |
+| Population and timing after detox | Male inpatients with DSM-5 alcohol use disorder recruited from the SUD ward of the Second Affiliated Hospital of Xinxiang Medical University, March 2022 to November 2023; aged 18-60 years; right-handed; all had passed acute withdrawal and were abstinent for at least 7 days before enrolment. Standardised inpatient care included low-dose benzodiazepines for withdrawal. Exact interval from detoxification to first TBS session beyond the 7-day minimum abstinence: NR. |
+| Stimulation or intervention parameters | Target: left dorsolateral prefrontal cortex (F3, 10–20 EEG system). Localisation: F3 site by international 10–20 EEG system (no neuronavigation reported). Device: YRD CCY-II magnetic stimulator; coil type NR. Pattern: iTBS, 3-pulse 50 Hz bursts every 200 ms, 2 s on/8 s off, ~190 s, 600 pulses per session. Intensity: 70% RMT (RMT defined as minimum intensity giving right APB contraction in ≥5/10 trials). Pulses/session: 600 (iTBS arm); 600 per session in a-iTBS arm, 5 sessions/day, 3000 pulses/day. Sessions/day: iTBS 1; a-iTBS 5 (≈50 min apart). Total sessions: iTBS 10; a-iTBS 50; schedule 10 weekdays (Mon–Fri over 2 weeks) for both. |
+| Sham/control method | Sham iTBS: coil rotated 90° perpendicular to the scalp to minimise effective field; sham participants randomly assigned to either the standard or accelerated schedule (pooled for main analysis). Sham coil type NR. |
+| Primary outcome and instrument | Primary: percentage craving reduction from baseline (D0) to day 10 after alcohol-cue images, rated on a 10-cm Visual Analogue Scale (0–100). Responder defined as ≥60% craving reduction. Assessed D0 and D2, D4, D6, D8, D10. |
+| Primary result with effect size and CI | No significant main effect of group on craving % reduction: F(2, 71.65) = 2.69, p = 0.074, ηp² = 0.07 (group means 78.27 ± 38.59 a-iTBS; 27.10 ± 131.70 iTBS; 22.08 ± 111.17 sham; between-group CI NR). Exploratory responder rate 84.2%, 70.0%, 42.1% (χ² = 7.726, df = 2, p = 0.021); a-iTBS vs sham χ² = 7.238, p = 0.007, φ = 0.377; a-iTBS vs iTBS p = 0.292; iTBS vs sham p = 0.079 (not significant after Bonferroni framing in text). Exploratory time to initial response: log-rank χ² = 13.247, df = 2, p = 0.001; a-iTBS vs sham χ² = 12.059, p < 0.001, φ = 0.563. Mean response time 4.12, 6.50, 8.74 days. |
+| Secondary results | Six-month abstinence duration: 4.66 ± 0.44 (a-iTBS), 3.68 ± 0.45 (iTBS), 2.92 ± 0.44 (sham) months; log-rank χ² = 6.56, p = 0.038; a-iTBS vs sham p = 0.012; a-iTBS vs iTBS p = 0.122; iTBS vs sham p = 0.265. Six-month relapse 42.1%, 60.0%, 73.7% (p = 0.140). Three-month relapse 36.8%, 60.0%, 63.2% (p = 0.205); three-month abstinence log-rank χ² = 4.72, p = 0.094. Mood/sleep change scores: ΔPHQ-9 p = 0.199; ΔGAD-7 p = 0.956; ΔPSQI p = 0.574; no between-group differences. Exploratory logistic regression (AUC = 0.89): baseline GAD-7 OR = 1.55 (95% CI 1.09–2.22, p = 0.015); a-iTBS vs sham OR = 15.01 (95% CI 1.56–144.78, p = 0.019); iTBS vs sham OR = 12.11 (95% CI 1.36–107.67, p = 0.025). Pearson: craving reduction vs ΔGAD-7 r = 0.310, p = 0.018. |
+| Follow-up | Relapse monitored at 3 and 6 months after the intervention by telephone; outcomes: dichotomous relapse status and cumulative abstinence duration (months) from enrolment to first relapse; Kaplan–Meier with censoring at end of follow-up or last contact. |
+| Adverse events | Intervention reported safe and well tolerated; no serious adverse events. Side effects: headache, drowsiness, facial discomfort, eye and nasal discomfort, jaw or tooth discomfort; all mild, short-lived, resolved spontaneously. No significant difference in adverse reaction incidence among groups (p = 0.515). One a-iTBS participant withdrew on day 2 due to intolerance of daily sessions. |
+| Risk-of-bias notes | Randomisation: described as randomised into three groups; method and allocation concealment NR in main text (referred to Supporting Information). Blinding: participants and outcome assessors blinded; treatment operators aware of condition. Blinding check: participants' guesses not associated with allocation (χ² = 0.138, p = 0.933); assessors correctly classified 51.7% (30/58), not different from chance (p = 0.896). Attrition: 3 withdrew before baseline, 1 early intolerance; mITT with multiple imputation and censoring for relapse analyses. Multiplicity: Bonferroni for prespecified pairwise comparisons; several secondary/exploratory analyses. Baseline imbalance in craving, GAD-7, PSQI (p = 0.006, 0.031, 0.030); covariate-adjusted sensitivity analyses. Underpowered (19–20 per group); recruitment slowed by COVID-19; neuroimaging not completed; benzodiazepine dosing not repeatedly recorded; sham coil tilt could be recognised (participants reportedly could not distinguish). Preregistered (ChiCTR2100043824) with deviations. Funding from multiple grants; authors declare no conflicts of interest. |
+
+Full parameters
+
+| Item | Detail |
+|---|---|
+| Target | left dlPFC (F3, 10–20 EEG system) |
+| Device | YRD CCY-II magnetic stimulator |
+| Coil | NR |
+| Pattern | iTBS 3-pulse 50 Hz bursts every 200 ms, 2 s on/8 s off, ~190 s |
+| Intensity | 70% RMT |
+| Pulses per session | 600 |
+| Sessions per day | iTBS 1, a-iTBS 5 (~50 min apart) |
+| Pulses per day | iTBS 600, a-iTBS 3000 |
+| Total sessions | iTBS 10, a-iTBS 50 |
+| Schedule | 10 weekdays over 2 weeks |
+| Sham | coil rotated 90° perpendicular to scalp, matched to either schedule |
+| Localisation | F3 via 10–20 EEG system |
+| Neuronavigation | NR |
+| RMT | minimum intensity for right APB contraction in ≥5/10 trials. |
+
+### 20. Durazzo TC, Kraybill EP, Stephens LH, McCalley DM, Humphreys K, May AC, Padula CB. Intermittent theta burst to the left dorsolateral prefrontal cortex promoted decreased alcohol consumption and improved outcomes in those with alcohol use disorder: a randomized, double-blind, placebo-controlled clinical trial. Drug Alcohol Depend. 2025;270:112641. (NCT03191266)
+
+Source: `k04_durazzo2025_dad.txt` | Tag: **FULLTEXT** | Quotes verified: 61/61
+
+**What this changes in the pack:** This is the 'Durazzo et al.' trial in Jiang 2026 (22/22 analysed). Already accelerated (2–3 sessions/day, 20 sessions in ~14 days, 1,200 pulses, 100–110% **aMT**), but started after **~3 weeks of abstinence** in residential care. pHDD interaction p = .048; continuous abstinence trend (p = .050); no 95% CI for the main effect; self-report only; blinding held (52% classification). Text and Exp(β) disagree in direction for the Project MATCH outcome.
+
+| Field | Extracted |
+|---|---|
+| Design | Randomized, double-blind, sham-controlled (placebo-controlled) trial, 1:1 allocation to Active or Sham iTBS, 6-month post-treatment follow-up. |
+| N | 49 randomized (Active 25, Sham 24); 5 withdrawn before analysis (4 self-withdrew, 1 withdrawn by PI for lesion on MRI); 44 analysed (Active 22, Sham 22). |
+| Population and timing after detox | Veterans with AUD recruited from a residential substance use treatment programme at the VA Palo Alto Health Care System; participants had approximately three weeks of abstinence before study procedures (days abstinent mean 22 Active, 21 Sham per Table 1); residential treatment typically 28–35 days. Baseline assessment typically 1 day before the first iTBS session; iTBS delivered over approximately 14 days. |
+| Stimulation or intervention parameters | Target: left DLPFC at F3 (10–20 EEG landmark, Beam-F3 method, marked on cap). Coil/device: MagVenture MagPro X100 with MagOption, figure-of-eight Cool B-65 A/P coil. Pattern: iTBS, three-pulse bursts at 50 Hz, 5 bursts/s, 10 pulses/train, 40 trains, 376 s per session. Intensity: 100% (participants 1–10) or 110% (participants 11–49) of active motor threshold. Pulses: 1200 per session. Sessions: 20 total, two-to-three per day, five-to-six days/week, over about 14 days (median and mode two per day). Total: 24,000 pulses. |
+| Sham/control method | Sham iTBS: same Cool B-65 A/P coil and procedure with two electrodes on the left forehead delivering low-amperage cutaneous stimulation time-synchronised to iTBS pulses to mimic active sensation; participants wore hearing protection. |
+| Primary outcome and instrument | Registered primary outcome: frequency of abstinence at 6 months post-iTBS (Timeline Followback, TLFB; VA records corroboration). Primary repeated-measure index in analyses: percent heavy drinking days (pHDD) from 3 months pre-study to 6-month follow-up. |
+| Primary result with effect size and CI | pHDD: significant group × time interaction (b = −0.006, SE = 0.002, t42 = −2.04, p = .048), indicating greater decrease in pHDD in Active than Sham. Both groups decreased (Active b = −0.016, p < .001; Sham b = −0.011, p = .001). No 95% CI reported in the text for the interaction; Cohen's d values appear only in Fig. 2 and are not given in the text. Registered abstinence outcome: trend only (see secondary results). |
+| Secondary results | (a) Continuous abstinence over 6 months: trend, Exp(β) = 4.36 (95% CI 1.01–18.9), p = .050. (b) Among those who resumed drinking (Active n = 9, Sham n = 13): significantly longer abstinence duration in Active, Exp(β) = 2.82 (95% CI 1.01–7.92), p = .049. (c) Project MATCH poor outcome: only one Active vs 10 Sham participants met criteria (reported odds ratio text conflicts, see risk notes), p = .004. (d) Among resumers, WHO low-risk drinking more frequent in Active, χ2(3) = 9.23, p = .023. (e) Among resumers, Sham had more drinking days (z = −2.48, p = .013), more drinks (z = −2.91, p = .004), more drinks per drinking day (z = −3.09, p = .002), and higher pHDD at follow-up (p = .002). (f) Exploratory: higher percent of pulses at target level showed trend with abstinence (Spearman r = 0.41, p = 0.059). Electric field: no difference (Active 55.9 V/m vs Sham 59.3 V/m). |
+| Follow-up | 6 months post-assessment (median follow-up interval 184 days); monthly telephone contact with TLFB when drinking reported, plus collateral informants and VA electronic medical record review. Final 6-month follow-up completed 2024-03-06. |
+| Adverse events | No adverse events during the iTBS phase; no participant withdrawn due to an adverse event; self-withdrawals (3 to not complete multiple daily sessions, 1 left treatment against medical advice) reported as unrelated to iTBS tolerability. |
+| Risk-of-bias notes | Randomisation: 0.5 probability, codes from an independent biostatistician; allocation concealment beyond this NR. Blinding: participants and all study personnel blinded through baseline, post and follow-up; blinding check: 86% Active and 82% Sham believed active (classification accuracy 52%); sham procedure matched sensation. Attrition: 5 of 49 withdrawn and excluded; ITT not possible (outcome data unavailable for withdrawals); no imputation. Sample smaller than the 80 planned. Multiplicity correction: NR. Outcome measured by self-report without biochemical verification. Baseline imbalance: Sham drank more pre-study (adjusted as covariate). Reporting inconsistency: text says 'odds ... 26 times greater' in Sham for Project MATCH, but Exp(β) = 0.038 (inverse direction). Funding: VA Rehabilitation R&D Merit Review Award; sponsor had no role; authors declare no competing interests. |
+
+Full parameters
+
+| Item | Detail |
+|---|---|
+| Target | left DLPFC (F3, Beam-F3 method) |
+| Localisation | EEG 10–20 landmark with Beam-F3 and cap marking |
+| Device | MagVenture MagPro X100 with MagOption |
+| Coil | figure-of-eight Cool B-65 A/P |
+| Pattern | iTBS three-pulse bursts at 50 Hz, 5 bursts/s |
+| Train | 10 pulses, 8 s intertrain interval, 40 trains, 376 s |
+| Intensity | 100% (participants 1–10) or 110% (participants 11–49) of active MT |
+| Pulses per session | 1200 |
+| Sessions per day | two-to-three |
+| Total sessions | 20 over about 14 days |
+| Total pulses | 24,000 |
+| Sham | same coil with forehead electrodes mimicking sensation |
+| Motor threshold | MagVenture C-B60 coil with PEST |
+
+### 21. Durazzo TC, Humphreys K, Padula CB. Effects of Intermittent Theta Burst on Multiple Measures of Craving in Those With Alcohol Use Disorder. J Stud Alcohol Drugs. 2026 Jul;87(4):682-693. doi: 10.15288/jsad.25-00180.
+
+Source: `k07_jsad2026_abs.txt` | Tag: **ABSTRACT** | Quotes verified: 19/19
+
+**What this changes in the pack:** Same 44 participants: **craving did not separate from sham** on any measure (group × time NS). With Hou's NS primary, the two alcohol iTBS RCTs that measured craving as a main outcome both missed it, while drinking outcomes moved. This argues against PACS as Lane 1's primary on d = 0.6.
+
+| Field | Extracted |
+|---|---|
+| Design | Secondary analysis of craving measures from a double-blind randomised clinical trial (RCT) of iTBS vs sham, with Active vs Sham groups compared by Group × Time interaction. |
+| N | 44 randomised (22 Active, 22 Sham); total derived as 22 + 22 = 44 (derived). Analysed N not separately reported. |
+| Population and timing after detox | Veterans in AUD residential treatment (Veterans Affairs setting). Interval between detoxification/last drink/benzodiazepines and first session: NR. |
+| Stimulation or intervention parameters | Target: left dorsolateral prefrontal cortex. Localisation method: NR. Coil/device: NR. Pattern: intermittent theta burst stimulation (iTBS). Intensity (%RMT/%aMT): NR. Pulses per session: 1,200. Sessions per day: NR. Total sessions: 20. Schedule: over 2 weeks. |
+| Sham/control method | Sham iTBS (sham stimulation; method of sham delivery NR). |
+| Primary outcome and instrument | Craving measured as change from Baseline to Post-Assessment on: Alcohol Craving Questionnaire Short Form-Revised Total Score; Abstinence Self-Efficacy Scale (AASE) Tempted Cravings and Urges subscale; Obsessive Compulsive Drinking Scale (OCDS). Abstract does not designate a single primary outcome. |
+| Primary result with effect size and CI | All craving measures reduced over time (time main effect, collapsed across groups). Group × Time interactions were not significant, so active iTBS was not shown to produce greater reductions than sham. Effect sizes and CIs: NR. |
+| Secondary results | Exploratory post hoc simple effects: Active group showed reductions on AASE Tempted Cravings and Urges and all OCDS measures; Sham group showed no significant changes on any measure. Statistics for these: NR. |
+| Follow-up | Single post-assessment following completion of the 20 sessions; no later follow-up reported in abstract. |
+| Adverse events | NR |
+| Risk-of-bias notes | Double-blind stated. Randomisation method, allocation concealment, blinding checks, attrition and ITT analysis: NR in abstract. Post hoc analyses were exploratory with no multiplicity correction reported (NR). Authors report no competing interests. Funding: NR. |
+
+Full parameters
+
+| Item | Detail |
+|---|---|
+| Target | left dorsolateral prefrontal cortex |
+| Localisation method | NR |
+| Coil/device | NR |
+| Stimulation | intermittent theta burst stimulation (iTBS) |
+| Pulses per session | 1,200 |
+| Sessions per day | NR |
+| Total sessions | 20 |
+| Schedule | over 2 weeks |
+| Intensity (%RMT/%aMT) | NR |
+| Sham procedure | NR beyond 'sham iTBS'. |
+
+### 22. Padula CB, et al. A pilot, randomized clinical trial: Left dorsolateral prefrontal cortex intermittent theta burst stimulation improves treatment outcomes in veterans with alcohol use disorder. Alcohol Clin Exp Res (Hoboken). 2024;48(1):164-177. doi:10.1111/acer.15224
+
+Source: `k06_durazzo2024_acer_abs.txt` | Tag: **ABSTRACT** | Quotes verified: 23/23
+
+**What this changes in the pack:** Pilot of row 20 (n = 17, 8/9): relapse within 3 months OR = 12.0, no CI in abstract. Feasibility evidence for 2–3 iTBS sessions/day in residential AUD.
+
+| Field | Extracted |
+|---|---|
+| Design | Pilot randomized, double-blind, sham-controlled trial |
+| N | 17 randomized/enrolled (active iTBS n = 8; sham n = 9) |
+| Population and timing after detox | US veterans with alcohol use disorder. Setting, detoxification procedures, and interval from last drink or benzodiazepines to first session: NR |
+| Stimulation or intervention parameters | Target: left dorsolateral prefrontal cortex (DLPFC). Modality: intermittent theta burst stimulation (iTBS). Localisation method: NR. Coil/device: NR. Intensity (%RMT/%aMT): NR. Pulses per session: 600. Sessions per day: 2-3. Session schedule: 7-10 days. Total sessions: 20. |
+| Sham/control method | Sham TMS (sham procedure details NR) |
+| Primary outcome and instrument | Stated primary hypothesis: tolerability and feasibility of 20 sessions of real TMS. Instrument for tolerability/feasibility: NR. Relapse within 3 months after treatment was reported as a key result (secondary line of inquiry in the Background). |
+| Primary result with effect size and CI | Active iTBS participants were less likely to relapse within 3 months than sham: OR = 12.0; 95% CI NR. Tolerability/feasibility results: NR in abstract. |
+| Secondary results | Anhedonia: greater reduction after active iTBS (Cohen's d = -0.59) than sham (d = -0.25); CIs NR. Alcohol cue-reactivity (active vs sham): left insula d = -0.19 vs 0.51; left thalamus d = -0.28 vs 0.77; right insula d = 0.18 vs 0.52; right thalamus d = -0.06 vs 0.62; CIs NR. Craving and mood (linear mixed-effects models): results NR in abstract. |
+| Follow-up | Alcohol consumption assessed for 6 months after treatment; relapse reported at 3 months post-treatment |
+| Adverse events | NR |
+| Risk-of-bias notes | Randomisation method: NR. Allocation concealment: NR. Blinding checks: NR (design described as double-blind). Attrition and ITT handling: NR. Multiplicity correction: NR. Funding and conflicts: NR. Very small sample (n = 17, one woman) limits generalisability and precision. Abstract reports right insula active d = 0.18 (positive) although described as a reduction; possible inconsistency to verify in full text. |
+
+Full parameters
+
+| Item | Detail |
+|---|---|
+| Target | left DLPFC |
+| Modality | intermittent theta burst stimulation (iTBS) |
+| Localisation method | NR |
+| Coil/device | NR |
+| Frequency/TBS pattern | iTBS (pattern details NR) |
+| Intensity | NR |
+| Pulses per session | 600 |
+| Sessions per day | 2-3 |
+| Schedule | 7-10 days |
+| Total sessions | 20 |
+| Control | sham TMS |
+| Sham method | NR |
+
+### 23. Durazzo TC and colleagues. Effects of intermittent theta burst to the left DLPFC on brain volumes and neurometabolites in people with AUD: a preliminary investigation. Front Hum Neurosci 2025. doi:10.3389/fnhum.2025.1613993. PMID 40765765, PMC12321880
+
+Source: `k05_durazzo2025_fhn.txt` | Tag: **FULLTEXT** | Quotes verified: 51/52
+
+**What this changes in the pack:** Mechanism sub-study of the Durazzo trial. Useful only if Lane 1 adds imaging (MRS/volumetry); not a clinical outcome source.
+
+| Field | Extracted |
+|---|---|
+| Design | Secondary analysis pooling two RCTs of iTBS vs sham as adjunct AUD treatment; pre/post (about 2-week) structural MRI and MRS of left DLPFC; cross-sectional and longitudinal analyses; simple-effects tests described as preliminary. |
+| N | 44 randomised Veterans with AUD (21 active iTBS, 23 sham iTBS); analysed n varies by measure (volumes n=44; NAA, Cho, Cr n=41; GABA and Glu n=36). |
+| Population and timing after detox | Veterans in residential AUD treatment at VA Palo Alto Health Care System; treatment typically 28–35 days; participants averaged 25 days abstinent before enrolment. Days abstinent at iTBS initiation: 20 (13) active, 29 (30) sham. Detoxification procedures and benzodiazepine use not described; first session timing relative to last drink is approximated by days abstinent at initiation. |
+| Stimulation or intervention parameters | Target: left DLPFC (rostral and caudal middle frontal and superior frontal gyri; MRS voxel in left DLPFC). Localisation: MNI DLPFC target transformed to subject space via non-linear normalisation, semi-automated voxel placement for MRS. Coil/device for TMS: NR. iTBS frequency and intensity (%RMT/%aMT): NR in this report (RMT/AMT medians in Table 1 only). Pulses: 600 per session (Padula RCT) or 1,200 per session (Durazzo RCT). Sessions: 20 per study. Schedule: 2–3 active or sham sessions per day over approximately 2 weeks. |
+| Sham/control method | Sham iTBS (n=23) in the parent RCTs; sham coil/procedure details NR. Participants' guessed allocation was similar across groups (86% vs 83% predicted active; confidence 7.0 (1.8) vs 7.2 (1.7)). |
+| Primary outcome and instrument | Longitudinal change (baseline to post-assessment) in bilateral rostral/caudal middle and superior frontal gyri volumes (mm3; FreeSurfer v7.3.2 longitudinal pipeline) and left DLPFC metabolites NAA, Cho, Cr (LCModel, MEGA-SPECIAL MRS at 3 T), GABA and Glu; analysed with linear mixed models (group, time, group × time). |
+| Primary result with effect size and CI | No group × time interactions for any measure. Collapsed across groups, significant time effects: left caudal MFG F(1,37)=7.80, p=0.008; left rostral MFG F(1,37)=12.80, p<0.001; right rostral MFG F(1,37)=6.33, p=0.016; left SFG F(1,37)=31.00, p<0.001; right SFG F(1,37)=13.20, p<0.001; Cho F(1,36)=5.12, p=0.030; Cr trend F(1,36)=4.07, p=0.051. Group main effect for GABA F(1,38)=5.02, p=0.031. Cohen's d reported only for cross-sectional comparisons: left SFG at baseline d=0.72; GABA at post-assessment d=0.78. No CIs reported. |
+| Secondary results | Preliminary simple effects (multiplicity-adjusted alpha p≤0.021 volumes, p≤0.030 metabolites): Active increased left caudal MFG F(1,17)=18.79, p<0.001; left rostral MFG F(1,17)=18.79, p<0.001; left SFG F(1,17)=27.93, p<0.001; and right regions significant. Sham increased only left SFG F(1,19)=8.52, p=0.009 (right SFG trend p=0.08). Active increased Cho F(1,17)=12.33, p=0.003 and Cr F(1,17)=6.20, p=0.023; NAA trend p=0.055; Glu trend p=0.093; sham no metabolite change. Exploratory (active only): pulses at target level associated with NAA slope 8.61e-5 (p=0.033), Glu 2.40e-4 (p=0.032), GABA 5.40e-4 (p=0.038); Cho p=0.161, Cr p=0.072; no volume associations. |
+| Follow-up | Single pre–post interval only; baseline to post-assessment about 15 days (15 (3) in both groups). No longer-term follow-up reported. |
+| Adverse events | NR |
+| Risk-of-bias notes | Randomisation sequence and allocation concealment NR for this report (parent RCTs described as randomised). Blinding: participants' guessed allocation reported, no formal blinding check beyond this. Attrition/selection: not all parent-trial participants had neuroimaging (scanner unavailability, COVID-19), with no differences reported between those with and without imaging. ITT: NR. Multiplicity: modified Bonferroni for simple effects (five metabolites, six volumes); no group × time interactions, so simple effects are preliminary; small sample, predominantly male Veterans. Funding: NR. Conflicts: authors declare no commercial or financial conflicts. |
+
+Full parameters
+
+| Item | Detail |
+|---|---|
+| Target | left DLPFC (middle and superior frontal gyri) |
+| Sessions per day | 2–3 |
+| Duration | approximately 2 weeks |
+| Total sessions | 20 per parent RCT |
+| Pulses per session | 600 (Padula RCT) or 1,200 (Durazzo RCT) |
+| Pulses at target treatment level (median) | 19,770 active, 21,750 sham |
+| Frequency/intensity (%RMT/%aMT) | NR in this report |
+| Coil/device for TMS | NR |
+| Localisation | MNI DLPFC target with subject-specific normalisation |
+| MRI | 3 T GE, 32-channel head coil |
+| MRS voxel 40 × 22 × 22 mm3 (19.4 mL) |  |
+| Baseline to post interval | 15 (3) days |
+| iTBS delivery interval | 12 (3) days. |
+
+### 24. Harel M, Perini I, Kämpe R, et al. Randomized, double-blind, sham-controlled proof-of-concept trial of deep rTMS targeting mPFC and ACC in alcohol dependence. Biol Psychiatry. 2022;91(12):1061-1069.
+
+Source: `k08_harel2022.txt` | Tag: **FULLTEXT** | Quotes verified: 43/44
+
+**What this changes in the pack:** Supersedes row 5 (abstract). n = 51 randomised, 46 mITT (23/23); ≥ 5 days and ≤ 1 month abstinent; H7 deep coil at 100% leg RMT, 15 sessions over 3 weeks. pHDD 2.9 vs 10.6% (**mean ± SEM**), d = 0.50; PACS d = 0.48 at week 3; recruitment stopped at 62 of 84 planned. Update `02-lane1` §1.1 Harel row and §1.4 deep-TMS row from AB to FT.
+
+| Field | Extracted |
+|---|---|
+| Design | Double-blind, randomized, sham-controlled proof-of-concept trial with 1:1 allocation (minimization method); registered NCT02691390. |
+| N | 62 enrolled; 51 randomized and initiated treatment (active 23, sham 23); 46 in modified intention-to-treat (mITT) primary analysis set (active 23, sham 23 in Table 1 characteristics). |
+| Population and timing after detox | Treatment-seeking adults with moderate to severe alcohol dependence (DSM-5), recruited via social media and newspaper ads at Ben-Gurion University/Soroka Medical Center, Be'er Sheva, Israel (July 2016 to December 2019). Standard alcohol withdrawal treatment given if needed before treatment; participants had to be abstinent at least 5 days (no more than 1 month) before the first session. Interval from last drink to first dTMS session: at least 5 days (no more than 1 month). Benzodiazepine use: NR. |
+| Stimulation or intervention parameters | Target: medial prefrontal cortex and anterior cingulate (midline frontocortical; H7 deep coil). Localisation: optimal leg motor hotspot located each session, RMT defined, coil moved 4 cm anterior and aligned symmetrically over mPFC. Device: Magstim Rapid2 stimulator with H7 coil (BrainsWay). Protocol: 10 Hz, 100 trains of 30 pulses (3 s trains, 15 s intertrain interval), 3000 pulses per session, 100% of individual leg RMT. Sessions: one session per day, 5 per week, 30 min each; 15 acute sessions over 3 weeks; then maintenance sessions at FU visits. |
+| Sham/control method | Sham dTMS: a different coil located within the same helmet producing similar acoustic and scalp sensations without effective field penetration; coil allocation masked via personal magnetic card for each participant. |
+| Primary outcome and instrument | Percentage of heavy drinking days (pHDD; HDD defined as ≥4 units for women and ≥5 for men within 1 day) during follow-up, assessed by timeline follow-back interview; urine ethyl glucuronide used as objective validation. |
+| Primary result with effect size and CI | pHDD lower in active than sham: 2.9 ± 0.8% vs 10.6 ± 1.9% (mean ± SEM), p = .037; F1,208 = 4.40, mean difference 7.7%, Cohen's d = 0.50. 95% CI: NR. |
+| Secondary results | Craving (Penn Alcohol Craving Scale): significant group x time interaction in acute phase (F2,129 = 3.37, p = .04); lower in active at week 3 (t129 = 2.48, p = .01; mean difference = 3, d = 0.48); trend during FU (F1,185 = 3.36, p = .07; mean difference 3.7, d = 0.52). Weekly alcohol consumption during FU: significant group effect (F1,486 = 5.21, p = .02; mean difference 121.78 g, d = 0.47). Urine EtG positive samples: trend-level group effect (F1,4 = 3.32, p = .069). Resting-state fMRI: decreased mPFC–subgenual ACC connectivity (F1,30 = 9.19, p < .005, ηp2 = 0.24) and decreased dACC–caudate connectivity (nominal; F1,30 = 12.23, p < .002, ηp2 = 0.29; at threshold for cluster correction). |
+| Follow-up | Follow-up over 12 weeks after the 3-week acute phase, with five FU visits at 1, 2, 4, 8 and 12 weeks; MRI repeated after acute phase. |
+| Adverse events | No serious adverse events. Only AEs were moderate to severe headaches (resolved spontaneously in all cases), 4 active vs 3 sham, p = .68 (Z test); no difference between groups. |
+| Risk-of-bias notes | Randomisation: minimization on age and alcohol consumption in past 90 days (not simple randomisation); allocation concealment: NR. Blinding: participants, operators and raters blinded to coil; blinding check at end of FU: 47% (10/21) active vs 50% (9/18) sham correctly guessed, p = .85. Attrition: 11 dropped before first session (excluded); 5 relapsed during acute phase (4 active, 1 sham); 5 more dropped during FU (3 active, 2 sham); missing urine samples treated as positive; dropouts classified as nonabstinent. Analysis: mITT (46 of 51 randomised) with mixed-effects models; outliers ±2.5 SD removed; full ITT not reported. Recruitment stopped early at 62 of planned 84 due to staffing/budget. Multiplicity: cluster-size correction for fMRI (per-voxel p = .001, cluster alpha 0.05); behavioural multiplicity NR. Funding: Horizon 2020 and Swedish Research Council. Conflicts: AZ is an inventor of deep TMS coils with financial interest in BrainsWay; MHe has consulting/research relationships with several pharma companies; UA is a BrainsWay EEG consultant. |
+
+Full parameters
+
+| Item | Detail |
+|---|---|
+| Target | mPFC and dorsal ACC (H7 coil) |
+| Localisation | leg motor hotspot plus 4 cm anterior, aligned over mPFC |
+| Device | Magstim Rapid2 with H7 coil (BrainsWay) |
+| Frequency | 10 Hz |
+| Pattern | 100 trains x 30 pulses, 3 s trains, 15 s intertrain interval |
+| Pulses per session | 3000 |
+| Intensity | 100% of individual leg RMT (mean stimulator output about 66.6%) |
+| Session duration | 30 min |
+| Sessions per day | 1 |
+| Sessions per week | 5 |
+| Acute sessions | 15 over 3 weeks |
+| Maintenance | 5 sessions over follow-up at weeks 1, 2, 4, 8, 12 |
+| Sham | second coil in same helmet, no effective field penetration |
+| Craving induction | 3 min holding/smelling alcoholic beverage before each session. |
+
+### 25. Treiber M, Tsapakis EM, Fountoulakis K. Repetitive Transcranial Magnetic Stimulation for Alcohol Craving in Alcohol Use Disorders: A Meta-analysis. J Addict Med. 2025;19(2):195-201.
+
+Source: `k09_treiber2025.txt` | Tag: **FULLTEXT** | Quotes verified: 40/40
+
+**What this changes in the pack:** Supersedes row 2 (abstract). The 12 included RCTs are listed in REPORT-2 §2. **Left-DLPFC subgroup: SMD −0.27 (−0.60 to 0.05), I² 0%**, which is the most relevant pooled estimate for Lane 1 and it is small and non-significant. Internal error: 3-month SMD −0.44 with CI −0.77 to **0.11** but P < 0.01 (the upper bound is probably −0.11). PROSPERO CRD42023489712.
+
+| Field | Extracted |
+|---|---|
+| Design | Systematic review and random-effects meta-analysis of randomized, sham-controlled RCTs of multiple-session rTMS (minimum 10 sessions); PROSPERO CRD42023489712; 12 studies included. |
+| N | 12 RCTs; 475 participants across active and sham arms (abstract); pooled n = 470 in immediate-effect analysis (252 randomized to active rTMS, 223 to sham). |
+| Population and timing after detox | Adults with alcohol use disorder diagnosed by DSM (IV/V) or ICD-10 criteria; setting NR. Interval between detoxification/last drink/benzodiazepines and first rTMS session: NR. |
+| Stimulation or intervention parameters | Targets: rDLPFC (3 studies), lDLPFC (4), bilateral DLPFC (1), mPFC (3), insular cortex (1). Localisation method: NR. Devices: HF-rTMS, deep TMS (dTMS), continuous TBS (cTBS), intermittent TBS (iTBS); coil NR. Frequency: 10 Hz in most studies; 20 Hz in 2 studies; TBS (50 Hz bursts at 5 Hz) in 3 studies. Intensity: 80–110 MT% across studies (per Table 1; single values otherwise NR). Sessions: 10 to 20 per study; minimum 10 required. Sessions per day and schedule: NR. |
+| Sham/control method | Sham stimulation (randomized sham-controlled trials); comparison of active rTMS versus sham. Sham procedure details NR. |
+| Primary outcome and instrument | Alcohol craving measured immediately after the last rTMS session (relative change in poststimulation craving scores). Instruments were self-report: ACQ, AUQ, OCDS, PACS, VAS (per study). |
+| Primary result with effect size and CI | Immediate post-treatment: active rTMS reduced craving vs sham, SMD = −0.79 (95% CI −1.53 to −0.04), P = 0.04, I2 = 93% (substantial heterogeneity). Sensitivity analysis showed stable results. |
+| Secondary results | Follow-up (SMD vs sham): 1 month SMD = −0.55 (95% CI −1.11 to 0.01), P = 0.052, I2 = 63% (5 studies; trend only); 2 months SMD = −0.25 (95% CI −0.64 to 0.15), P = 0.23, I2 = 17% (4 studies; NS); 3 months SMD = −0.44 (95% CI −0.77 to 0.11), P < 0.01, I2 = 38% (6 studies). Subgroup (immediate, by target): rDLPFC SMD = −1.04 (95% CI −2.56 to 0.48), P = 0.18, I2 = 96%; lDLPFC SMD = −0.27 (95% CI −0.60 to 0.05), P = 0.10, I2 = 0%; mPFC SMD = −2.12 (95% CI −4.34 to −0.09 in Results; −4.34 to 0.09 in Abstract), P = 0.06, I2 = 94%. Bilateral DLPFC and insular cortex each had 1 study (not pooled). Beyond 3 months: not quantitatively pooled (only 2 studies reported later follow-up); none reported a benefit maintained beyond 3 months. |
+| Follow-up | Follow-up reported: 1 month (5 studies), 2 months (4 studies), 3 months (6 studies), 6 months (2 studies), 12 months (2 studies, not pooled). Craving assessed at post-treatment and at these time points. |
+| Adverse events | NR |
+| Risk-of-bias notes | Risk of bias assessed with Cochrane RoB-2 by two authors independently. Overall: almost all studies low risk; no moderate-risk trial; 1 high-risk trial. Publication bias: funnel plot visually symmetric; Egger's test P = 0.295 (threshold P < 0.1). Randomisation process, allocation concealment, blinding and blinding checks, attrition, ITT, and multiplicity handling: NR beyond RoB-2 overall judgement. Funding and conflicts of interest: NR in the text provided. Internal inconsistencies: mPFC CI given as −4.34 to −0.09 (Results) vs −4.34 to 0.09 (Abstract); 3-month CI (−0.77 to 0.11) includes zero despite P < 0.01; pooled n 470 vs 475. Subgroup differences were not formally tested; the authors acknowledge high heterogeneity and small numbers. |
+
+Full parameters
+
+| Item | Detail |
+|---|---|
+| Targets | rDLPFC (3 studies), lDLPFC (4 studies), bilateral DLPFC (1), mPFC (3), insular cortex (1) |
+| Localisation method | NR |
+| Device/technique | HF-rTMS, dTMS, cTBS, iTBS (coil NR) |
+| Frequency | 10 Hz (most studies), 20 Hz (2 studies), TBS 50 Hz bursts at 5 Hz (3 studies) |
+| Intensity | 80–110 MT% (Table 1) |
+| Pulses per session | NR |
+| Sessions per day | NR |
+| Total sessions | 10–20 per study (minimum 10) |
+| Schedule | NR |
+| Control | sham stimulation |
+| Population | AUD (DSM or ICD-10) |
+| Timing after detox | NR |
+| Primary outcome | self-report craving post-stimulation (ACQ, AUQ, OCDS, PACS, VAS) |
+| Follow-up | 1, 2, 3, 6, 12 months. |
+
+### 26. Wang H, Yuan C, Gan H, Jiang H, Zhao Y, Du J, Zhang Y. A randomized controlled study on the effect of intermittent theta burst stimulation on craving, mood, and cognitive function in alcohol-dependent patients during the withdrawal period. Journal of Shanghai Jiao Tong University (Medical Science), 2025; 45(3): 349-356. doi:10.3969/j.issn.1674-8115.2025.03.012
+
+Source: `k10_wangh2025_cn.txt` | Tag: **ABSTRACT** | Quotes verified: 22/23
+
+**What this changes in the pack:** Still abstract only (journal page; PDF buttons are script links). Tag changes from SEC to AB: the abstract was read directly. %RMT, pulses and sham method remain NR.
+
+| Field | Extracted |
+|---|---|
+| Design | Randomised controlled study with sham stimulation control (parallel groups, per abstract); further design details NR |
+| N | 41 randomised inpatients (experimental 20; control 21) |
+| Population and timing after detox | Inpatients with alcohol dependence in the withdrawal period, recruited from the Addiction Department of Mental Health Center, Shanghai Jiao Tong University School of Medicine; both groups received routine inpatient treatment. Interval between detoxification/last drink/benzodiazepines and first session: NR |
+| Stimulation or intervention parameters | Target: left dorsolateral prefrontal cortex (DLPFC); Modality: intermittent theta burst stimulation (iTBS), real vs sham; Localisation method: NR; Coil/device: NR; Frequency/TBS pattern details: NR; Intensity (%RMT/%aMT): NR; Pulses per session: NR; Sessions per day: NR; Total sessions: 10; Schedule: 2 weeks |
+| Sham/control method | Sham stimulation with the same parameters as active iTBS, plus routine inpatient treatment; sham procedure details (coil, blinding) NR |
+| Primary outcome and instrument | Craving measured by Visual Analogue Scale (VAS), before and after intervention |
+| Primary result with effect size and CI | VAS: significant time effect and group × time interaction (interaction F=7.080, P=0.011, ηp2=0.154). Simple effect after intervention: real-stimulation group VAS lower than sham group (F=8.805, P=0.005, ηp2=0.184). 95% CI: NR |
+| Secondary results | CogState TWOB (working memory): time effect F=9.114, P=0.004, ηp2=0.189; group effect F=5.557, P=0.024, ηp2=0.125; interaction F=4.977, P=0.032, ηp2=0.113; simple effect real > sham F=11.293, P=0.002, ηp2=0.225. BDI, BAI, GML and ISL: only time effects significant (BDI F=45.273, P<0.001; BAI F=31.432, P<0.001; GML F=8.993, P=0.005; ISL F=26.657, P<0.001). DET and IDN: no significant time, group or interaction effects. Between-group effect sizes/CIs for BDI/BAI NR |
+| Follow-up | Assessments before and after the intervention only; no follow-up beyond end of 2-week course reported (NR) |
+| Adverse events | NR |
+| Risk-of-bias notes | Randomisation sequence generation and allocation concealment: NR (only 'randomly assigned' stated). Blinding of participants/assessors and any blinding check: NR, though sham control used. Attrition, dropout and ITT analysis: NR. Multiplicity correction across many outcomes: NR. Funding and conflicts of interest: NR in abstract. Small sample (n=41) with repeated-measures ANOVA and multiple secondary outcomes. |
+
+Full parameters
+
+| Item | Detail |
+|---|---|
+| Target | left dorsolateral prefrontal cortex (DLPFC) |
+| Intervention | intermittent theta burst stimulation (iTBS), real vs sham |
+| Localisation method | NR |
+| Coil/device | NR |
+| Frequency/pattern details | NR |
+| Intensity | NR |
+| Pulses per session | NR |
+| Sessions per day | NR |
+| Total sessions | 10 |
+| Schedule/duration | 2 weeks |
+| Background care | routine inpatient treatment for alcohol dependence |
+| Sham | same parameters as real iTBS |
+
+### 27. Bickart KC, Hsu A, McCalley DM, Hanlon CA. Continuous theta burst stimulation to the frontal pole durably decreases medial frontoamygdala connectivity. Int Rev Psychiatry. 2026;38(6):636-645. doi:10.1080/09540261.2026.2687523
+
+Source: `k02_irp2026_abs.txt` | Tag: **ABSTRACT** | Quotes verified: 15/15
+
+**What this changes in the pack:** Found via Europe PMC's link to NCT04154111, but the protocol (cTBS to left frontal pole, 10 sessions, n = 17) matches the MUSC frontal-pole trial, not Kinney. Not Lane 1 evidence; noted so nobody cites it as the Wake Forest result.
+
+| Field | Extracted |
+|---|---|
+| Design | Secondary analysis of a double-blind, Sham-controlled clinical trial; resting-state fMRI pre-treatment, post-treatment and 1 month after treatment |
+| N | 17 participants (10 Real cTBS, 7 Sham) |
+| Population and timing after detox | Adults with alcohol use disorder (24% female; age 46 ± 13 years). Setting beyond the trial NR. Detoxification, last drink or benzodiazepine timing and interval to first session: NR |
+| Stimulation or intervention parameters | Target: left frontal pole (FP1). Protocol: continuous theta burst stimulation (cTBS), 10 sessions. Localisation method: NR. Coil/device: NR (author affiliation with BrainsWay Inc. noted). Stimulation pattern details, intensity (%RMT/%aMT), pulses per session, sessions per day and schedule: NR |
+| Sham/control method | Sham stimulation (n=7) versus Real cTBS (n=10); sham procedure details NR |
+| Primary outcome and instrument | Frontal pole to amygdala resting-state functional connectivity, measured by resting-state fMRI and analysed with voxelwise mixed-effects modelling |
+| Primary result with effect size and CI | Real cTBS selectively decreased frontal pole to medial amygdala connectivity relative to Sham. Effect size and CI: NR |
+| Secondary results | ANCOVA approach (accounting for regression to the mean) confirmed the reduction was durable over 1-month follow-up; reduction was most pronounced in participants with highest baseline connectivity. Numerical statistics NR |
+| Follow-up | Post-treatment scan within one week of treatment completion; second follow-up scan 1 month after treatment |
+| Adverse events | NR |
+| Risk-of-bias notes | Double-blind, Sham-controlled design, but blinding checks, randomisation method, allocation concealment, attrition and intention-to-treat handling: NR. Small sample (7 Sham). Secondary analysis of a trial, so multiplicity correction NR. Funding and conflicts not stated in abstract; one author is affiliated with BrainsWay Inc., a device manufacturer |
+
+Full parameters
+
+| Item | Detail |
+|---|---|
+| Target | left frontal pole (FP1) |
+| Protocol | continuous theta burst stimulation (cTBS) |
+| Sessions | 10 |
+| Localisation method | NR |
+| Coil/device | NR |
+| Frequency/TBS pattern details | NR |
+| Intensity (%RMT/%aMT) | NR |
+| Pulses per session | NR |
+| Sessions per day | NR |
+| Schedule | NR |
+| Control | Sham (n=7) |
+| Detox-to-first-session interval | NR |
+
