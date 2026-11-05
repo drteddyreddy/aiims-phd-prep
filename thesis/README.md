@@ -10,7 +10,8 @@ Prepared 05 Nov 2026 by a cloud session; verified and extended the same day by a
 | `04-decision-and-integration.md` | Side-by-side comparison, three ways to combine, decision rules, a four-year Gantt pegged to the AIIMS deadlines, target journals against the publication gate. |
 | `05-protocol-skeleton-aiims.md` | Route and gates (Research Cell → DC → Dean → IEC → CTRI), the Guwahati document set, ICMR Common Forms 2020 headings with seeds for both lanes. |
 | `06-sources.md` | Every source, with verified DOIs/PMCIDs where the local pass read them, and remaining gaps. |
-| `LOCAL-HANDOFF.md` | The brief the local session executed. |
+| `HANDOVER.md` | **Start here on the laptop.** Current state, rules, decisions, open questions, prioritised next tasks. |
+| `LOCAL-HANDOFF.md` | The first local brief (done; historical). |
 | `local/` | The local session's output: report, inventory, verification table, registries, AIIMS rules, Allen Carr maps, open questions, scripts and search exports. |
 
 ## The bottom line, in eight lines
