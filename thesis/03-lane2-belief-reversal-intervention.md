@@ -251,6 +251,8 @@ The rule: **a human session opens every new piece of difficult content, and the 
 
 ## 2.1-3. Levels mapped to sessions
 
+*Expanded in 2.1-11: each level below is now an act made of several chambers that follow the order of Carr's book. The mechanics named here (Day Graph, Truth Cards, Who Drank?, Two Roads, Ceremony, Festival Simulator) all live inside those chambers.*
+
 Each level is built from the same Carr rows (§2) as its session. Benefit cards come from the **Phase 1a qualitative catalogue** (`drafts/qual-expectancy-protocol.md`), so the game speaks the patients' own words.
 
 | Session (§5) | Game level | What the player does | Built-in measurement |
@@ -350,3 +352,137 @@ Lane 2.1 adds about **3 months** to Phase 1b compared with the WhatsApp-only v1.
 3. Whether the optional touchscreen approach-avoidance measure is kept.
 4. Whether family mode is in v1 or v2.
 5. Designer: who, and the budget ceiling (open question 9).
+
+---
+
+## 2.1-11. Installing the whole Carr method: the path, the deck and the introspection engine
+
+Added 6 Nov 2026 at Dr. Reddy's request: the blend should carry the **entire** Allen Carr method, not a selection, and should create deep self-examination in the patient that is sustained from the ward through aftercare. This section **expands 2.1-3**: the five game levels become five **acts**, each made of **chambers** that follow the order of *Quit Drinking Without Willpower* (QDWW). Source: the paraphrased chapter map in `local/carr-maps/quit-drinking-without-willpower.md` (machine-generated, not yet checked chapter by chapter by a human: do that check before the storyboard is frozen).
+
+### A. Three principles taken from how the method actually works
+
+1. **It is a combination lock.** Carr's first instruction is to follow every step in order, because each illusion can only fall once the one before it has fallen (QDWW Ch 1). The game therefore **locks the chambers in order**, and the final ceremony unlocks only when the patient's own belief file shows the core illusions have been seen through (Carr's pre-quit checklist and "reread what you have not understood", Ch 16).
+2. **It works on the person's own beliefs, not on information.** Carr argues with the reader's reasons one by one. The game does the same with a **personal deck** of the patient's own belief cards, in their own words, collected in Phase 1a and at baseline.
+3. **It ends every step in relief, not shame.** Carr's third instruction is to start with elation; addiction is described as a trap, not a character flaw (Ch 3). Every chamber in the game closes on release ("you saw through it"), never on guilt.
+
+### B. The path: QDWW condensed into 15 chambers (0–14) across the five acts
+
+Each chamber is 12–20 minutes on the ward tablet. Total game time is about 3½ to 4½ hours over days 5–12, plus 5 human sessions (about 5 hours). That is close to the dose of a one-day Carr seminar (4.5–6 hours, `03` §1), but spread over a week so that each illusion has a night to settle.
+
+| Act (= human session, §5) | Chamber | QDWW chapters | What the patient does (mechanic) | Departure applied (§3) |
+|---|---|---|---|---|
+| **1 The trap** | 0 The Key | 1–2 | Rules of the path (instructions 1–3, adapted). **Seeing-differently demo:** a visual illusion that persists even after you know it is an illusion, which is Carr's own teaching device in Ch 2. Opens with an elation framing | Instruction 5 replaced (below) |
+| | 1 The Trap | 3–5 | The Day Graph (2.1-3): the relief loop drawn from the patient's own day; the pitcher-plant animation (control lost gradually); the two "monsters" introduced under **our own names** (see F) | Honest withdrawal facts (departure 2) |
+| | 2 Taste | 6 | First-drink memory: what did your first drink actually taste like? Mixers and sweeteners exercise | — |
+| **2 Auditing the benefits** | 3 My reasons | 7 | Truth Cards (2.1-3) with the **Five Tests** (C) applied to each of the patient's own reasons: confidence, stress, sleep, pain, work, festival, friendship, identity | — |
+| | 4 Who drank? | 4, 7 | Locally shot clips: guess who drank; the reveal (2.1-3). **Origins map:** where did each belief come from (father, friends, films, songs, workplace, festival)? | Family joins this chamber (departure 9) |
+| | 5 Other drinkers | 17 | **Witness mode:** short clips of drinkers at the end of an evening, the next morning, on payday; "are they happy and in control?" Never envy, never preach | — |
+| **3 Fear, willpower, past attempts** | 6 Fear | 8 | **Tug-of-war mini-game:** fear of failure pulls one way, fear of life without alcohol the other; each rope is the patient's own fear cards; tested with the Five Tests | — |
+| | 7 Willpower | 9 | **Door-hinge mini-game:** pushing on the hinge side (willpower) vs the handle (understanding). Past-attempt reattribution: each failed attempt is re-explained as the method failing, not the person | Medication framed as "a seatbelt, not a crutch" (departure 3) |
+| | 8 Who you are | 10 | The "addictive personality" reconsidered: traits caused by drinking vs vulnerabilities that are real | Vulnerability is real, but it does not make the beliefs true (departure 8) |
+| | 9 Withdrawal truth | 15 | What is the residual urge, honestly: what was medical withdrawal (now over), what is left (the urge), and what it means | Honest education replaces "DTs are a myth" (departure 2) |
+| **4 The decision** | 10 Just one | 11–12 | "Normal drinking" and "just one" examined; the leaking-roof analogy; the patient's own "just one" stories tested | — |
+| | 11 Nothing to fear | 13 | **Thought-suppression experiment:** try not to think of a white bear for one minute (Wegner 1987); the rebound shows why "don't think about drinking" fails. Reframe practice: "I want a drink → so the belief is still there → I'm free of it". **Life Inventory:** genuine pleasures list started | Soft drinks allowed (departure 4) |
+| | 12 Readiness | 16 | **The combination-lock check (D).** If core cards are not yet "seen through", the game sends the patient back to the chamber that holds them and flags the card for the next human session | Instruction 6 ("do it now") kept: the ceremony happens on the ward, not on a "meaningful day" |
+| | 13 The Ceremony | 17 | Vow in the patient's own words, witnessed by family and group; high-risk situations listed and planned; wallet card printed | No final drink (departure 1); breathing close instead of hypnotherapy (departure 6) |
+| **5 Living free** | 14 Free | 14, 18–19 | Festival Simulator (2.1-3); disclosure plan (whom to tell, when; Ch 14); the urge-reframe tool; "useful reminders" set to the patient's own risk dates; aftercare onboarding | Lapse response without self-contempt (row 13; Carr has no "get-out clause") |
+
+**The seven numbered instructions, as game rules:**
+
+| Carr instruction (QDWW) | In the game | Change and reason |
+|---|---|---|
+| 1 Follow all instructions in order | Chambers lock in order | Kept |
+| 2 Keep an open mind | Chamber 0 seeing-differently demo; every card ends with "what do you see now?" | Kept |
+| 3 Start with elation | Every chamber opens and closes on relief | Kept |
+| 4 Never doubt the decision | Doubt is **expected and made visible**: a returning belief re-opens its card and is taken to the next human session | Softened: forbidding doubt makes it hidden; a visible doubt can be worked on |
+| 5 Ignore conflicting advice | **Replaced**: "test every belief, including this programme's, against your own experience and the evidence" | Departure 3: cannot undermine clinicians or medication |
+| 6 Don't wait, do it now | Ceremony on the ward, after detox | Kept, timed after medical withdrawal |
+| 7 Never drink again | Abstinence goal kept; a lapse opens the lapse chamber, not a "game over" | Departure: lapse response (2.1-4 rule 3) |
+
+### C. The Five Tests (the question chain applied to every belief card)
+
+Carr dismantles each illusion with the same few questions. The game makes them a fixed chain the patient answers, by voice or tap, for every card:
+
+1. **Before:** Did you have this before you ever drank?
+2. **Others:** Do people who never drink lack it?
+3. **After:** What happens to it when the drink wears off, and the next morning?
+4. **Source:** Who taught you that alcohol gives this?
+5. **Cost:** What has getting it this way cost you?
+
+Then: **"What do you see now?"** The patient sets the card's status. All questions are **concrete ("what", "when", "who") rather than abstract ("why am I like this")**, because concrete processing is the constructive form of repetitive thought and abstract self-questioning is the form linked to brooding (Watkins 2008, *Psychol Bull* 134:163–206; SEC).
+
+### D. The introspection engine: how depth is created and kept going
+
+**The Belief Ledger.** One persistent file per patient, holding every belief card with the patient's own words and its status:
+
+`Held → Questioned → Tested → Seen through` (and `Returned`, if the belief comes back later)
+
+Every answer to the Five Tests is stored on the card as its evidence trail. The ledger is the spine of the whole programme: the human sessions, the chambers, the ceremony check and the aftercare all read from it.
+
+**Five mechanisms that create depth:**
+
+| Mechanism | What happens | Carr source |
+|---|---|---|
+| Own words | Cards are written from the patient's own reasons (baseline interview + Phase 1a catalogue), not from a generic list | Ch 7 (works through the reader's own reasons) |
+| The Mirror | The game plays back the patient's earlier answers at the right moment: "On day 6 you said alcohol helps you sleep. You have slept five nights without it. What do you see now?" Only the patient's own answers, never other people's | Ch 2 (perception and preconception) |
+| Origins | For each card: where it came from (person, place, film, festival); builds a personal map of how the beliefs were installed | Ch 4 (the brainwashing) |
+| Witness | Watching drinkers in scenarios and judging, honestly, whether they are happy and in control | Ch 17 |
+| Experiments | The visual illusion, the white-bear test, the door-hinge game: the patient discovers the point in their own experience before it is named | Ch 2, 9, 13 |
+
+**Five mechanisms that sustain it after discharge:**
+
+| Mechanism | Schedule | Carr source |
+|---|---|---|
+| **Urge log** ("what did this urge promise?" → reframe → status of the related card) | Any time, 30–60 s; prompted once a day at the patient's own risk time in weeks 1–4 | Ch 13, 15, 18 |
+| **Card resurfacing** (spaced): each seen-through card returns for a quick re-test | Days 3, 7, 14, 28, 56, 84 after the ceremony | Ch 19 (reread, useful reminders) |
+| **Risk-date reminders**: the patient's own festivals, paydays, anniversaries | Day before each date | Ch 16–17 (anticipate high-risk situations) |
+| **Life Inventory** grows: one new genuine pleasure logged each week | Weekly | Ch 13, 18 |
+| **Human contact** reads the ledger: co-facilitator replies to every check-in; a returned belief or a lapse triggers a call | Weekly; same day for a lapse | Seminar follow-ups; row 10 |
+
+Dose after discharge: about 5 minutes a day in weeks 1–4, 10 minutes a week in weeks 5–12, then a monthly re-test and risk-date reminders to month 6 (light mode, optional).
+
+**The human sessions become "doubt clinics".** Each session opens with the group's returned or stuck cards (shown anonymously on the group screen; never named). The facilitator works through them the way a Carr therapist answers doubts in the seminar; the co-facilitator in recovery says how the same belief fell for them. One-to-one time is given to any patient whose ledger shows the same card stuck after two passes.
+
+### E. Depth without harm: safety rails for intensive self-examination
+
+The request is for an extreme form of introspection. The programme should be **intensive**, but there is a real clinical risk here and the protocol must say how it is handled: early abstinence carries raised risk of low mood, shame and suicidal thinking, and open-ended self-questioning can tip into brooding rather than insight (brooding vs reflection: Treynor et al. 2003, *Cognit Ther Res* 27:247–259; SEC). In the protocol and the PIS, call it **"intensive structured self-examination"**; the word "extreme" will alarm an IEC.
+
+1. **Structure, not open-endedness.** Every introspection step is a fixed question chain (C) that ends with closure. No free-floating "reflect on your life" screens.
+2. **Time-boxed.** Chambers are capped at 20 minutes; evening reflection at 5 minutes; the game stops offering new chambers after 9 pm.
+3. **Relief at the end of every chamber.** A chamber cannot end on a guilt or loss screen.
+4. **Mood and craving gate.** Mood and craving sliders at the end of every chamber. Low mood or craving ≥ 7/10 → cool-down screen and staff alert on the ward; in aftercare, a same-day call. Baseline suicide-risk screening by a clinician (C-SSRS or the department's standard), repeated if a mood flag fires. The game itself never asks about suicide; a human does.
+5. **De-shaming throughout.** Carr's framing (it is a trap, not a weakness) is kept on every screen that touches past failures.
+6. **Measure the harm side.** Add the **RRS brooding and reflection subscales** (10 items; Treynor 2003) at baseline, discharge, 4 and 12 weeks: brooding is the safety signal, reflection a mechanism. Optional: the **Self-Reflection and Insight Scale** (Grant et al. 2002, *Soc Behav Pers* 30:821–835; SEC) as the insight mechanism. Both need translation (add to `drafts/scale-translation-plan.md` Tier 2) and permission checks.
+
+### F. Copyright and trademark
+
+Carr's **ideas** (the trap, the illusions, the order of the argument) can be used and cited. His **wording, metaphor names and branding** should not be. The "Little Monster" and "Big Monster" names are distinctive Carr expression: give them **our own names, chosen with patients** in the paper-prototype round. Working proposals: **"Maya"** (the installed illusion; the word carries the sense of illusion in both Hindi and Assamese) and **"the Hook"** (the residual urge). Every card, script and chamber is written in our own words from the paraphrased map; nothing is copied from the books. The intervention is described as "informed by the Allen Carr method" in the papers, never as Easyway.
+
+### G. Measuring the introspection itself
+
+| Measure | How | Use |
+|---|---|---|
+| Ledger metrics | Number of cards; % seen through by discharge; days to seen through; returns per card; time to re-seen-through | Mechanism (dose of belief change) and fidelity |
+| Reflection depth | Two blinded raters code a 20% sample of Five-Test answers on a 4-level rubric (descriptive → explanatory → reappraising → transformed), with inter-rater agreement | Mechanism; methods paper |
+| RRS brooding / reflection | Validated scale (E6) | Safety and mechanism |
+| SRIS insight (optional) | Validated scale | Mechanism |
+| Carr coverage | Fidelity checklist: each of the 15 chambers, 7 instructions and the illusions in the deck delivered or explicitly dropped | Fidelity; sets up a later dismantling study |
+
+**Voice answers.** Low literacy means many answers will be spoken. Voice is personal data. On the ward tablet, voice answers are stored encrypted and uploaded to the institute server only if the patient ticks a separate consent box (for transcription and depth coding); audio is deleted after transcription. On the patient's own phone, voice answers never leave the phone; only taps and status changes are sent.
+
+### H. The illusion deck: covering the whole book
+
+QDWW's map lists about 50 illusions in book order (`local/carr-maps/`). Each becomes a candidate card, with three fates:
+
+1. **Kept** (most): written in our own words and tested against the Phase 1a catalogue; local versions added (rice beer and hospitality, work stamina, cold and pain, sleep, festivals).
+2. **Reframed** (where a departure applies): poverty and hardship as causes, addictive personality and genetics (departure 8); "withdrawal is mild" (departure 2); "ignore doctors" (departure 3).
+3. **Dropped** with a stated reason: unreferenced statistics (departure 7).
+
+Every patient gets the **core deck** (the cards that the ceremony check requires: pleasure, stress relief, confidence, taste, sleep, willpower, deprivation, "just one", identity, plus the patient's top three personal reasons) and draws the rest from the full deck by their own baseline ratings. Do the same exercise for *The Easy Way to Control Alcohol* (`local/carr-maps/easy-way-to-control-alcohol.md`) to catch illusions QDWW lacks, before the deck is frozen.
+
+### I. Changes this makes elsewhere
+
+- Ward time per patient rises to about 3½–4½ hours of game plus 5 hours of sessions over 8 days: confirm with ward staff that days 5–12 allow it (open question 5, mean stay).
+- `drafts/scale-translation-plan.md`: add RRS brooding/reflection and (optional) SRIS to Tier 2.
+- `drafts/qual-expectancy-protocol.md`: the topic guide already collects the patients' reasons and their origins; make sure interviews also capture **the exact words** patients use for each reason, because those words become the cards.
+- Build plan (2.1-7): the chamber structure adds about 1 month of content writing; the storyboard should be written chamber by chamber from the paraphrased map, then checked against the book by Dr. Reddy (who owns it) for faithfulness.

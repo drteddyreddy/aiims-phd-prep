@@ -38,6 +38,8 @@ Lane 2 battery from `03` §8; Lane 1 extras from `02-lane1` §4 outcomes table. 
 | 18 | **CIWA-Ar** | Withdrawal (clinician-rated) | 1 | Both | 10 | Public domain | Clinician-rated in English; no translation needed | None |
 | 19 | Family burden scale | Family, secondary | 3 | L2 | — | Depends on the scale chosen | Indian family-burden scales exist; pick one already in use in India | Decide in Phase 1b |
 | 20 | Cue VAS | Cue-induced craving | 2 | Both | 1 | n/a | n/a | Translate anchors only |
+| 21 | **RRS brooding and reflection subscales** (Treynor 2003) | Brooding (safety signal) and reflection (mechanism) for Lane 2.1's intensive self-examination | 2 | L2 | 10 | Check | Check | Added 6 Nov 2026 (`03` Lane 2.1-11 E) |
+| 22 | **Self-Reflection and Insight Scale** (Grant 2002), optional | Insight (mechanism) | 3 | L2 | 20 | Check | Check | Only if the insight mechanism is kept |
 
 **Workload.** Tier 1 that needs full translation in at least one language: PACS, OCDS (Assamese), CEOA, DTQ, AASE, SADQ, AUDIT (Assamese), PHQ-9/GAD-7 (missing languages only), identity items, TLFB instructions, MoCA (if no official version). That is roughly 120–150 items into Assamese and 100+ into Hindi. Budget translators accordingly.
 
