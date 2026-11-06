@@ -124,6 +124,8 @@ Options to test: *Mukti Path*, *Phanda* (the trap), *Nesha-mukt mon* (Assamese: 
 
 ## 7. Development and evaluation pathway
 
+*For the 3-year plan adopted on 6 Nov 2026, see **2.1-13 (fast track)**; the 44-month pathway below is kept as the long-form reference.*
+
 Framework: MRC/NIHR 2021 (develop → feasibility → evaluation → implementation; core elements: programme theory, stakeholders, context, uncertainties, refinement) with ORBIT phases (Ia define, Ib refine, IIa proof of concept, IIb feasibility pilot). Report with TIDieR and the CONSORT pilot extension.
 
 | Phase | Months | Work | Output |
@@ -307,6 +309,8 @@ Validation design: correlations with the paper scales at three time points (n = 
 | **Tablets on a ward** | Wipeable cases, kiosk mode, charging station, infection-control sign-off. | Plan |
 
 ## 2.1-7. Feasibility: build plan and fit with the AIIMS clock
+
+*Superseded for timing by 2.1-13 (fast track): the digital core must be frozen by May 2027.*
 
 | Months (from registration) | Work | Output |
 |---|---|---|
@@ -534,6 +538,8 @@ At the pack's planning rate of **about 6 consenting patients a month** (20 detox
 
 ### C. Timeline for the core blend (months from registration)
 
+*Superseded by 2.1-13 (fast track, 3-year finish). Kept for reference.*
+
 | Months | Work | Gate |
 |---|---|---|
 | 1–9 | Coursework and exit exam; DC formed (≤ 6); protocol to DC (≤ 9); PROSPERO; qualitative study IEC and data; storyboard; paper prototype with 5–6 inpatients; translation of core scales | AIIMS deadlines |
@@ -557,3 +563,75 @@ Publication gate (2 papers with IF > 1.5, or 1 with IF > 3): the review and the 
 ### E. What stays for after the PhD
 
 The fully digital 15-chamber game in three languages, full voice and video production, separate psychometric validation studies, 24-week and longer follow-up, a definitive RCT (N ≈ 110–160, §8), and a dismantling study of which chambers matter (using the fidelity and ledger data from the thesis).
+
+---
+
+## 2.1-13. Fast track: finishing in three years (adopted 6 Nov 2026)
+
+Dr. Reddy's rule: **finish by year 3 whatever it takes, and if possible do the work in 2.5 years.** This section is the plan of record for Lane 2. It replaces the timelines in §7, 2.1-7 and 2.1-12 C.
+
+### A. The hard dates
+
+| Date | Fact | Source |
+|---|---|---|
+| Sept 2026 | Joined the PhD | Dr. Reddy |
+| 3 years from **registration** | Earliest thesis submission (AIIMS minimum) | `local/04-aiims-rules.md` |
+| **March 2029** | Project salary (CBD trial post) ends | `EXIT_PLAN/Two_Arcs.html` |
+| May–Aug 2029 | DAAD research stay in Germany (planned bridge) | `EXIT_PLAN/Two_Arcs.html` |
+| **Sept 2029** | Submission, **if the 3-year clock runs from joining** | — |
+
+**Target: all data collected and analysed by March 2029 (about 2.5 years after joining), submission in September 2029.**
+
+**The one risk speed cannot fix: the registration date.** Dr. Reddy expects formal registration only after IEC approval. If the 3-year clock starts then (say April 2027), the earliest submission becomes April 2030. The rule text puts registration first (DC within 6 months of it, protocol within 9 months), so ask the Academic Section in writing whether the registration date is the joining date. If it is not, push for formal registration now rather than after the IEC.
+
+### B. What speed can and cannot compress
+
+| Compressible: Dr. Reddy's own work | Not compressible |
+|---|---|
+| Review, storyboard, card deck, facilitator manual, app build, analysis, papers, thesis chapters | IEC cycles; about 4–5 consenting patients a month (3–4 alcohol admissions a week, 9–12 day stays, co-enrolment with the CBD trial assumed); 12-week follow-up; journal review times |
+
+So every task he controls is done while waiting on approvals, and the patient study starts as early as the rules allow.
+
+### C. Design changes for the fast track
+
+1. **One early "Phase 1 development" IEC application** (December 2026) covering three parts: the qualitative interviews (`drafts/qual-expectancy-protocol.md`), cognitive interviews for the translated scales, and usability testing of the prototype. One approval instead of three.
+2. **No separate proof-of-concept study.** The first few participants of the RCT double as a run-in for delivery checks (prespecified, analysed with the trial).
+3. **One feasibility RCT, about 50–60 patients** (25–30 per arm), BRI-AD Blend + TAU vs attention-matched digital psychoeducation + TAU, assessor-blind, 12-week follow-up, recruited June 2027 to May 2028. Primary outcomes: feasibility (recruitment, retention, attendance, engagement, fidelity); mechanism (CEOA, ledger change) and clinical (PACS, TLFB) outcomes as estimates for a future definitive trial. **Sample-size justification:** precision of feasibility estimates, for example a 75% retention rate estimated from 56 patients has a 95% CI of about ±11 percentage points. Agree the final number with the biostatistician.
+4. **Co-enrolment with the CBD trial** (probable, per Dr. Reddy): randomisation **stratified by CBD-trial arm** so both CBD arms receive BRI-AD equally; separate consent, taken by someone other than the treating trial clinician where possible. Needs the PI's written agreement. Fallback if refused: about 25–30 patients in the window, so the thesis becomes review + qualitative study + development + single-arm proof of concept.
+5. **Digital core frozen by May 2027.** If not ready, the RCT runs with the printed card deck, workbook and WhatsApp aftercare, and the game becomes a development paper and the post-PhD product.
+6. **Two languages fully**, the third only if the ward needs it (open question 7).
+7. **Questionnaire validation reduced** to translation, back-translation and cognitive interviews before the IEC; reliability reported in the trial sample.
+
+### D. Month-by-month plan
+
+| When | Work | Why it saves time |
+|---|---|---|
+| **Nov–Dec 2026** | Register the review on PROSPERO; build the card deck and storyboard from the Carr map; request scale permissions and the Hindi OCDS; line up translators, designer, co-facilitator and blinded assessor; **submit the Phase 1 development IEC application**; ask the Academic Section about the registration date; get the CBD PI's position on co-enrolment in writing | Everything that needs no patient starts now |
+| Jan–Mar 2027 | DC formed early; qualitative interviews (OPD patients as well as inpatients); translations; digital core build; review screening and writing | Parallel tracks |
+| **Mar 2027** | Protocol to the DC (the 9-month limit is a deadline, not a waiting period) | Three months earlier than the rule allows |
+| Apr–May 2027 | Main IEC and CTRI; usability testing; freeze v1.0; **submit the review paper** | |
+| **Jun 2027 – May 2028** | **Feasibility RCT recruitment (about 50–60)** | Recruitment starts about 3 months earlier than in 2.1-12 |
+| Jun–Aug 2027 | Submit the qualitative paper and a protocol paper | Two or three papers under review a year early |
+| Aug 2028 | Last 12-week follow-up | |
+| Sep–Dec 2028 | Analysis; results paper submitted; thesis drafted | |
+| **Mar 2029** | **All work complete**, as the salary ends | |
+| May–Aug 2029 | DAAD stay: polish, viva preparation, postdoc contacts | |
+| Sep 2029 | Submission (if the clock runs from joining) | |
+
+**Publication gate** (2 papers IF > 1.5, or 1 > 3): met by about mid-2028 from the review, qualitative and protocol papers. Check each journal's current impact factor (`04` §6).
+
+**Buffer:** about 4 months (December 2028 to March 2029) for a slow IEC round or slower recruitment. At 4 patients a month instead of 5, the RCT stays at about 50 and still fits.
+
+### E. Must be ready by June 2027
+
+| Item | Depends on | Line up by |
+|---|---|---|
+| Card deck and facilitator manual | Dr. Reddy | Apr 2027 |
+| Digital core v1.0 (or the card + WhatsApp fallback) | Dr. Reddy + designer | May 2027 |
+| Translated core scales (2 languages) | Translators, cognitive interviews | Apr 2027 |
+| Co-facilitator in recovery (trained, paid) | Recruitment, budget | Apr 2027 |
+| Blinded assessor | Department / ANRF JRF | May 2027 |
+| Ward tablets | Budget, infection control | May 2027 |
+| CBD PI's written agreement on co-enrolment | PI | Dec 2026 |
+
+Speed covers the first two rows. The other rows depend on other people, which is why they are asked for now.

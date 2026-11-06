@@ -132,6 +132,8 @@ Exclude: withdrawal seizure or delirium this admission; any seizure history; hea
 | Blinding | Guess + confidence, participant and assessor | After sessions 1 and 15 |
 
 ### Sample size
+
+*Under the 3-year limit adopted on 6 Nov 2026, an efficacy trial does not fit; see §8 (fast track).*
 State the source of the effect size honestly. The iTBS craving SMD of −0.65 comes from methamphetamine-dominated pooling with no alcohol craving trial in it; the alcohol rTMS SMD of −0.79 has I² 93%; **the left-DLPFC subgroup is −0.27 (−0.60 to 0.05)**; Hou 2026's craving primary was non-significant and Durazzo 2026 found no craving effect; Harel's deep-TMS craving d was 0.48 and Joshi's tDCS OCDS d was 0.45. **d = 0.6 is no longer defensible as the planning value.** Plan on **d = 0.45**: 78 per arm unadjusted (two-sided α 0.05, 80% power). With ANCOVA/MMRM baseline adjustment at an assumed baseline-to-D5 correlation of 0.5, that becomes about 59 per arm, **74 per arm with 20% attrition, N ≈ 148**. The correlation is an assumption: check it blinded and pooled in the first 20 participants, or take it from Joshi's OCDS data if the group shares it. For reference, the old d = 0.6 gave 44 per arm, 55 with attrition, N = 110. Alternative basis from Joshi 2025's relapse rates (63.5% vs 44%): ≈ 102 per arm → 128 per arm with attrition, N = 256, which is beyond a single-centre PhD; so relapse stays secondary. Three-arm design on d = 0.6 with α 0.025: ≈ 53 per arm → 66 with attrition, N ≈ 200. If recruitment is < 6/month, N ≈ 148 is not reachable in 18 months. Then either run Question 4 (tDCS, cheaper per patient) or present Lane 1 as a feasibility trial with progression criteria rather than an efficacy trial.
 
 Recruitment arithmetic: at 20 alcohol-detox admissions/month, 50% eligible, 60% consent → 6/month → 110 in ~18 months, **148 in ~25 months**. Verify against ward numbers (open question 5).
@@ -190,3 +192,24 @@ Surviving angle: **"Timing of non-invasive brain stimulation relative to detoxif
 2. Protocol paper (*Trials*, *BMJ Open*, *Asian J Psychiatry*).
 3. Main RCT paper (*Addiction*, *Alcohol Clin Exp Res*, *Brain Stimulation*, *Drug Alcohol Depend*).
 4. Mechanism or feasibility-and-blinding short report.
+
+---
+
+## 8. Fast-track version under the 3-year limit (6 Nov 2026)
+
+Dr. Reddy's rule is to finish by year 3 (work done by about March 2029, when the project salary ends; submission September 2029 if the 3-year clock runs from joining). The same window applies to both lanes: about 12 months of recruitment, **June 2027 to May 2028**, at about 4–5 consenting patients a month (3–4 alcohol admissions a week, 9–12 day stays, co-enrolment with the CBD trial assumed). Details of the dates are in `03` Lane 2.1-13 A.
+
+**What fits:** a sham-controlled **pilot of accelerated iTBS, about 50–60 patients** (25–30 per arm), primary outcomes feasibility, tolerability and blinding; craving (PACS) and heavy drinking as estimates for a later trial; 12-week follow-up. The efficacy trial of §4 (N ≈ 148) does not fit (30–37 months of recruitment) and moves to after the PhD.
+
+**What speed can shorten:** protocol, the timing review, analysis, papers. **What it cannot:** sham-coil procurement, machine slots, operator training and RMT run-in, IEC cycles. All of these must be in place by **May 2027** or the start slips.
+
+| When | Work |
+|---|---|
+| Nov 2026 – Jan 2027 | Machine audit (make, model, theta-burst duty cycle, sham coil, EMG, slots); start sham-coil procurement; register the timing review; CBD PI's agreement on co-enrolment |
+| Feb – Mar 2027 | DC; protocol to DC; operator training (AIIMS Bibinagar, CIP Ranchi or NIMHANS) |
+| Apr – May 2027 | IEC and CTRI; RMT and sham run-in on 5 volunteers; sham coil on site |
+| Jun 2027 – May 2028 | Pilot recruitment |
+| Aug 2028 | Last follow-up |
+| Sep 2028 – Mar 2029 | Analysis, papers, thesis |
+
+**Weaknesses against Lane 2 under this clock:** more outside dependencies (machine, coil, slots); lower novelty after Hou 2026 (a pilot of similar size); fewer early papers (the timing review sits in a crowded field, and the trial paper lands close to submission, so the publication gate leans on the review and a protocol paper). Recommendation in `04` §0.

@@ -1,6 +1,17 @@
 # 04 — Decision aid and integration
 
-Revised 05 Nov 2026.
+Revised 05 Nov 2026; **6 Nov 2026: three-year limit adopted (§0); the four-year plan and the Lane 1 secondary pilot are dropped.**
+
+## 0. The three-year rule (adopted 6 Nov 2026)
+
+Dr. Reddy will finish by year 3 whatever it takes, and wants the work done in 2.5 years. Hard dates: joined September 2026; AIIMS minimum of 3 years from **registration** (confirm whether that is the joining date: if formal registration comes after the IEC, submission moves into 2030); project salary ends **March 2029**; DAAD stay planned May–August 2029; submission **September 2029**. Full plan: `03` Lane 2.1-13.
+
+What this does to the choice:
+- **One 12-month recruitment window (June 2027 to May 2028), about 50–60 patients, for whichever lane is chosen.** Ward: 3–4 alcohol admissions a week, 9–12 day stays, about 4–5 consenting patients a month if co-enrolment with the CBD trial is allowed (probable).
+- **Lane 2:** one feasibility RCT of BRI-AD Blend (about 50–60), after an early development phase. Most of the critical path is Dr. Reddy's own work; three papers can be under review by mid-2027.
+- **Lane 1:** a sham-controlled pilot of about 50–60 at most (`02-lane1` §8); depends on the machine, sham coil and slots being ready by May 2027; fewer early papers.
+- **Both lanes together no longer fit**: they compete for the same 4–5 patients a month and the same person. The Lane 1 secondary pilot (Option A below) moves out of the thesis, to after the PhD or to a collaborator.
+- **Recommendation: compressed Lane 2 as the whole thesis.** The lane choice remains Dr. Reddy's; it should be made by **December 2026**, because the Phase 1 IEC application for Lane 2 goes in that month.
 
 ## 1. Side by side
 
@@ -11,8 +22,8 @@ Revised 05 Nov 2026.
 | Committee acceptability | Clear RCT; Guwahati's own advertisement lists RCTs as PhD projects, so no institutional bias against trials | Development + pilot designs are standard under MRC 2021; frame explicitly |
 | Dependence on others | High: machine owner, sham coil, slots, technician, CBD-trial PI | Moderate: co-facilitator, translator, ward access, the ANRF JRF |
 | Cost | Sham coil + consumables; machine time | Low: videos, printing, honoraria, translation |
-| Recruitment pressure | **N ≈ 148** (d = 0.45 with baseline adjustment; d = 0.6 is no longer defensible, see `02-lane1` §4), each needs 5 inpatient days of 3 sessions; about 25 months at 6 per month | N = 64–80 pilot; group delivery |
-| Time to first paper | Review in year 1; RCT in year 3–4 | Review and qualitative paper in year 1; development paper year 2; pilot year 3 |
+| Recruitment pressure | **N ≈ 148** for an efficacy trial (d = 0.45; `02-lane1` §4): does not fit the 3-year limit. **Fast track: pilot of about 50–60** (`02-lane1` §8) | **Fast track: one feasibility RCT of about 50–60**, June 2027 to May 2028 (`03` 2.1-13); group delivery |
+| Time to first paper | Timing review in year 1 (crowded field); pilot paper near submission | Review, qualitative and protocol papers submitted by mid-2027; RCT paper by end of 2028 |
 | Papers | 3–4 | 4–5 |
 | Skills you build | TMS operation, RMT, blinding, trial conduct | Intervention development, qualitative methods, co-design, mechanism analysis, digital delivery |
 | Risk of null result | Real (Hoven 2023 null; Raikwar null; Belgers 12-month null) | Feasibility and mechanism outcomes almost always produce reportable findings |
@@ -22,6 +33,8 @@ Revised 05 Nov 2026.
 | Personal cost | Low | You will revisit your own history professionally; supervision needed |
 
 ## 2. Three ways to combine
+
+*Options A–C were written for a four-year plan. Under the 3-year rule (§0), Option A loses its Lane 1 secondary pilot and Option C stays a future direction.*
 
 **Option A (recommended): Lane 2 primary, Lane 1 secondary pilot.**
 Thesis = BRI-AD development, proof of concept, pilot RCT. In years 2–3, run a small sham-controlled accelerated-iTBS feasibility study (N = 30–40) on the same ward under a separate IEC protocol, co-authored with whoever owns the machine and with Dr. Tikka as external advisor. Total papers 5–6.
@@ -34,25 +47,29 @@ Belief sessions delivered during or immediately after iTBS (state-dependent stim
 
 ## 3. Decision rules
 
+*Under the 3-year rule:* choose Lane 1 as primary only if, by **January 2027**, the sham coil is ordered or on site, the machine delivers theta-burst with bookable slots, and the PI agrees co-enrolment; and accept that the thesis is then a pilot of about 50–60, not an efficacy trial. The older rule follows for reference.
+
 Choose Lane 1 as primary only if **all** are true by month 4: (1) sham coil available or funded, (2) the machine delivers theta-burst at the required duty cycle and ≥ 2 hours/day is bookable, (3) the PI agrees a nested or parallel recruitment pathway with ≥ 6 eligible patients/month, (4) the trial can be framed as the definitive step after Hou 2026 (earliest timing, at least twice Hou's per-arm n, proper sham coil, hard relapse outcome) and ward numbers support N ≈ 148. Otherwise Lane 2 primary, with Question 4 of `02` (tDCS replication-extension) as the Lane 1 fallback pilot.
 
-## 4. Four-year Gantt, Option A, pegged to the AIIMS rules
+## 4. Fast-track timeline (3-year rule), Lane 2 as the thesis
 
-Registration assumed Jul–Sep 2026 (confirm). Hard dates: Doctoral Committee formed by **month 6**; protocol to DC by **month 9**; DC meets **every 6 months** with a graded report; two papers with IF > 1.5 (or one > 3) **before submission**.
+Replaces the four-year Gantt (dropped 6 Nov 2026). Month 0 = joining, September 2026.
 
-| Quarter | Lane 2 (thesis) | Lane 1 (secondary) | Admin and rules |
-|---|---|---|---|
-| Y1 Q1–Q2 (to Mar 2027) | PROSPERO review registered; qualitative study protocol to IEC; manual v1 drafting; questionnaire translation started | Machine audit; read Hou 2026 and Durazzo 2025 (both free); re-check NCT04154111 for results; operator training plan | Research-methodology course and exit exam (≤ 6 months); **DC panel submitted (≤ 6 months)**; synopsis draft with biostatistician |
-| Y1 Q3–Q4 (to Sep 2027) | Qualitative interviews; review submitted; co-design workshops; trilingual validated questionnaires ready | Sham coil procurement; TMS pilot protocol drafted | **Protocol to DC (≤ 9 months)** → Dean → IEC; Research Cell title approval; CTRI; DC meeting 1 |
-| Y2 Q1–Q2 | Videos, translation, facilitator training; proof of concept n = 30 starts | IEC submission (Lane 1 pilot); RMT/sham run-in | DC meeting 2 |
-| Y2 Q3–Q4 | Proof of concept complete; development paper submitted; manual v2; pilot RCT starts | TMS pilot recruitment (n = 30–40) | DC meeting 3; first paper (review) accepted |
-| Y3 Q1–Q4 | Pilot RCT recruitment and 12/24-week follow-ups | TMS pilot follow-ups; short report | DC meetings 4–5; second paper accepted (gate met) |
-| Y4 Q1–Q2 | Analysis; pilot RCT paper; mediation | — | Final DC (≥ 6 months before end of registration) |
-| Y4 Q3 | Thesis submission (within 6 months of DC permission) | — | Examiner panel proposed |
+| When | Thesis work | Admin and rules |
+|---|---|---|
+| Nov–Dec 2026 | PROSPERO registration; card deck and storyboard; scale permissions; translators, designer, co-facilitator and assessor lined up; **Phase 1 development IEC application** (qualitative + cognitive interviews + usability) | Ask the Academic Section whether the registration date is the joining date; CBD PI's written position on co-enrolment; **lane choice by December 2026** |
+| Jan–Mar 2027 | Qualitative interviews; translations; digital core build; review writing | Research-methodology course and exit exam (≤ 6 months); **DC formed early**; **protocol to DC in March 2027** |
+| Apr–May 2027 | Usability testing; freeze v1.0; **review paper submitted** | Dean; main IEC; CTRI |
+| Jun 2027 – May 2028 | **Feasibility RCT recruitment (about 50–60)**; qualitative and protocol papers submitted (Jun–Aug 2027) | DC meetings every 6 months |
+| Aug 2028 | Last 12-week follow-up | Publication gate met by about mid-2028 |
+| Sep–Dec 2028 | Analysis; RCT paper submitted; thesis drafted | DC meeting; request final DC |
+| Jan–Mar 2029 | Buffer; thesis finished by March 2029 (salary ends) | Final DC (≥ 6 months before submission) |
+| May–Aug 2029 | DAAD stay: polish and viva preparation | Examiner panel proposed |
+| Sep 2029 | **Thesis submitted** (if the clock runs from joining) | |
 
 ## 5. One framing sentence for your guide
 
-"My thesis asks whether changing what a person believes alcohol does for them, delivered in the post-detox window where beliefs are most open to revision, reduces craving and relapse, and I will measure the belief change itself. In parallel I will pilot whether accelerated prefrontal theta-burst stimulation in the same window is feasible and safe on our ward, so the department leaves the PhD with both a validated psychological module that can ride on the ANRF continuity-of-care platform and a working neuromodulation research line."
+"My thesis asks whether changing what a person believes alcohol does for them, delivered in the post-detox window where beliefs are most open to revision, reduces craving and relapse, and I will measure the belief change itself. The department leaves the PhD with a tested psychological module, delivered through human sessions and a game, that can ride on the ANRF continuity-of-care platform; the neuromodulation line follows after the PhD."
 
 ## 6. Target journals against the publication gate (check current impact factors before relying on these)
 
