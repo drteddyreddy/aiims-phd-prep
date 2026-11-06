@@ -2,6 +2,8 @@
 
 Revised 05 Nov 2026 after full-text verification of the Allen Carr trials and paraphrased maps of both Allen Carr alcohol books (`thesis/local/05-allen-carr-component-map.md`, `thesis/local/carr-maps/`). Chapter numbers below refer to *Quit Drinking Without Willpower* (QDWW, 20 chapters) unless marked EWCA (*The Easy Way to Control Alcohol*, 27 chapters).
 
+**Lane 2.1 (added 6 Nov 2026, end of this file):** the same intervention delivered as a blend of human group sessions, a tablet/phone game with video, and measurement built into the game. It is the v1 delivery format; WhatsApp becomes the booster channel and fallback.
+
 Working academic name: **Belief-Reversal Intervention for Alcohol Dependence (BRI-AD)**. Patient-facing name to be chosen with patients (section 6). Do not use "Easyway" or "Allen Carr" in the intervention's name; the brand is trademarked and the training proprietary. Cite the books as inspiration and prior art.
 
 ---
@@ -198,3 +200,153 @@ Recommendation: **B with a circle of one, the guide**, and protocol wording that
 3. Development paper with proof-of-concept data (*JMIR Formative Research*, *Pilot Feasibility Stud*).
 4. Pilot RCT with mechanism analysis (*Addiction*, *Alcohol Clin Exp Res*, *Psychol Addict Behav*).
 5. Short report: Hindi and Assamese PACS/CEOA psychometrics.
+
+---
+---
+
+# Lane 2.1: BRI-AD Blend (game + video + human, with measurement built into the game)
+
+Added 6 Nov 2026 at Dr. Reddy's request. **Lane 2.1 is not a separate thesis.** It is the delivery format of the same BRI-AD intervention: the same programme theory (§2), the same ten departures (§3), the same five sessions (§5) and the same development pathway (§7). What changes is how the content reaches the patient.
+
+**Decisions already made (Dr. Reddy, 6 Nov 2026):**
+1. **One blended intervention.** Game, video and human sessions together are BRI-AD, tested in the proof of concept and the pilot RCT. No extra arm, same sample sizes as §8.
+2. **Ward tablet, then own phone.** Played on a supervised ward tablet during admission; continued on the patient's own phone after discharge as aftercare.
+3. **"Testing" means measurement inside the game.** Every level also collects data on beliefs, craving, confidence and choices.
+4. **Built by Dr. Reddy with a paid designer** as a web app (no app-store install); the candidate keeps control of content and can change it quickly.
+
+This replaces "WhatsApp broadcast + voice notes" (§5) as the v1 delivery platform. WhatsApp stays as the booster channel and as the fallback if the build slips.
+
+## 2.1-1. Why a blend, and what the evidence allows us to claim
+
+Abstract-level reading (AB) unless marked. Not a systematic search; the Lane 2 review (`drafts/review-lane2-prospero.md`) will cover it properly.
+
+| Source | What it shows | Tag |
+|---|---|---|
+| Manning et al. 2021, *JAMA Psychiatry* 78(2):133–140 (4 inpatient withdrawal units, Melbourne; n = 300) | Four daily sessions of computerised approach-bias training **during inpatient withdrawal** vs sham: abstinence at the 2-week follow-up 54.4% vs 42.5%, difference 11.9% (95% CI 0.04–23.8). Seven patients withdrew because they found the training uncomfortable. **Computer tasks are deliverable in exactly our window.** | AB |
+| Manning et al. 2016, *Alcohol Clin Exp Res* (pilot of the above) | 71 followed up; ITT abstinence 69% vs 47% (p = 0.07); craving did not differ | AB |
+| Wiers et al. 2011, *Psychol Sci* (n = 214 inpatients); Eberl et al. 2013, *Dev Cogn Neurosci* | Four brief sessions of approach-bias retraining before inpatient treatment improved outcomes at one year; change in bias mediated the effect | AB |
+| Boendermaker et al. 2016, *JMIR Serious Games* ("Shots" game) | A gamified version of attention-bias training **did not keep motivation up**; some motivation measures fell more in the game condition ("disappointing gamification" may backfire) | AB |
+| Brown et al. 2016, *JMIR Ment Health* (61 RCTs of web mental-health programmes); Cheng et al. 2019, *JMIR Ment Health* (50 apps); Fleming et al. 2017, *Front Psychiatry* | Story/theme is the most used game element; most programmes use one feature; **no RCT has isolated the effect of gamification on adherence**; few independent trials of games for mental health | AB |
+| Litvin et al. 2020, *PLoS One* (eQuoo, n = 358) | Gamified app retained 21% more participants than controls; developer-run trial (first author owns the company) | AB |
+| Dunn et al. 2020, *Exp Clin Psychopharmacol*; Flori et al. 2023, *Subst Use Misuse* (ECALC) | **Expectancy challenge delivered as a presentation, with no alcohol given**, changed CEOA expectancy subscales and drinking in college groups, comparable to or better than a brief motivational intervention in the short term | AB |
+| Garety et al. 2021, *JAMA Psychiatry* (SlowMo, n = 361) | A blended app + therapist therapy in psychosis: 80% completed therapy; primary outcome not significant at 24 weeks (d 0.20, −0.02 to 0.40), secondary effects at 12 weeks. **Blends are deliverable to severely ill patients; they are not automatically better.** | AB |
+| Nadkarni et al. 2017, *Lancet* (CAP, Goa, n = 377) | Lay-counsellor structured treatment for harmful drinking: remission 36% vs 26% (adjusted PR 1.50, 1.09–2.07); 14-day abstinence 42% vs 18% | AB |
+
+**What we can claim:** (a) structured computer tasks are feasible and can help in the inpatient withdrawal window; (b) expectancy challenge works without administering alcohol, which is essential in dependent patients; (c) human-delivered structured psychological treatment works in Indian settings, including by non-specialists; (d) blended human + digital formats can be delivered to severely ill patients. **What we cannot claim:** that gamification itself improves outcomes. Treat the game as the engagement and measurement vehicle; the active ingredients stay the belief work in §2. **Novelty added:** no game-based belief-reversal intervention for alcohol dependence was found in this scan, and none in an Indian language.
+
+**Design consequence.** Computerised approach-bias training (CBM) is the best-evidenced computer task in this window. It is a different mechanism from belief reversal, so it is **not** built into v1 (adding it would make the belief mechanism impossible to test). It is listed as a v2 or factorial question.
+
+## 2.1-2. The blend: who does what
+
+The rule: **a human session opens every new piece of difficult content, and the game level that follows lets the patient work through it alone, with a person a few metres away.** The game never delivers new difficult content that no human will debrief.
+
+| Layer | Who / what | Where | Dose |
+|---|---|---|---|
+| Human group session | Facilitator + co-facilitator in recovery (§9) | Ward group room | 5 × 45–60 min, days 5–12 of admission (as §5) |
+| Game level | Patient alone (family mode in session 2) | Ward tablet, quiet corner, staff nearby | 5 levels × 15–20 min, the day after each session |
+| Video | Inside the game (short clips) and to open each human session | Tablet; group screen | 3–6 min per clip |
+| Family | Family member plays the session-2 card sort and attends sessions 2 and 4 | Ward, visiting hours | 2 contacts |
+| Aftercare | Weekly 5-min level + 3-question check-in + booster video | Patient's own phone (web app link via SMS/WhatsApp) | Weeks 1–12 |
+| Human aftercare | Co-facilitator replies to check-ins; phone call if a lapse is reported or a check-in is missed twice | Phone | Weekly |
+
+## 2.1-3. Levels mapped to sessions
+
+Each level is built from the same Carr rows (§2) as its session. Benefit cards come from the **Phase 1a qualitative catalogue** (`drafts/qual-expectancy-protocol.md`), so the game speaks the patients' own words.
+
+| Session (§5) | Game level | What the player does | Built-in measurement |
+|---|---|---|---|
+| 1 The trap | **The Day Graph** | Draws their mood across a typical drinking day with a finger; the game overlays the relief loop (low → drink → back to baseline → lower) and contrasts it with a non-drinker's flat line. Animated clip: the "Little Monster" with honest withdrawal facts (departure 2). | Baseline **benefit card ratings** (how much does alcohol give me this? 0–10, 12–20 cards); craving slider before and after |
+| 2 Auditing the benefits | **Truth Cards** + **Who Drank?** | Sorts each benefit card into *illusion / caused by drinking / real but replaceable*, with evidence cards to flip. **Who Drank?**: four short locally shot clips of a gathering; the player guesses who drank; the reveal shows the "drunk" behaviour came from people who had no alcohol. This is an expectancy challenge with no alcohol given (ECALC logic). Family member plays the same card sort in family mode. | Card-sort change from level 1; Who Drank? guesses (expectancy attribution); family belief ratings |
+| 3 Fear, willpower, past attempts | **Two Roads** | Branching interactive video: a character quits twice, once on willpower (deprivation, then relapse) and once with "nothing to give up". The player chooses at five decision points; then fills a past-attempt reattribution card for themselves. | Choices at decision points; fear-of-abstinence items; confidence item |
+| 4 The decision | **The Ceremony** | Identity change shown as the avatar changing; wallet card of harms and reasons generated for printing; the patient records the video to their future self **on their own phone** (not stored on the tablet or server). | Identity ruler (drinker ↔ non-drinker); commitment rating |
+| 5 Living free | **Festival Simulator** | Scenarios: Bihu, a wedding, payday, a friend's offer, bad news, a fight at home. The player chooses responses and builds if-then plans; installs the 90-second craving tool. | Scenario choices scored against an expert-panel key (coping); if-then plan completeness |
+| Aftercare, weeks 1–12 | **Weekly level** | One new scenario + one booster clip + check-in | Craving 0–10; any drink since last week (yes/no, how many); confidence 0–10; engagement |
+
+## 2.1-4. Game design rules (from the evidence and from clinical safety)
+
+1. **An interactive story first, points second.** Story/theme is the element mental-health programmes use most, and the Shots trial shows that points bolted onto a dull task can backfire. If playtesters do not find a level engaging, cut it rather than add rewards.
+2. **No leaderboards and no public scores.** Patients play in a ward with others; shame and privacy both argue against comparison.
+3. **No streaks that reset on a lapse.** A reset counter rebuilds the abstinence-violation effect that §2 row 5 targets. A reported lapse opens a "what did this teach you" level instead.
+4. **Reward reflection and play, never reported abstinence.** Rewarding "days sober" would bias the in-game drinking measure.
+5. **Cue safety.** Show contexts, people and consequences, not glamorous close-ups of drinks. Craving slider at the end of every level; if craving ≥ 7/10, a cool-down screen appears and, on the ward, the co-facilitator is alerted.
+6. **Voice first.** Every screen read aloud in Assamese, Hindi and Bengali (English optional); icons over text; large fonts. Works for patients who do not read.
+7. **No AI or chatbot in the patient-facing game.** Every word a patient sees is fixed, translated and IEC-approved. This keeps the study outside AI-specific ethics review and stops unpredictable content.
+8. **Offline-first, no ads, no third-party analytics, no social login.**
+
+## 2.1-5. Measurement inside the game ("testing")
+
+In the pilot RCT the **primary and mechanism outcomes stay on validated scales** (PACS, CEOA, AASE, TLFB; §8), administered by a blinded assessor. In-game measures are process and secondary measures until they are validated. Validating them is itself a paper.
+
+| In-game measure | Validated against | When | Use |
+|---|---|---|---|
+| Benefit card ratings (belief index) | CEOA positive subscales | Baseline, end of admission, 4 weeks | Mechanism tracking session by session; validity paper |
+| Craving slider | PACS | Every level; weekly in aftercare | Process; safety trigger |
+| Confidence items | AASE | Levels 3–5; weekly | Process |
+| Identity ruler | Drinker-identity items (§8) | Levels 1, 4; week 12 | Mechanism |
+| Who Drank? guesses | (none; descriptive) | Level 2 | Expectancy attribution |
+| Scenario choices | Expert-panel scoring key | Level 5; aftercare | Exploratory coping measure |
+| Engagement | — | Continuous | Feasibility (levels completed, time, replays, check-in rate) |
+| *Optional:* touchscreen approach-avoidance **measurement** (balanced, no training contingency) | Published joystick versions | Baseline, end of admission | Only if timing accuracy on the chosen tablets is checked; otherwise drop |
+
+Validation design: correlations with the paper scales at three time points (n = 30 proof of concept + pilot RCT sample), agreement plots, and sensitivity to change. Report under COSMIN.
+
+## 2.1-6. Approval: what the IEC and regulators will ask, and the answer we prepare
+
+| Issue | Plan | Status |
+|---|---|---|
+| **One protocol or two?** | One IEC protocol for the blended intervention. Annex every game screen (storyboard), every video script and every in-game item in all three languages. The IEC approves **version 1.0**; any content change is an amendment. Keep the build version-controlled (git) so the approved version can be shown. | Plan |
+| **Is the software a medical device?** | Software intended for treatment can fall within medical-device rules in India. Position BRI-AD as a **behavioural intervention delivered with human facilitation**; the app makes no stand-alone diagnostic or treatment claims and gives no medical advice. **Ask the IEC Member Secretary in writing before submission** whether CDSCO input is needed (add to open question 11). | **NOT VERIFIED: ask** |
+| **CTRI** | Register as a behavioural intervention before the first participant (as §10). | Plan |
+| **Data protection (DPDP Act 2023)** | Consent screen inside the game mirrors the ICF. Pseudonymous study IDs only: no names, phone numbers or photos in the game. Ward tablets store data locally and sync to the institute server (REDCap or equivalent) over the institute network. Aftercare on the patient's phone sends only coded check-in answers; the future-self video never leaves the patient's phone. Right to withdraw and erase stated in the PIS. | Plan |
+| **Cue exposure** | Craving check every level; cool-down + staff alert at ≥ 7/10; adverse-event log includes "craving-triggered distress". | Plan |
+| **Vulnerable population** | Same safeguards as the qualitative protocol §5.3 (consent after withdrawal settles, capacity check, consent not taken by the treating doctor). | Plan |
+| **Video actors and music** | Written release forms from actors; licensed or original music; no real patients filmed. | Plan |
+| **IP and conflict of interest** | Game, art and videos as institute/candidate IP under the institute policy; designer contract assigns IP. **No Allen Carr text, names or branding.** If the game may later become a product (for example through Dr. Reddy's startup), declare that now in the COI form, and use an independent blinded assessor and a pre-registered analysis plan, because the developer is also the evaluator. | **Decide: commercial intent?** |
+| **Tablets on a ward** | Wipeable cases, kiosk mode, charging station, infection-control sign-off. | Plan |
+
+## 2.1-7. Feasibility: build plan and fit with the AIIMS clock
+
+| Months (from registration) | Work | Output |
+|---|---|---|
+| 1–6 (Phase 1a, unchanged) | Qualitative study, which also asks about games, phones and videos; benefit-card catalogue | Card content |
+| 6–8 | Storyboard; **paper prototype** (printed cards and sketches) tested with 5–6 inpatients; video scripts | Storyboard v1 |
+| 8–11 | Clickable web prototype (Dr. Reddy); art (designer); voice recording × 3 languages; local video shoot (DaVinci Resolve edit) | Alpha |
+| 11–13 | Usability testing: think-aloud, 8–10 patients per language; System Usability Scale (target ≥ 68); fix; **freeze v1.0** | v1.0 for IEC |
+| 13–19 (Phase 2a) | Proof of concept, n = 30, single arm; engagement and in-game measure validation | Paper 3 + usability paper |
+| 19–36 (Phase 2b) | Pilot RCT (§7) | Paper 4 |
+
+Lane 2.1 adds about **3 months** to Phase 1b compared with the WhatsApp-only v1. The Gantt in `04` should move Phase 2a start from month 10 to about month 13. That still fits: the AIIMS gates (DC by month 6, protocol to DC by month 9) concern the protocol, which can be submitted with the storyboard before the build is finished.
+
+**Control arm for the pilot RCT.** Because BRI-AD Blend uses a tablet, the attention-matched psychoeducation control (§7) should also be delivered partly on the tablet (standard alcohol-education videos of equal screen time). Otherwise "screen time" becomes a confound.
+
+**Tech in one line.** A progressive web app (HTML/JS, works in the browser, installable, offline), content in JSON files so translation is a file swap, data export to REDCap.
+
+**Budget heads.** Designer/illustrator; voice artists (3 languages); actors and a one- or two-day shoot; 4–6 tablets with cases; hosting on the institute server; usability-test reimbursement; translation of in-game text (folds into `drafts/scale-translation-plan.md`).
+
+## 2.1-8. Risks
+
+| Risk | Mitigation |
+|---|---|
+| Build slips | The WhatsApp + workbook version of v1 (§5) is the fallback; the thesis does not depend on the game being finished |
+| The game is boring (the Shots lesson) | Paper prototype first; playtests every level; interactive story over points |
+| Craving triggered by content | Cue-safety rule 5; staff alert; AE logging |
+| Low digital literacy or no smartphone after discharge | Voice-first design; aftercare also by WhatsApp voice notes and phone calls |
+| Data breach | No identifiers in the game; institute server only |
+| IEC raises device status | Written query before submission; positioning as facilitated behavioural intervention |
+| Developer-evaluator bias | Blinded assessor, pre-registered SAP, COI declared |
+| Novelty effect fades by aftercare | Weekly new scenario; human reply to every check-in |
+
+## 2.1-9. What Lane 2.1 adds to the thesis
+
+- **Novelty:** the first game-based, measurement-embedded belief-reversal intervention for alcohol dependence, and the first in Assamese/Hindi/Bengali.
+- **Two extra papers:** development and usability (*JMIR Serious Games* or *JMIR Formative Research*); validity of in-game belief and craving measures.
+- **Session-by-session mechanism data** at no extra assessment burden, which strengthens the mediation analysis in the pilot RCT.
+- **A department asset** that can ride on the guide's ANRF continuity-of-care platform in v2.
+
+## 2.1-10. Still to decide
+
+1. Commercial intent for the game (changes the COI declaration and IP agreement now, not later).
+2. Patient-facing name (§6 options; test with patients in the paper-prototype round).
+3. Whether the optional touchscreen approach-avoidance measure is kept.
+4. Whether family mode is in v1 or v2.
+5. Designer: who, and the budget ceiling (open question 9).

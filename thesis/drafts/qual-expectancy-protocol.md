@@ -97,7 +97,7 @@ Sample size is guided by **information power** (Malterud et al. 2016, *Qual Heal
 5. Willpower and craving: what a craving feels like, what you tell yourself, what you think a craving means.
 6. Medicines: what you believe about anti-craving medicines and about "tablets for alcohol".
 7. Identity: how you see yourself (drinker, patient, addict, someone who drinks too much), how you would like to see yourself.
-8. Acceptability: if a programme asked you to look hard at each of these beliefs, would you join? Group or alone? With family? Videos, phone messages, WhatsApp? Who should run it: a doctor, a counsellor, someone who used to drink?
+8. Acceptability: if a programme asked you to look hard at each of these beliefs, would you join? Group or alone? With family? Videos, phone messages, WhatsApp? A game or interactive story on a tablet or phone (do you play games on your phone; what kind)? Who should run it: a doctor, a counsellor, someone who used to drink?
 
 **Family members.** What drinking does for the patient, in your view; what you believe about why he or she drinks; what you fear about stopping; what helped or hurt in past attempts; your role; what support you would want; acceptability as above.
 
