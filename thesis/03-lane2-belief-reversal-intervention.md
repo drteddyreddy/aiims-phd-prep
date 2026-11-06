@@ -486,3 +486,74 @@ Every patient gets the **core deck** (the cards that the ceremony check requires
 - `drafts/scale-translation-plan.md`: add RRS brooding/reflection and (optional) SRIS to Tier 2.
 - `drafts/qual-expectancy-protocol.md`: the topic guide already collects the patients' reasons and their origins; make sure interviews also capture **the exact words** patients use for each reason, because those words become the cards.
 - Build plan (2.1-7): the chamber structure adds about 1 month of content writing; the storyboard should be written chamber by chamber from the paraphrased map, then checked against the book by Dr. Reddy (who owns it) for faithfulness.
+
+---
+
+## 2.1-12. Feasibility and practicality: core blend for the PhD, full blend after it
+
+Added 6 Nov 2026 after a feasibility review requested by Dr. Reddy. **Verdict: the full design (2.1-1 to 2.1-11) is too large for one PhD done alongside a full-time Project Research Scientist post. A core version of the same programme fits the AIIMS clock if ward numbers allow.** The full version becomes the post-PhD grant or product.
+
+### A. Why the full version does not fit
+
+**1. Participants.** The full plan needs about 370 people with alcohol dependence from one ward:
+
+| Step | Patients needed |
+|---|---|
+| Qualitative study (Phase 1a) | 20–25 (plus 10 family, 8 staff) |
+| Translation: cognitive interviews | about 20 |
+| Translation: separate psychometric field tests (≥ 100 per language, 2 languages) | about 200 |
+| Usability testing | 20–30 |
+| Proof of concept | 30 |
+| Pilot RCT | 64–80 |
+| **Total** | **about 370** |
+
+At the pack's planning rate of **about 6 consenting patients a month** (20 detox admissions, half eligible, 60% consent; real numbers still unknown, open question 5), 370 patients take about **5 years**, which is the maximum registration period (minimum 3 years, `local/04-aiims-rules.md`). Without the separate field tests the total is about 170, or roughly 28 months of recruitment spread across phases. That fits, but only just.
+
+**2. Ward time.** The 15 chambers need about 3½–4½ hours of play plus 5 hours of human sessions between days 5 and 12, which assumes a stay of at least 12 days. If mean stay is 7–10 days, the full path does not fit on the ward.
+
+**3. Content load, more than code.** The app itself is buildable by Dr. Reddy. The real work is writing 15 chambers of scripts, translating and voicing them in three languages, filming, and annexing every screen in every language for the IEC, where each later change needs an amendment.
+
+**4. Roles that cannot be one person.** Designer, builder, facilitator, assessor and analyst cannot all be the candidate: the assessor must be blinded, and reviewers will flag developer–evaluator bias. The study needs a paid co-facilitator in recovery, a separate blinded assessor and a designer.
+
+**5. Unresolved approvals and resources.** Medical-device status of the software (2.1-6); funding (open question 9); whether CBD-trial participants may join (open question 6); commercial intent (2.1-10).
+
+### B. The core blend (what the thesis tests)
+
+| Component | In the PhD? | How |
+|---|---|---|
+| Lane 2 review (paper 1) and qualitative study (paper 2) | Yes | As drafted in `drafts/` |
+| **All 15 chambers of the Carr method** | Yes, in mixed form | The facilitator delivers every chamber in the five sessions with a **printed card deck and workbook**; the full method is preserved |
+| **Digital core** | Yes | Belief Ledger; Five Tests on every card; urge log; spaced card resurfacing to week 12; *Who Drank?* video; 3–4 key mini-games (seeing-differently demo, Day Graph, door-hinge, white-bear test); mood and craving gate |
+| Languages | 2 fully, the third if needed | Choose after the ward's actual languages are known (open question 7) |
+| Questionnaire validation | Reduced | Forward/back translation and cognitive interviews for the core scales (PACS, CEOA, AASE, RRS); reliability reported in the proof-of-concept and RCT samples instead of separate 100-person field tests. Existing validated versions used for covariates |
+| Proof of concept (n = 30) | Yes | Feasibility, acceptability, engagement, ledger and in-game measure validity |
+| Pilot RCT (n = 64–80, 12-week follow-up) | Yes | Endpoint of the thesis; framed as feasibility plus mechanism, not efficacy |
+| Fully digital 15-chamber game in 3 languages with full voice and video | **No** | Post-PhD grant or product, built on the thesis data |
+
+**Participants for the core blend:** about 170 (qualitative 20–25, cognitive interviews about 20, usability 20–30, proof of concept 30, pilot RCT 64–80).
+
+### C. Timeline for the core blend (months from registration)
+
+| Months | Work | Gate |
+|---|---|---|
+| 1–9 | Coursework and exit exam; DC formed (≤ 6); protocol to DC (≤ 9); PROSPERO; qualitative study IEC and data; storyboard; paper prototype with 5–6 inpatients; translation of core scales | AIIMS deadlines |
+| **8** | **Build check:** if the digital core is not on track, the proof of concept runs with cards, workbook and WhatsApp aftercare | Fallback decision |
+| 9–13 | Build digital core; usability testing; freeze v1.0; main IEC and CTRI | v1.0 approved |
+| 13–19 | Proof of concept (n = 30) | Paper 3 |
+| 19–36 | Pilot RCT: about 11–14 months recruitment at 6/month, plus 12-week follow-up | Paper 4 |
+| 36–44 | Analysis, writing, final DC, submission | Within the 5-year maximum |
+
+Publication gate (2 papers with IF > 1.5, or 1 with IF > 3): the review and the qualitative paper can be submitted by about month 18, well before the thesis.
+
+### D. Facts that decide whether even the core blend fits
+
+1. **Detox admissions per month and mean length of stay** (open question 5). Below about 6 consenting patients a month, cut further (for example, proof of concept plus a smaller feasibility RCT).
+2. **Co-enrolment with the CBD trial** (open question 6). If trial participants are excluded, the eligible pool may shrink sharply.
+3. **Protected PhD hours per week** alongside the Project Research Scientist post.
+4. **Budget and people:** designer, paid co-facilitator in recovery, blinded assessor (open questions 8 and 9).
+5. **Languages actually spoken on the ward** (open question 7).
+6. **Commercial intent** for the game (2.1-10).
+
+### E. What stays for after the PhD
+
+The fully digital 15-chamber game in three languages, full voice and video production, separate psychometric validation studies, 24-week and longer follow-up, a definitive RCT (N ≈ 110–160, §8), and a dismantling study of which chambers matter (using the fidelity and ledger data from the thesis).
